@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="whatsapp_evaluation_message_view_tree" model="ir.ui.view">
+        <field name="name">whatsapp_evaluation.message.view.list</field>
+        <field name="model">whatsapp_evaluation.message</field>
+        <field name="arch" type="xml">
+            <tree create="0">
+                <field name="create_date"/>
+                <field name="create_uid" widget="many2one_avatar"/>
+                <field name="mobile_number"/>
+                <field name="body"/>
+                <field name="message_type"/>
+                <field name="state" widget="badge" decoration-info="state == 'outgoing'" decoration-success="state == 'sent'" decoration-danger="state == 'error'"/>
+                <field name="msg_uid" optional="hide"/>
+                <field name="failure_reason" optional="hide"/>
+                <button name="button_resend" title="Retry" type="object" icon="fa-refresh" invisible="state != 'error'"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="whatsapp_evaluation_message_view_form" model="ir.ui.view">
+        <field name="name">whatsapp_evaluation.message.view.form</field>
+        <field name="model">whatsapp_evaluation.message</field>
+        <field name="arch" type="xml">
+            <form string="WhatsApp Message" >
+                <header>
+                    <button name="button_resend" string="Retry" type="object" class="oe_highlight" invisible="state != 'error'"/>
+                    <field name="state" widget="statusbar" statusbar_visible="outgoing,sent,delivered,read,received,error"/>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="mobile_number"/>
+                            <field name="wa_account_id" readonly="state != 'outgoing'"/>
+                            <field name="msg_uid" readonly="1"/>
+                        </group>
+                        <group>
+                            <field name="create_date" readonly="1"/>
+                            <field name="message_type" readonly="1"/>
+                            <field name="mail_message_id" readonly="1"/>
+                        </group>
+                    </group>
+                    <group>
+                        <field name="body" nolabel="1" readonly="state != 'outgoing'"/>
+                    </group>
+                    <group invisible="state != 'error'">
+                        <field name="failure_reason" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="whatsapp_evaluation_message_view_graph" model="ir.ui.view">
+        <field name="name">whatsapp_evaluation.message.view.graph</field>
+        <field name="model">whatsapp_evaluation.message</field>
+        <field name="arch" type="xml">
+            <graph string="WhatsApp Messages" type="line" sample="1">
+                <field name="create_date" interval="day"/>
+                <field name="state"/>
+            </graph>
+        </field>
+    </record>
+
+    <record id="whatsapp_evaluation_message_view_search" model="ir.ui.view">
+        <field name="name">whatsapp_evaluation.message.view.search</field>
+        <field name="model">whatsapp_evaluation.message</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="create_date"/>
+                <field name="mobile_number"/>
+                <field name="body"/>
+                <field name="state"/>
+                <filter string="Outgoing" name="filter_state_outgoing" domain="[('state', '=', 'outgoing')]"/>
+                <filter string="Sent" name="filter_state_sent" domain="[('state', '=', 'sent')]"/>
+                <filter string="Delivered" name="filter_state_delivered" domain="[('state', '=', 'delivered')]"/>
+                <filter string="Read" name="filter_state_read" domain="[('state', '=', 'read')]"/>
+                <filter string="Failed" name="filter_state_error" domain="[('state', '=', 'error')]"/>
+                <separator/>
+                <filter string="Create Date" name="filter_create_date" date="create_date"/>
+                <group string="Group By">
+                    <filter string="Sent To" name="groupby_mobile_number" context="{'group_by': 'mobile_number'}"/>
+                    <filter string="State" name="groupby_state" context="{'group_by': 'state'}"/>
+                    <filter string="Account" name="groupby_wa_account_id" context="{'group_by': 'wa_account_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="whatsapp_evaluation_message_action" model="ir.actions.act_window">
+        <field name="name">WhatsApp Messages</field>
+        <field name="res_model">whatsapp_evaluation.message</field>
+        <field name="view_mode">tree,graph</field>
+    </record>
+    
+
+
+</odoo>
