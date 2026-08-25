@@ -388,13 +388,46 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
     applications: [
-      { id: 1, title: 'HEAVY-DUTY UTILITY PALLETS', icon: 'Package', desc: 'Industrial high-density plastic utility pallets stacked neatly in a logistics warehouse.', image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop' },
-      { id: 2, title: 'EXTRUDED SHEET COMPOUNDING', icon: 'Settings', desc: 'Extruded plastic compounding plant running large polymer profiles.', image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop' },
-      { id: 3, title: 'INDUSTRIAL DRAINAGE SUMPS', icon: 'ShieldCheck', desc: 'Heavy plastic drainage sumps and underground catch basins.', image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop' },
-      { id: 4, title: 'STURDY TOOLBOXES', icon: 'Trash2', desc: 'Rugged injection-molded toolboxes and equipment storage cases.', image: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=800&auto=format&fit=crop' }
+      { id: 1, title: 'HEAVY-DUTY UTILITY PALLETS', icon: 'Package', desc: 'Industrial high-density plastic utility pallets stacked neatly in a logistics warehouse.', image: '/images/pp_lumps_app1.jpg' },
+      { id: 2, title: 'EXTRUDED SHEET COMPOUNDING', icon: 'Settings', desc: 'Extruded plastic compounding plant running large polymer profiles.', image: '/images/pp_lumps_app2.jpg' },
+      { id: 3, title: 'INDUSTRIAL DRAINAGE SUMPS', icon: 'ShieldCheck', desc: 'Heavy plastic drainage sumps and underground catch basins.', image: '/images/pp_lumps_app3.jpg' },
+      { id: 4, title: 'STURDY TOOLBOXES', icon: 'Trash2', desc: 'Rugged injection-molded toolboxes and equipment storage cases.', image: '/images/pp_lumps_app4.jpg' }
     ],
     specifications: [
       { label: 'Material Grade', value: 'Polypropylene Lumps (PP)' },
+      { label: 'Form', value: 'Solid Purging Drop Lumps' },
+      { label: 'Weight per Lump', value: '10kg - 150kg per piece' },
+      { label: 'Color Options', value: 'Natural White, Black, Mixed' },
+      { label: 'Purity Level', value: '≥ 99% Metal & Foreign Material Free' },
+      { label: 'Packaging', value: 'Loose Bulk in 40ft Container / Jumbo Bags' },
+      { label: 'MOQ', value: '1 x 40 FT FCL (Approx. 22-25 MT)' }
+    ]
+  },
+
+  // 13. PE Lumps
+  'polyethylene-pe-lumps': {
+    slug: 'polyethylene-pe-lumps',
+    name: 'Polyethylene - PE Lumps',
+    code: 'PE LUMPS / PURGINGS',
+    tagline: 'DENSE INDUSTRIAL EXTRUDER PURGING & INJECTION DROP LUMPS',
+    sourceText: 'Commercial studio product photograph of large solid industrial Polyethylene purgings and purge lumps, neutral light grey background, softbox lighting.',
+    category: 'Plastic Lumps',
+    heroImage: '/images/pe_lumps_hero.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Single-stream clean extruder purgings.' },
+      { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Heavy duty feedstock for shredding & compounding.' },
+      { id: 3, title: 'INDUSTRIAL GRADE', icon: 'Settings', desc: 'High density structural PE blocks.' },
+      { id: 4, title: 'COST EFFECTIVE', icon: 'Leaf', desc: 'Deep cost reduction for heavy profile extruders.' }
+    ],
+    sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
+    applications: [
+      { id: 1, title: 'HEAVY-DUTY UTILITY PALLETS', icon: 'Package', desc: 'Industrial high-density plastic utility pallets stacked neatly in a logistics warehouse.', image: '/images/pe_lumps_app1.jpg' },
+      { id: 2, title: 'EXTRUDED SHEET COMPOUNDING', icon: 'Settings', desc: 'Extruded plastic compounding plant running large polymer profiles.', image: '/images/pe_lumps_app2.jpg' },
+      { id: 3, title: 'INDUSTRIAL DRAINAGE SUMPS', icon: 'ShieldCheck', desc: 'Heavy plastic drainage sumps and underground catch basins.', image: '/images/pe_lumps_app3.jpg' },
+      { id: 4, title: 'STURDY TOOLBOXES', icon: 'Trash2', desc: 'Rugged injection-molded toolboxes and equipment storage cases.', image: '/images/pe_lumps_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material Grade', value: 'Polyethylene Lumps (PE)' },
       { label: 'Form', value: 'Solid Purging Drop Lumps' },
       { label: 'Weight per Lump', value: '10kg - 150kg per piece' },
       { label: 'Color Options', value: 'Natural White, Black, Mixed' },

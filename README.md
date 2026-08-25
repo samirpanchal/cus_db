@@ -63,3 +63,62 @@ If you need to manually restart a specific service to apply changes, use these c
 - **Restart Odoo only:** `sudo docker restart ubuntu-web-1`
 - **Restart WhatsApp API:** `sudo docker restart ubuntu-evolution-api-1`
 - **View Odoo Logs:** `sudo docker logs -f ubuntu-web-1`
+
+---
+
+## 📧 Marketing Automation Server (Notifuse)
+
+Notifuse is installed on the same AWS EC2 instance as Odoo, running on a separate Docker stack.
+
+- **URL:** https://marketing.anchorstoneglobal.co.in
+- **Internal Port:** `8081`
+- **Docker Compose Location:** `/opt/notifuse/`
+
+### 🔄 How to Restart Notifuse
+If Notifuse goes down (e.g. after an EC2 reboot):
+```bash
+ssh -i odoo-key.pem -o StrictHostKeyChecking=no ubuntu@erp.anchorstoneglobal.co.in
+cd /opt/notifuse
+sudo docker compose up -d
+```
+
+### Useful Notifuse Docker Commands
+```bash
+# View all Notifuse containers
+sudo docker compose -f /opt/notifuse/compose.yaml ps
+
+# Restart Notifuse API only
+sudo docker restart notifuse-api-1
+
+# View Notifuse logs
+sudo docker logs -f notifuse-api-1
+
+# Stop all Notifuse containers
+cd /opt/notifuse && sudo docker compose down
+
+# Start all Notifuse containers
+cd /opt/notifuse && sudo docker compose up -d
+```
+
+### Installed Notifuse Services
+1. **`notifuse-api-1`** — Notifuse web interface and API (port 8081)
+2. **`notifuse-postgres-1`** — PostgreSQL database for Notifuse
+
+---
+
+## 🏗️ Easy Email (Email Builder)
+
+Easy Email is a modern, React-based open-source drag-and-drop email builder that has replaced the legacy Mosaico interface. It is hosted as a static site on the AWS EC2 instance.
+
+- **URL:** https://mosaico.anchorstoneglobal.co.in (kept the old subdomain for continuity)
+- **Deployment Location:** `/opt/easy-email/demo/dist` (served directly by Nginx)
+- **S3 Bucket:** Uses the `anchorstone-media` S3 Bucket for image uploads (configured with CORS allowing `https://mosaico.anchorstoneglobal.co.in`).
+
+### 🔄 How to Restart Easy Email
+Because Easy Email is a **static site** served directly by Nginx, it does not use Docker or PM2, and it cannot "crash." However, if the site becomes unreachable, you simply need to restart Nginx:
+
+```bash
+ssh -i odoo-key.pem -o StrictHostKeyChecking=no ubuntu@erp.anchorstoneglobal.co.in
+sudo systemctl restart nginx
+```
+
