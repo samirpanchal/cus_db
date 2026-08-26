@@ -100,26 +100,6 @@ export const materialsMenu = [
         ]
       },
       {
-        "name": "Sheets",
-        "subcategories": [
-          {
-            "name": "PET sheets"
-          },
-          {
-            "name": "PP Sheets"
-          },
-          {
-            "name": "PS Sheets"
-          },
-          {
-            "name": "PVC Sheets"
-          },
-          {
-            "name": "PE Sheets"
-          }
-        ]
-      },
-      {
         "name": "Technical Plastic",
         "subcategories": [
           {
