@@ -160,7 +160,7 @@ export const materialsMenu = [
             "name": "MS Forging Scrap"
           },
           {
-            "name": "MS Angles"
+            "name": "MS Angles Scrap"
           },
           {
             "name": "MS Sheet Stamping Scrap"
