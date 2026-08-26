@@ -7,7 +7,7 @@ export const productDetailsData = {
     tagline: 'MIXED-COLOR / HIGH-PURITY SHREDDED AUTOMOTIVE & INDUSTRIAL SCRAP',
     sourceText: 'Commercial studio product photograph of clean, sorted Polypropylene (PP) industrial plastic scrap pieces, neutral light grey background, softbox lighting.',
     category: 'Plastics Scraps',
-    heroImage: '/images/plastic_scrap_premium.png',
+    heroImage: '/images/pp_scrap_hero.jpg',
     badges: [
       { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Rigorous sorting and lab-verified purity levels.' },
       { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Zero-waste post-industrial circular commodity.' },
@@ -16,10 +16,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
     applications: [
-      { id: 1, title: 'BATTERY CASES & COMPONENTS', icon: 'Battery', desc: 'Molded automotive interior trim and battery casings made of PP.', image: 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=800&auto=format&fit=crop' },
-      { id: 2, title: 'AUTOMOTIVE PLASTIC PARTS', icon: 'Car', desc: 'Engineered for vehicle bumpers, interior trims, and under-hood covers.', image: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=800&auto=format&fit=crop' },
-      { id: 3, title: 'PACKAGING CLOSURES & TUBS', icon: 'Package', desc: 'Stack of injection-molded PP caps, closures, and thin-wall food containers.', image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop' },
-      { id: 4, title: 'DURABLE STORAGE CRATES', icon: 'Trash2', desc: 'Durable colorful plastic crates and storage bins made from recycled PP.', image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop' }
+      { id: 1, title: 'BATTERY CASES & COMPONENTS', icon: 'Battery', desc: 'Molded automotive interior trim and battery casings made of PP.', image: '/images/pp_scrap_app1.jpg' },
+      { id: 2, title: 'AUTOMOTIVE PLASTIC PARTS', icon: 'Car', desc: 'Engineered for vehicle bumpers, interior trims, and under-hood covers.', image: '/images/pp_scrap_app2.jpg' },
+      { id: 3, title: 'PACKAGING CLOSURES & TUBS', icon: 'Package', desc: 'Stack of injection-molded PP caps, closures, and thin-wall food containers.', image: '/images/pp_scrap_app3.jpg' },
+      { id: 4, title: 'DURABLE STORAGE CRATES', icon: 'Trash2', desc: 'Durable colorful plastic crates and storage bins made from recycled PP.', image: '/images/pp_scrap_app4.jpg' }
     ],
     specifications: [
       { label: 'Material Grade', value: 'Polypropylene (PP / PPCP)' },
@@ -573,5 +573,277 @@ export const getProductDetail = (slug, rawName) => {
       { label: 'Packaging', value: '25kg Bags / 1000kg Jumbo Super Sacks' },
       { label: 'Min Order Qty', value: '1 x 20ft Container (approx. 18-22 MT)' }
     ]
-  };
+  },;
+
+  // Auto-Inserted
+  'polyvinyl-chloride-pvc-lumps': {
+    slug: 'polyvinyl-chloride-pvc-lumps',
+    name: 'Polyvinyl Chloride PVC Lumps',
+    code: 'POLYVINYL CHLORIDE PVC LUMPS - MASTER GRADE',
+    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
+    sourceText: 'Commercial studio product photography of Polyvinyl Chloride PVC Lumps, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    category: 'Plastic Lumps',
+    heroImage: '/images/pvc_lumps_hero.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Lab-tested polymer density & purity.' },
+      { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Sustainable circular economy commodity.' },
+      { id: 3, title: 'INDUSTRIAL GRADE', icon: 'Settings', desc: 'High tensile strength & thermal stability.' },
+      { id: 4, title: 'COST EFFECTIVE', icon: 'Leaf', desc: 'Maximizes raw material savings.' }
+    ],
+    sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
+    applications: [
+      { id: 1, title: 'HEAVY-DUTY INDUSTRIAL PALLETS', icon: 'Package', desc: 'Molded returnable industrial transport pallets.', image: '/images/pvc_lumps_app1.jpg' },
+      { id: 2, title: 'PROFILE EXTRUSION SHEET', icon: 'Car', desc: 'Thick industrial sheet and profile extrusion compounding.', image: '/images/pvc_lumps_app2.jpg' },
+      { id: 3, title: 'UNDERGROUND UTILITY COVERING', icon: 'Settings', desc: 'Heavy subterranean cable covers and septic tanks.', image: '/images/pvc_lumps_app3.jpg' },
+      { id: 4, title: 'STURDY STORAGE CRATES', icon: 'Trash2', desc: 'Rugged molded toolboxes and logistics tote containers.', image: '/images/pvc_lumps_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material Name', value: 'Polyvinyl Chloride PVC Lumps' },
+      { label: 'Form', value: 'Flakes / Regrind / Pellets / Lumps / Bales' },
+      { label: 'Origin Source', value: 'Certified Post-Industrial Stream' },
+      { label: 'Purity Level', value: '≥ 99.0% Contaminant Free' },
+      { label: 'Color Options', value: 'Natural, Clear, White, Black, Mixed' },
+      { label: 'Moisture Content', value: '< 0.5%' },
+      { label: 'Packaging', value: '25kg Bags / 1000kg Jumbo Super Sacks' },
+      { label: 'Min Order Qty', value: '1 x 20ft Container (approx. 18-22 MT)' }
+    ]
+  },,
+
+  // Auto-Inserted
+  'high-impact-polystyrene-lumps': {
+    slug: 'high-impact-polystyrene-lumps',
+    name: 'High Impact Polystyrene Lumps',
+    code: 'HIGH IMPACT POLYSTYRENE LUMPS - MASTER GRADE',
+    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
+    sourceText: 'Commercial studio product photography of High Impact Polystyrene Lumps, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    category: 'Plastic Lumps',
+    heroImage: '/images/ps_lumps_hero.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Lab-tested polymer density & purity.' },
+      { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Sustainable circular economy commodity.' },
+      { id: 3, title: 'INDUSTRIAL GRADE', icon: 'Settings', desc: 'High tensile strength & thermal stability.' },
+      { id: 4, title: 'COST EFFECTIVE', icon: 'Leaf', desc: 'Maximizes raw material savings.' }
+    ],
+    sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
+    applications: [
+      { id: 1, title: 'HEAVY-DUTY INDUSTRIAL PALLETS', icon: 'Package', desc: 'Molded returnable industrial transport pallets.', image: '/images/ps_lumps_app1.jpg' },
+      { id: 2, title: 'PROFILE EXTRUSION SHEET', icon: 'Car', desc: 'Thick industrial sheet and profile extrusion compounding.', image: '/images/ps_lumps_app2.jpg' },
+      { id: 3, title: 'UNDERGROUND UTILITY COVERING', icon: 'Settings', desc: 'Heavy subterranean cable covers and septic tanks.', image: '/images/ps_lumps_app3.jpg' },
+      { id: 4, title: 'STURDY STORAGE CRATES', icon: 'Trash2', desc: 'Rugged molded toolboxes and logistics tote containers.', image: '/images/ps_lumps_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material Name', value: 'High Impact Polystyrene Lumps' },
+      { label: 'Form', value: 'Flakes / Regrind / Pellets / Lumps / Bales' },
+      { label: 'Origin Source', value: 'Certified Post-Industrial Stream' },
+      { label: 'Purity Level', value: '≥ 99.0% Contaminant Free' },
+      { label: 'Color Options', value: 'Natural, Clear, White, Black, Mixed' },
+      { label: 'Moisture Content', value: '< 0.5%' },
+      { label: 'Packaging', value: '25kg Bags / 1000kg Jumbo Super Sacks' },
+      { label: 'Min Order Qty', value: '1 x 20ft Container (approx. 18-22 MT)' }
+    ]
+  },,
+
+  // Auto-Inserted
+  'polyethylene-terephthalate-pet-lumps': {
+    slug: 'polyethylene-terephthalate-pet-lumps',
+    name: 'Polyethylene Terephthalate - PET Lumps',
+    code: 'POLYETHYLENE TEREPHTHALATE - PET LUMPS - MASTER GRADE',
+    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
+    sourceText: 'Commercial studio product photography of Polyethylene Terephthalate - PET Lumps, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    category: 'Plastic Lumps',
+    heroImage: '/images/pet_lumps_hero.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Lab-tested polymer density & purity.' },
+      { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Sustainable circular economy commodity.' },
+      { id: 3, title: 'INDUSTRIAL GRADE', icon: 'Settings', desc: 'High tensile strength & thermal stability.' },
+      { id: 4, title: 'COST EFFECTIVE', icon: 'Leaf', desc: 'Maximizes raw material savings.' }
+    ],
+    sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
+    applications: [
+      { id: 1, title: 'HEAVY-DUTY INDUSTRIAL PALLETS', icon: 'Package', desc: 'Molded returnable industrial transport pallets.', image: '/images/pet_lumps_app1.jpg' },
+      { id: 2, title: 'PROFILE EXTRUSION SHEET', icon: 'Car', desc: 'Thick industrial sheet and profile extrusion compounding.', image: '/images/pet_lumps_app2.jpg' },
+      { id: 3, title: 'UNDERGROUND UTILITY COVERING', icon: 'Settings', desc: 'Heavy subterranean cable covers and septic tanks.', image: '/images/pet_lumps_app3.jpg' },
+      { id: 4, title: 'STURDY STORAGE CRATES', icon: 'Trash2', desc: 'Rugged molded toolboxes and logistics tote containers.', image: '/images/pet_lumps_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material Name', value: 'Polyethylene Terephthalate - PET Lumps' },
+      { label: 'Form', value: 'Flakes / Regrind / Pellets / Lumps / Bales' },
+      { label: 'Origin Source', value: 'Certified Post-Industrial Stream' },
+      { label: 'Purity Level', value: '≥ 99.0% Contaminant Free' },
+      { label: 'Color Options', value: 'Natural, Clear, White, Black, Mixed' },
+      { label: 'Moisture Content', value: '< 0.5%' },
+      { label: 'Packaging', value: '25kg Bags / 1000kg Jumbo Super Sacks' },
+      { label: 'Min Order Qty', value: '1 x 20ft Container (approx. 18-22 MT)' }
+    ]
+  },,
+
+  // Auto-Inserted
+  'polypropylene-pp-bales': {
+    slug: 'polypropylene-pp-bales',
+    name: 'Polypropylene -PP Bales',
+    code: 'POLYPROPYLENE -PP BALES - MASTER GRADE',
+    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
+    sourceText: 'Commercial studio product photography of Polypropylene -PP Bales, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    category: 'Bales',
+    heroImage: '/images/pp_bales_hero.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Lab-tested polymer density & purity.' },
+      { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Sustainable circular economy commodity.' },
+      { id: 3, title: 'INDUSTRIAL GRADE', icon: 'Settings', desc: 'High tensile strength & thermal stability.' },
+      { id: 4, title: 'COST EFFECTIVE', icon: 'Leaf', desc: 'Maximizes raw material savings.' }
+    ],
+    sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
+    applications: [
+      { id: 1, title: 'BOTTLE-TO-BOTTLE RECYCLING', icon: 'Package', desc: 'Large scale washing and automated optical sorting plants.', image: '/images/pp_bales_app1.jpg' },
+      { id: 2, title: 'SYNTHETIC TEXTILE FLEECE', icon: 'Car', desc: 'Spinning polyester staple fibers for garments and blankets.', image: '/images/pp_bales_app2.jpg' },
+      { id: 3, title: 'AGRICULTURAL WOVEN SACKS', icon: 'Settings', desc: 'High-strength woven sacks and agricultural twine.', image: '/images/pp_bales_app3.jpg' },
+      { id: 4, title: 'THERMAL INSULATION BOARDS', icon: 'Trash2', desc: 'Architectural decorative moldings and shock absorbers.', image: '/images/pp_bales_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material Name', value: 'Polypropylene -PP Bales' },
+      { label: 'Form', value: 'Flakes / Regrind / Pellets / Lumps / Bales' },
+      { label: 'Origin Source', value: 'Certified Post-Industrial Stream' },
+      { label: 'Purity Level', value: '≥ 99.0% Contaminant Free' },
+      { label: 'Color Options', value: 'Natural, Clear, White, Black, Mixed' },
+      { label: 'Moisture Content', value: '< 0.5%' },
+      { label: 'Packaging', value: '25kg Bags / 1000kg Jumbo Super Sacks' },
+      { label: 'Min Order Qty', value: '1 x 20ft Container (approx. 18-22 MT)' }
+    ]
+  },,
+
+  // Auto-Inserted
+  'high-impact-polystyrene-ps-bales': {
+    slug: 'high-impact-polystyrene-ps-bales',
+    name: 'High Impact Polystyrene - PS Bales',
+    code: 'HIGH IMPACT POLYSTYRENE - PS BALES - MASTER GRADE',
+    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
+    sourceText: 'Commercial studio product photography of High Impact Polystyrene - PS Bales, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    category: 'Bales',
+    heroImage: '/images/ps_bales_hero.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Lab-tested polymer density & purity.' },
+      { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Sustainable circular economy commodity.' },
+      { id: 3, title: 'INDUSTRIAL GRADE', icon: 'Settings', desc: 'High tensile strength & thermal stability.' },
+      { id: 4, title: 'COST EFFECTIVE', icon: 'Leaf', desc: 'Maximizes raw material savings.' }
+    ],
+    sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
+    applications: [
+      { id: 1, title: 'BOTTLE-TO-BOTTLE RECYCLING', icon: 'Package', desc: 'Large scale washing and automated optical sorting plants.', image: '/images/ps_bales_app1.jpg' },
+      { id: 2, title: 'SYNTHETIC TEXTILE FLEECE', icon: 'Car', desc: 'Spinning polyester staple fibers for garments and blankets.', image: '/images/ps_bales_app2.jpg' },
+      { id: 3, title: 'AGRICULTURAL WOVEN SACKS', icon: 'Settings', desc: 'High-strength woven sacks and agricultural twine.', image: '/images/ps_bales_app3.jpg' },
+      { id: 4, title: 'THERMAL INSULATION BOARDS', icon: 'Trash2', desc: 'Architectural decorative moldings and shock absorbers.', image: '/images/ps_bales_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material Name', value: 'High Impact Polystyrene - PS Bales' },
+      { label: 'Form', value: 'Flakes / Regrind / Pellets / Lumps / Bales' },
+      { label: 'Origin Source', value: 'Certified Post-Industrial Stream' },
+      { label: 'Purity Level', value: '≥ 99.0% Contaminant Free' },
+      { label: 'Color Options', value: 'Natural, Clear, White, Black, Mixed' },
+      { label: 'Moisture Content', value: '< 0.5%' },
+      { label: 'Packaging', value: '25kg Bags / 1000kg Jumbo Super Sacks' },
+      { label: 'Min Order Qty', value: '1 x 20ft Container (approx. 18-22 MT)' }
+    ]
+  },,
+
+  // Auto-Inserted
+  'polyethylene-terephthalate-pet-bales': {
+    slug: 'polyethylene-terephthalate-pet-bales',
+    name: 'Polyethylene Terephthalate - PET Bales',
+    code: 'POLYETHYLENE TEREPHTHALATE - PET BALES - MASTER GRADE',
+    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
+    sourceText: 'Commercial studio product photography of Polyethylene Terephthalate - PET Bales, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    category: 'Bales',
+    heroImage: '/images/pet_bales_hero.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Lab-tested polymer density & purity.' },
+      { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Sustainable circular economy commodity.' },
+      { id: 3, title: 'INDUSTRIAL GRADE', icon: 'Settings', desc: 'High tensile strength & thermal stability.' },
+      { id: 4, title: 'COST EFFECTIVE', icon: 'Leaf', desc: 'Maximizes raw material savings.' }
+    ],
+    sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
+    applications: [
+      { id: 1, title: 'BOTTLE-TO-BOTTLE RECYCLING', icon: 'Package', desc: 'Large scale washing and automated optical sorting plants.', image: '/images/pet_bales_app1.jpg' },
+      { id: 2, title: 'SYNTHETIC TEXTILE FLEECE', icon: 'Car', desc: 'Spinning polyester staple fibers for garments and blankets.', image: '/images/pet_bales_app2.jpg' },
+      { id: 3, title: 'AGRICULTURAL WOVEN SACKS', icon: 'Settings', desc: 'High-strength woven sacks and agricultural twine.', image: '/images/pet_bales_app3.jpg' },
+      { id: 4, title: 'THERMAL INSULATION BOARDS', icon: 'Trash2', desc: 'Architectural decorative moldings and shock absorbers.', image: '/images/pet_bales_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material Name', value: 'Polyethylene Terephthalate - PET Bales' },
+      { label: 'Form', value: 'Flakes / Regrind / Pellets / Lumps / Bales' },
+      { label: 'Origin Source', value: 'Certified Post-Industrial Stream' },
+      { label: 'Purity Level', value: '≥ 99.0% Contaminant Free' },
+      { label: 'Color Options', value: 'Natural, Clear, White, Black, Mixed' },
+      { label: 'Moisture Content', value: '< 0.5%' },
+      { label: 'Packaging', value: '25kg Bags / 1000kg Jumbo Super Sacks' },
+      { label: 'Min Order Qty', value: '1 x 20ft Container (approx. 18-22 MT)' }
+    ]
+  },,
+
+  // Auto-Inserted
+  'polypropylene-pp-regranulate': {
+    slug: 'polypropylene-pp-regranulate',
+    name: 'Polypropylene -PP Regranulate',
+    code: 'POLYPROPYLENE -PP REGRANULATE - MASTER GRADE',
+    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
+    sourceText: 'Commercial studio product photography of Polypropylene -PP Regranulate, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    category: 'Regranulate',
+    heroImage: '/images/pp_regranulate_hero.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Lab-tested polymer density & purity.' },
+      { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Sustainable circular economy commodity.' },
+      { id: 3, title: 'INDUSTRIAL GRADE', icon: 'Settings', desc: 'High tensile strength & thermal stability.' },
+      { id: 4, title: 'COST EFFECTIVE', icon: 'Leaf', desc: 'Maximizes raw material savings.' }
+    ],
+    sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
+    applications: [
+      { id: 1, title: 'AUTOMOTIVE INTERIOR COMPONENTS', icon: 'Battery', desc: 'Molded black plastic automotive interior trim components and dashboards.', image: '/images/pp_regranulate_app1.jpg' },
+      { id: 2, title: 'HIGH-STRENGTH LINERS & FILM', icon: 'Package', desc: 'Heavy duty industrial trash bag rolls and agricultural plastic film.', image: '/images/pp_regranulate_app2.jpg' },
+      { id: 3, title: 'ELECTRICAL WIRE JACKETING', icon: 'Leaf', desc: 'Colorful flexible PVC electrical wire and cable jacketing coils.', image: '/images/pp_regranulate_app3.jpg' },
+      { id: 4, title: 'CARBONATED BEVERAGE BOTTLES', icon: 'Trash2', desc: 'Clear plastic carbonated beverage bottles on a high speed filling line.', image: '/images/pp_regranulate_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material Name', value: 'Polypropylene -PP Regranulate' },
+      { label: 'Form', value: 'Flakes / Regrind / Pellets / Lumps / Bales' },
+      { label: 'Origin Source', value: 'Certified Post-Industrial Stream' },
+      { label: 'Purity Level', value: '≥ 99.0% Contaminant Free' },
+      { label: 'Color Options', value: 'Natural, Clear, White, Black, Mixed' },
+      { label: 'Moisture Content', value: '< 0.5%' },
+      { label: 'Packaging', value: '25kg Bags / 1000kg Jumbo Super Sacks' },
+      { label: 'Min Order Qty', value: '1 x 20ft Container (approx. 18-22 MT)' }
+    ]
+  },,
+
+  // Auto-Inserted
+  'polyethylene-pe-regranulate': {
+    slug: 'polyethylene-pe-regranulate',
+    name: 'Polyethylene -PE Regranulate',
+    code: 'POLYETHYLENE -PE REGRANULATE - MASTER GRADE',
+    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
+    sourceText: 'Commercial studio product photography of Polyethylene -PE Regranulate, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    category: 'Regranulate',
+    heroImage: '/images/pe_regranulate_hero.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Lab-tested polymer density & purity.' },
+      { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Sustainable circular economy commodity.' },
+      { id: 3, title: 'INDUSTRIAL GRADE', icon: 'Settings', desc: 'High tensile strength & thermal stability.' },
+      { id: 4, title: 'COST EFFECTIVE', icon: 'Leaf', desc: 'Maximizes raw material savings.' }
+    ],
+    sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
+    applications: [
+      { id: 1, title: 'AUTOMOTIVE INTERIOR COMPONENTS', icon: 'Battery', desc: 'Molded black plastic automotive interior trim components and dashboards.', image: '/images/pe_regranulate_app1.jpg' },
+      { id: 2, title: 'HIGH-STRENGTH LINERS & FILM', icon: 'Package', desc: 'Heavy duty industrial trash bag rolls and agricultural plastic film.', image: '/images/pe_regranulate_app2.jpg' },
+      { id: 3, title: 'ELECTRICAL WIRE JACKETING', icon: 'Settings', desc: 'Flexible wire insulation and soft shoe soles.', image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop' },
+      { id: 4, title: 'CARBONATED BEVERAGE BOTTLES', icon: 'Trash2', desc: 'Crystal-clear rPET beverage bottles and egg cartons.', image: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=800&auto=format&fit=crop' }
+    ],
+    specifications: [
+      { label: 'Material Name', value: 'Polyethylene -PE Regranulate' },
+      { label: 'Form', value: 'Flakes / Regrind / Pellets / Lumps / Bales' },
+      { label: 'Origin Source', value: 'Certified Post-Industrial Stream' },
+      { label: 'Purity Level', value: '≥ 99.0% Contaminant Free' },
+      { label: 'Color Options', value: 'Natural, Clear, White, Black, Mixed' },
+      { label: 'Moisture Content', value: '< 0.5%' },
+      { label: 'Packaging', value: '25kg Bags / 1000kg Jumbo Super Sacks' },
+      { label: 'Min Order Qty', value: '1 x 20ft Container (approx. 18-22 MT)' }
+    ]
+  },
 };
