@@ -727,17 +727,17 @@ export const getProductDetail = (slug, rawName) => {
   if (slug.includes('ss-') || slug.includes('stainless')) {
     categoryName = 'Stainless Steel Scrap';
     taglineText = 'HIGH-GRADE STAINLESS STEEL ALLOY SCRAP';
-    heroImage = 'https://images.unsplash.com/photo-1599839619722-39751411ea63?q=80&w=800&auto=format&fit=crop';
+    heroImage = `https://image.pollinations.ai/prompt/stainless%20steel%20scrap%20${encodeURIComponent(formattedName)}%20industrial?width=800&height=600&nologo=true`;
     isMetal = true;
   } else if (slug.includes('hms') || slug.includes('ms-') || slug.includes('shredded') || slug.includes('steel')) {
     categoryName = 'HMS & Mild Steel Scrap';
     taglineText = 'PREMIUM HEAVY MELTING & MILD STEEL SCRAP';
-    heroImage = 'https://images.unsplash.com/photo-1563721387249-144bd35a0ccf?q=80&w=800&auto=format&fit=crop';
+    heroImage = `https://image.pollinations.ai/prompt/heavy%20melting%20steel%20scrap%20${encodeURIComponent(formattedName)}?width=800&height=600&nologo=true`;
     isMetal = true;
   } else if (slug.includes('aluminum') || slug.includes('aluminium') || slug.includes('ubc') || slug.includes('radiator') || slug.includes('tense')) {
     categoryName = 'Aluminium Scrap';
     taglineText = 'CLEAN RECYCLABLE ALUMINIUM SCRAP METALS';
-    heroImage = 'https://images.unsplash.com/photo-1563220468-b394fb0cd222?q=80&w=800&auto=format&fit=crop';
+    heroImage = `https://image.pollinations.ai/prompt/aluminium%20scrap%20bales%20${encodeURIComponent(formattedName)}?width=800&height=600&nologo=true`;
     isMetal = true;
   } else 
   if (slug.includes('lump')) {
@@ -846,7 +846,123 @@ export const getProductDetail = (slug, rawName) => {
     ]
   };
 
-  const appSet = categoryAppsMap[categoryName] || categoryAppsMap['Default'];
+  
+  const specificMetalApps = {
+    'ss-316-scrap': [
+      { title: 'MARINE HARDWARE', desc: 'Recycled into corrosion-resistant marine grade fittings.', image: 'https://image.pollinations.ai/prompt/marine%20hardware%20stainless%20steel?width=800&height=600&nologo=true' },
+      { title: 'PHARMACEUTICAL TANKS', desc: 'Melted for high-purity chemical and pharmaceutical storage.', image: 'https://image.pollinations.ai/prompt/pharmaceutical%20stainless%20steel%20tanks?width=800&height=600&nologo=true' },
+      { title: 'SURGICAL INSTRUMENTS', desc: 'High molybdenum content ideal for medical tool casting.', image: 'https://image.pollinations.ai/prompt/surgical%20instruments%20stainless%20steel?width=800&height=600&nologo=true' },
+      { title: 'WATER TREATMENT PLANTS', desc: 'Used in severe environment filtration systems.', image: 'https://image.pollinations.ai/prompt/water%20treatment%20plant%20pipes?width=800&height=600&nologo=true' }
+    ],
+    'ss-304-scrap': [
+      { title: 'COMMERCIAL KITCHENS', desc: 'The standard for food-grade sinks, counters, and appliances.', image: 'https://image.pollinations.ai/prompt/commercial%20kitchen%20stainless%20steel?width=800&height=600&nologo=true' },
+      { title: 'AUTOMOTIVE TRIM', desc: 'Recycled into decorative and functional automotive molding.', image: 'https://image.pollinations.ai/prompt/automotive%20chrome%20trim?width=800&height=600&nologo=true' },
+      { title: 'AEROSPACE COMPONENTS', desc: 'Machined into structural aviation fasteners and brackets.', image: 'https://image.pollinations.ai/prompt/aerospace%20fasteners%20metal?width=800&height=600&nologo=true' },
+      { title: 'PRESSURE VESSELS', desc: 'Fabricated into medium-pressure industrial liquid vessels.', image: 'https://image.pollinations.ai/prompt/industrial%20pressure%20vessels?width=800&height=600&nologo=true' }
+    ],
+    'ss-310-scrap': [
+      { title: 'FURNACE PARTS', desc: 'Excellent high-temperature resistance for furnace linings.', image: 'https://image.pollinations.ai/prompt/industrial%20furnace%20lining?width=800&height=600&nologo=true' },
+      { title: 'KILN CONSTRUCTION', desc: 'Crucial for cement and ceramic manufacturing kilns.', image: 'https://image.pollinations.ai/prompt/industrial%20cement%20kiln?width=800&height=600&nologo=true' },
+      { title: 'HEAT EXCHANGERS', desc: 'Used in highly corrosive, high-heat transfer applications.', image: 'https://image.pollinations.ai/prompt/metal%20heat%20exchanger?width=800&height=600&nologo=true' },
+      { title: 'POWER GENERATION', desc: 'Turbine blades and boiler tube manufacturing.', image: 'https://image.pollinations.ai/prompt/power%20plant%20turbine%20blades?width=800&height=600&nologo=true' }
+    ],
+    'ss-208-scrap': [
+      { title: 'CONSUMER ELECTRONICS', desc: 'Molded into durable chassis for appliances and electronics.', image: 'https://image.pollinations.ai/prompt/consumer%20electronics%20chassis?width=800&height=600&nologo=true' },
+      { title: 'CUTLERY PRODUCTION', desc: 'Cost-effective alternative for mass-market flatware.', image: 'https://image.pollinations.ai/prompt/stainless%20steel%20cutlery?width=800&height=600&nologo=true' },
+      { title: 'RAILWAY CARS', desc: 'Structural components for transit and freight railcars.', image: 'https://image.pollinations.ai/prompt/stainless%20steel%20train%20car?width=800&height=600&nologo=true' },
+      { title: 'HVAC DUCTING', desc: 'Corrosion-resistant ventilation and air conditioning systems.', image: 'https://image.pollinations.ai/prompt/industrial%20hvac%20ducting?width=800&height=600&nologo=true' }
+    ],
+    'hms-1-scrap': [
+      { title: 'I-BEAM PRODUCTION', desc: 'Heavy melting steel is prime feedstock for structural I-beams.', image: 'https://image.pollinations.ai/prompt/steel%20i-beams%20construction?width=800&height=600&nologo=true' },
+      { title: 'HEAVY MACHINERY', desc: 'Castings for excavators, bulldozers, and mining equipment.', image: 'https://image.pollinations.ai/prompt/heavy%20machinery%20excavator?width=800&height=600&nologo=true' },
+      { title: 'SHIPBUILDING PLATES', desc: 'Melted and rolled into thick marine hull plating.', image: 'https://image.pollinations.ai/prompt/shipbuilding%20steel%20plates?width=800&height=600&nologo=true' },
+      { title: 'RAILROAD TRACKS', desc: 'High-density scrap ensures optimal tensile strength for rails.', image: 'https://image.pollinations.ai/prompt/railroad%20steel%20tracks?width=800&height=600&nologo=true' }
+    ],
+    'shredded-steel-scrap': [
+      { title: 'ELECTRIC ARC FURNACES', desc: 'Ideal density and size for rapid melting in EAF steelmaking.', image: 'https://image.pollinations.ai/prompt/electric%20arc%20furnace%20melting?width=800&height=600&nologo=true' },
+      { title: 'AUTOMOTIVE CASTINGS', desc: 'Recycled into engine blocks and transmission housings.', image: 'https://image.pollinations.ai/prompt/steel%20engine%20block%20casting?width=800&height=600&nologo=true' },
+      { title: 'REINFORCING BAR', desc: 'High-yield feedstock for commercial construction rebar.', image: 'https://image.pollinations.ai/prompt/steel%20rebar%20bundles?width=800&height=600&nologo=true' },
+      { title: 'PIPE MANUFACTURING', desc: 'Seamless and welded pipe production for oil & gas.', image: 'https://image.pollinations.ai/prompt/industrial%20steel%20pipes?width=800&height=600&nologo=true' }
+    ],
+    'hms-2-scrap': [
+      { title: 'GALVANIZED ROOFING', desc: 'Repurposed into corrugated iron and roofing sheets.', image: 'https://image.pollinations.ai/prompt/galvanized%20steel%20roofing?width=800&height=600&nologo=true' },
+      { title: 'FENCING & WIRE MESH', desc: 'Drawn into agricultural fencing and security wire.', image: 'https://image.pollinations.ai/prompt/steel%20wire%20mesh%20fencing?width=800&height=600&nologo=true' },
+      { title: 'BICYCLE FRAMES', desc: 'Melted for lightweight tubular steel applications.', image: 'https://image.pollinations.ai/prompt/steel%20bicycle%20frames?width=800&height=600&nologo=true' },
+      { title: 'NAILS & FASTENERS', desc: 'Mass production of industrial nails, bolts, and screws.', image: 'https://image.pollinations.ai/prompt/industrial%20steel%20bolts%20and%20nuts?width=800&height=600&nologo=true' }
+    ],
+    'ms-sheet-fabrication-scrap': [
+      { title: 'HVAC SYSTEMS', desc: 'Recycled into climate control ductwork and casings.', image: 'https://image.pollinations.ai/prompt/hvac%20ductwork%20manufacturing?width=800&height=600&nologo=true' },
+      { title: 'APPLIANCE BODIES', desc: 'Washing machine and refrigerator exterior panels.', image: 'https://image.pollinations.ai/prompt/white%20appliance%20metal%20bodies?width=800&height=600&nologo=true' },
+      { title: 'METAL STAMPING', desc: 'Flat feedstock ideal for precision stamping processes.', image: 'https://image.pollinations.ai/prompt/metal%20stamping%20press%20machine?width=800&height=600&nologo=true' },
+      { title: 'STORAGE RACKS', desc: 'Warehouse racking and heavy-duty shelving units.', image: 'https://image.pollinations.ai/prompt/warehouse%20steel%20racking?width=800&height=600&nologo=true' }
+    ],
+    'ms-turning-scrap': [
+      { title: 'POWDER METALLURGY', desc: 'Processed into iron powder for sintered components.', image: 'https://image.pollinations.ai/prompt/metal%20powder%20metallurgy?width=800&height=600&nologo=true' },
+      { title: 'BRIQUETTE PRODUCTION', desc: 'Compacted into dense briquettes for furnace charging.', image: 'https://image.pollinations.ai/prompt/steel%20turnings%20briquettes?width=800&height=600&nologo=true' },
+      { title: 'CHEMICAL CATALYSTS', desc: 'Used in specialized chemical reduction processes.', image: 'https://image.pollinations.ai/prompt/industrial%20chemical%20catalyst?width=800&height=600&nologo=true' },
+      { title: 'COUNTERWEIGHTS', desc: 'Melted for elevator and crane ballast weights.', image: 'https://image.pollinations.ai/prompt/crane%20steel%20counterweights?width=800&height=600&nologo=true' }
+    ],
+    'ms-forging-scrap': [
+      { title: 'AUTOMOTIVE DRIVETRAINS', desc: 'High-carbon scrap perfect for forging axles and crankshafts.', image: 'https://image.pollinations.ai/prompt/automotive%20steel%20crankshaft?width=800&height=600&nologo=true' },
+      { title: 'HAND TOOLS', desc: 'Wrenches, hammers, and drop-forged industrial tools.', image: 'https://image.pollinations.ai/prompt/drop%20forged%20steel%20tools?width=800&height=600&nologo=true' },
+      { title: 'GEAR MANUFACTURING', desc: 'Recycled into heavy-duty transmission gears.', image: 'https://image.pollinations.ai/prompt/heavy%20duty%20steel%20gears?width=800&height=600&nologo=true' },
+      { title: 'FLANGES & FITTINGS', desc: 'Forged into high-pressure pipe flanges and couplings.', image: 'https://image.pollinations.ai/prompt/steel%20pipe%20flanges?width=800&height=600&nologo=true' }
+    ],
+    'ms-angles-scrap': [
+      { title: 'TRANSMISSION TOWERS', desc: 'Recycled into angular components for electrical towers.', image: 'https://image.pollinations.ai/prompt/electrical%20transmission%20tower%20steel?width=800&height=600&nologo=true' },
+      { title: 'BRIDGE SUPPORTS', desc: 'Crucial structural bracing for infrastructure bridges.', image: 'https://image.pollinations.ai/prompt/steel%20bridge%20supports?width=800&height=600&nologo=true' },
+      { title: 'AGRICULTURAL MACHINERY', desc: 'Tractor frames, plows, and harvesting equipment bracing.', image: 'https://image.pollinations.ai/prompt/agricultural%20machinery%20steel%20frame?width=800&height=600&nologo=true' },
+      { title: 'SCAFFOLDING SYSTEMS', desc: 'Repurposed into temporary construction scaffolding.', image: 'https://image.pollinations.ai/prompt/construction%20steel%20scaffolding?width=800&height=600&nologo=true' }
+    ],
+    'ms-sheet-stamping-scrap': [
+      { title: 'MOTOR LAMINATIONS', desc: 'Recycled into magnetic cores for electric motors.', image: 'https://image.pollinations.ai/prompt/electric%20motor%20laminations?width=800&height=600&nologo=true' },
+      { title: 'METAL ROOFING', desc: 'Melted and pressed into weather-resistant roof tiles.', image: 'https://image.pollinations.ai/prompt/metal%20roofing%20tiles?width=800&height=600&nologo=true' },
+      { title: 'ELECTRICAL ENCLOSURES', desc: 'Cabinetry for circuit breakers and switchboards.', image: 'https://image.pollinations.ai/prompt/steel%20electrical%20enclosure?width=800&height=600&nologo=true' },
+      { title: 'AUTOMOTIVE PANELS', desc: 'Re-stamped into vehicle doors, hoods, and fenders.', image: 'https://image.pollinations.ai/prompt/automotive%20body%20panels?width=800&height=600&nologo=true' }
+    ],
+    'aluminum-radiators-talk-scrap': [
+      { title: 'NEW HEAT EXCHANGERS', desc: 'Closed-loop recycling back into automotive radiators.', image: 'https://image.pollinations.ai/prompt/automotive%20aluminum%20radiator?width=800&height=600&nologo=true' },
+      { title: 'AIR CONDITIONING COILS', desc: 'Re-extruded into high-efficiency HVAC cooling fins.', image: 'https://image.pollinations.ai/prompt/aluminum%20hvac%20coils?width=800&height=600&nologo=true' },
+      { title: 'AEROSPACE COOLING', desc: 'Lightweight thermal management systems for aircraft.', image: 'https://image.pollinations.ai/prompt/aerospace%20cooling%20system?width=800&height=600&nologo=true' },
+      { title: 'ELECTRONIC HEATSINKS', desc: 'Computer and LED thermal dissipation components.', image: 'https://image.pollinations.ai/prompt/aluminum%20electronic%20heatsink?width=800&height=600&nologo=true' }
+    ],
+    'used-beverage-can-ubc-scrap': [
+      { title: 'CAN-TO-CAN RECYCLING', desc: 'Melted and rolled into new beverage cans within 60 days.', image: 'https://image.pollinations.ai/prompt/aluminum%20beverage%20cans%20factory?width=800&height=600&nologo=true' },
+      { title: 'FOOD PACKAGING', desc: 'Foil containers and sealable lids for perishables.', image: 'https://image.pollinations.ai/prompt/aluminum%20food%20packaging?width=800&height=600&nologo=true' },
+      { title: 'BICYCLE COMPONENTS', desc: 'Alloyed into lightweight consumer sporting goods.', image: 'https://image.pollinations.ai/prompt/aluminum%20bicycle%20parts?width=800&height=600&nologo=true' },
+      { title: 'CONSUMER ELECTRONICS', desc: 'Recycled into smartphone casings and laptop bodies.', image: 'https://image.pollinations.ai/prompt/aluminum%20laptop%20casing?width=800&height=600&nologo=true' }
+    ],
+    'aluminum-cables-scrap': [
+      { title: 'POWER GRID EXPANSION', desc: 'Re-drawn into high-voltage electrical transmission lines.', image: 'https://image.pollinations.ai/prompt/aluminum%20electrical%20transmission%20cables?width=800&height=600&nologo=true' },
+      { title: 'TRANSFORMER WINDINGS', desc: 'Used in electrical transformers as a copper alternative.', image: 'https://image.pollinations.ai/prompt/electrical%20transformer%20windings?width=800&height=600&nologo=true' },
+      { title: 'WELDING WIRE', desc: 'Manufactured into consumable MIG/TIG welding wire.', image: 'https://image.pollinations.ai/prompt/aluminum%20welding%20wire?width=800&height=600&nologo=true' },
+      { title: 'AUTOMOTIVE WIRING', desc: 'Lightweight wiring harnesses for electric vehicles.', image: 'https://image.pollinations.ai/prompt/automotive%20wire%20harness?width=800&height=600&nologo=true' }
+    ],
+    'cast-aluminum-tense-scrap': [
+      { title: 'ENGINE BLOCKS', desc: 'Melted to cast lightweight automotive engines and transmissions.', image: 'https://image.pollinations.ai/prompt/aluminum%20engine%20block?width=800&height=600&nologo=true' },
+      { title: 'PUMP HOUSINGS', desc: 'Corrosion-resistant casings for industrial fluid pumps.', image: 'https://image.pollinations.ai/prompt/aluminum%20pump%20housing?width=800&height=600&nologo=true' },
+      { title: 'COOKWARE', desc: 'Cast into premium frying pans and heavy-duty pots.', image: 'https://image.pollinations.ai/prompt/cast%20aluminum%20cookware?width=800&height=600&nologo=true' },
+      { title: 'OUTDOOR FURNITURE', desc: 'Weather-proof cast patio furniture and lighting fixtures.', image: 'https://image.pollinations.ai/prompt/cast%20aluminum%20patio%20furniture?width=800&height=600&nologo=true' }
+    ],
+    'aluminium-wire-scrap': [
+      { title: 'COAXIAL CABLES', desc: 'Shielding and conductors for telecommunication lines.', image: 'https://image.pollinations.ai/prompt/aluminum%20coaxial%20cable?width=800&height=600&nologo=true' },
+      { title: 'FENCING MESH', desc: 'Rust-proof chain link fencing and agricultural netting.', image: 'https://image.pollinations.ai/prompt/aluminum%20chain%20link%20fence?width=800&height=600&nologo=true' },
+      { title: 'RIVETS & FASTENERS', desc: 'Cold-headed into lightweight aerospace and automotive rivets.', image: 'https://image.pollinations.ai/prompt/aluminum%20rivets?width=800&height=600&nologo=true' },
+      { title: 'ANTENNA SYSTEMS', desc: 'Fabricated into rigid TV, radio, and satellite antennas.', image: 'https://image.pollinations.ai/prompt/aluminum%20satellite%20antenna?width=800&height=600&nologo=true' }
+    ],
+    'aluminium-6063-scrap': [
+      { title: 'ARCHITECTURAL FRAMES', desc: 'Extruded directly back into premium window and door frames.', image: 'https://image.pollinations.ai/prompt/aluminum%20window%20frames?width=800&height=600&nologo=true' },
+      { title: 'SOLAR PANEL MOUNTS', desc: 'Structural rails and racking for photovoltaic arrays.', image: 'https://image.pollinations.ai/prompt/aluminum%20solar%20panel%20mounts?width=800&height=600&nologo=true' },
+      { title: 'HEAT SINKS', desc: 'Custom extruded thermal management for LEDs and CPUs.', image: 'https://image.pollinations.ai/prompt/extruded%20aluminum%20heatsink?width=800&height=600&nologo=true' },
+      { title: 'MARINE RAILINGS', desc: 'Corrosion-resistant boarding ladders and boat railings.', image: 'https://image.pollinations.ai/prompt/aluminum%20boat%20railings?width=800&height=600&nologo=true' }
+    ]
+  };
+
+  let appSet = specificMetalApps[key];
+  if (!appSet) {
+    appSet = categoryAppsMap[categoryName] || categoryAppsMap['Default'];
+  }
+
   const icons = ['Package', 'Car', 'Settings', 'Trash2'];
 
   return {
