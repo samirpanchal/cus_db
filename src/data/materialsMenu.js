@@ -139,7 +139,7 @@ export const materialsMenu = [
         ]
       },
       {
-        "name": "HMS Scrap",
+        "name": "HMS and Mild steel scrap",
         "subcategories": [
           {
             "name": "HMS 1 Scrap"
@@ -149,6 +149,21 @@ export const materialsMenu = [
           },
           {
             "name": "HMS 2 Scrap"
+          },
+          {
+            "name": "MS Sheet Fabrication Scrap"
+          },
+          {
+            "name": "MS Turning Scrap"
+          },
+          {
+            "name": "MS Forging Scrap"
+          },
+          {
+            "name": "MS Angles"
+          },
+          {
+            "name": "MS Sheet Stamping Scrap"
           }
         ]
       },
@@ -172,26 +187,6 @@ export const materialsMenu = [
           },
           {
             "name": "Aluminium 6063 Scrap"
-          }
-        ]
-      },
-      {
-        "name": "Mild Steel Scrap",
-        "subcategories": [
-          {
-            "name": "MS Sheet Fabrication Scrap"
-          },
-          {
-            "name": "MS Turning Scrap"
-          },
-          {
-            "name": "MS Forging Scrap"
-          },
-          {
-            "name": "MS Angles"
-          },
-          {
-            "name": "MS Sheet Stamping Scrap"
           }
         ]
       }
