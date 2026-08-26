@@ -721,7 +721,7 @@ export const getProductDetail = (slug, rawName) => {
   
   let categoryName = 'Plastics Division';
   let taglineText = 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY';
-  let heroImage = '/images/plastic_scrap_premium.png';
+  let heroImage = 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=800&auto=format&fit=crop';
 
   if (slug.includes('lump')) {
     categoryName = 'Plastic Lumps';
@@ -730,39 +730,39 @@ export const getProductDetail = (slug, rawName) => {
   } else if (slug.includes('bale')) {
     categoryName = 'Bales';
     taglineText = 'HIGH DENSITY PRESSED BALES FOR LARGE SCALE RECYCLING';
-    heroImage = '/images/tyre_scrap_premium.png';
+    heroImage = 'https://images.unsplash.com/photo-1527016021513-b09758b777bd?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('regranulate')) {
     categoryName = 'Regranulate';
     taglineText = 'UNIFORM EXTRUDED RECYCLED POLYMER PELLETS';
-    heroImage = '/images/plastics_scrap.png';
+    heroImage = 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('sheet')) {
     categoryName = 'Sheets';
     taglineText = 'EXTRUDED THERMOFORMING & FABRICATION SHEETS';
-    heroImage = '/images/paper_scrap_premium.png';
+    heroImage = 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('dop') || slug.includes('dbp') || slug.includes('doa') || slug.includes('esbo')) {
     categoryName = 'Plastisizers';
     taglineText = 'HIGH PURITY CHEMICAL PLASTICIZER SOLVENTS';
-    heroImage = '/images/plastic_scrap_premium.png';
+    heroImage = 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('polymer') || slug.includes('resin') || slug.includes('granule') || slug.includes('titanium') || slug.includes('zinc')) {
     categoryName = 'Polymers';
     taglineText = 'REPROCESSED & PRIME VIRGIN GRADE POLYMER PELLETS';
-    heroImage = '/images/plastics_scrap.png';
+    heroImage = 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('abs') || slug.includes('pa6') || slug.includes('pc') || slug.includes('pmma') || slug.includes('pom') || slug.includes('pbt') || slug.includes('ptfe')) {
     categoryName = 'Technical Plastic';
     taglineText = 'HIGH-PERFORMANCE ENGINEERING & TECHNICAL POLYMERS';
-    heroImage = '/images/ewaste_scrap_premium.png';
+    heroImage = 'https://images.unsplash.com/photo-1550009158-9effb6623347?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('off-grade')) {
     categoryName = 'Off Grade';
     taglineText = 'NEAR-PRIME INDUSTRIAL OFF-GRADE RESIN LOTS';
-    heroImage = '/images/plastic_scrap_premium.png';
+    heroImage = 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('non-prime')) {
     categoryName = 'Non Prime';
     taglineText = 'SECONDARY NON-PRIME POLYMER COMMODITY LOTS';
-    heroImage = '/images/hero_logistics_premium.png';
+    heroImage = 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('near-prime')) {
     categoryName = 'Near Prime';
     taglineText = 'NEAR-VIRGIN PRIME GRADE REPROCESSED RESINS';
-    heroImage = '/images/plastics_scrap.png';
+    heroImage = 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop';
   }
 
   const categoryAppsMap = {
