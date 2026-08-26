@@ -723,6 +723,23 @@ export const getProductDetail = (slug, rawName) => {
   let taglineText = 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY';
   let heroImage = 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=800&auto=format&fit=crop';
 
+  let isMetal = false;
+  if (slug.includes('ss-') || slug.includes('stainless')) {
+    categoryName = 'Stainless Steel Scrap';
+    taglineText = 'HIGH-GRADE STAINLESS STEEL ALLOY SCRAP';
+    heroImage = 'https://images.unsplash.com/photo-1599839619722-39751411ea63?q=80&w=800&auto=format&fit=crop';
+    isMetal = true;
+  } else if (slug.includes('hms') || slug.includes('ms-') || slug.includes('shredded') || slug.includes('steel')) {
+    categoryName = 'HMS & Mild Steel Scrap';
+    taglineText = 'PREMIUM HEAVY MELTING & MILD STEEL SCRAP';
+    heroImage = 'https://images.unsplash.com/photo-1563721387249-144bd35a0ccf?q=80&w=800&auto=format&fit=crop';
+    isMetal = true;
+  } else if (slug.includes('aluminum') || slug.includes('aluminium') || slug.includes('ubc') || slug.includes('radiator') || slug.includes('tense')) {
+    categoryName = 'Aluminium Scrap';
+    taglineText = 'CLEAN RECYCLABLE ALUMINIUM SCRAP METALS';
+    heroImage = 'https://images.unsplash.com/photo-1563220468-b394fb0cd222?q=80&w=800&auto=format&fit=crop';
+    isMetal = true;
+  } else 
   if (slug.includes('lump')) {
     categoryName = 'Plastic Lumps';
     taglineText = 'DENSE EXTRUSION & INJECTION PURGING LUMPS';
@@ -802,7 +819,26 @@ export const getProductDetail = (slug, rawName) => {
       { title: 'PRECISION WEAR GEARS', desc: 'Self-lubricating mechanical gears, sliding fasteners, and bearings.', image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop' },
       { title: 'SAFETY GLAZING & LIGHTING', desc: 'Optically clear polycarbonate shields and LED diffusers.', image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop' }
     ],
-    'Default': [
+    
+    'Stainless Steel Scrap': [
+      { title: 'INDUSTRIAL PIPING & VALVES', desc: 'Recycled into high-pressure pipes, valves, and industrial fluid systems.', image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=800&auto=format&fit=crop' },
+      { title: 'MEDICAL & FOOD EQUIPMENT', desc: 'Repurposed for sanitary medical tools and commercial kitchen surfaces.', image: 'https://images.unsplash.com/photo-1574347719702-861fbc34d8fb?q=80&w=800&auto=format&fit=crop' },
+      { title: 'AUTOMOTIVE EXHAUST SYSTEMS', desc: 'Used in manufacturing durable, heat-resistant exhaust pipes and mufflers.', image: 'https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?q=80&w=800&auto=format&fit=crop' },
+      { title: 'ARCHITECTURAL CLADDING', desc: 'Processed into structural panels and decorative architectural facades.', image: 'https://images.unsplash.com/photo-1598463567823-388274d81297?q=80&w=800&auto=format&fit=crop' }
+    ],
+    'HMS & Mild Steel Scrap': [
+      { title: 'STRUCTURAL STEEL BEAMS', desc: 'Melted down to produce heavy-duty I-beams for commercial construction.', image: 'https://images.unsplash.com/photo-1505374465893-97992982d6b3?q=80&w=800&auto=format&fit=crop' },
+      { title: 'AUTOMOTIVE CHASSIS COMPONENTS', desc: 'Recycled into strong steel frames and undercarriage parts for vehicles.', image: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800&auto=format&fit=crop' },
+      { title: 'REINFORCING REBAR', desc: 'Processed into concrete reinforcing bars for infrastructure projects.', image: 'https://images.unsplash.com/photo-1520697268571-08f3b2dd0a56?q=80&w=800&auto=format&fit=crop' },
+      { title: 'HEAVY MACHINERY CASTINGS', desc: 'Used as raw material for industrial machinery and agricultural equipment.', image: 'https://images.unsplash.com/photo-1501705353147-380d3ce3a00c?q=80&w=800&auto=format&fit=crop' }
+    ],
+    'Aluminium Scrap': [
+      { title: 'AEROSPACE & AUTOMOTIVE ALLOYS', desc: 'Recycled into lightweight structural components for planes and cars.', image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=800&auto=format&fit=crop' },
+      { title: 'BEVERAGE CAN PRODUCTION', desc: 'Closed-loop recycling into new aluminum cans and food packaging.', image: 'https://images.unsplash.com/photo-1557007788-b2dc40d9cbce?q=80&w=800&auto=format&fit=crop' },
+      { title: 'ELECTRICAL TRANSMISSION LINES', desc: 'Processed into conductive wire and cable for power grids.', image: 'https://images.unsplash.com/photo-1592661559902-602c32cf9768?q=80&w=800&auto=format&fit=crop' },
+      { title: 'WINDOW FRAMES & EXTRUSIONS', desc: 'Extruded into architectural frames and structural building materials.', image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop' }
+    ],
+'Default': [
       { title: 'INJECTION MOLDED COMPONENTS', desc: 'Precision industrial injection molded parts.', image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop' },
       { title: 'EXTRUDED PROFILES & PIPING', desc: 'Durable extruded profiles and industrial piping.', image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop' },
       { title: 'PACKAGING FILMS & BAGS', desc: 'High-strength flexible packaging films.', image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop' },
@@ -821,7 +857,12 @@ export const getProductDetail = (slug, rawName) => {
     sourceText: `Commercial studio product photography of ${formattedName}, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.`,
     category: categoryName,
     heroImage: heroImage,
-    badges: [
+    badges: isMetal ? [
+      { id: 1, title: 'ISRI COMPLIANT', icon: 'ShieldCheck', desc: 'Adheres to strict international scrap specifications.' },
+      { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Crucial for lowering carbon emissions in metallurgy.' },
+      { id: 3, title: 'HIGH YIELD', icon: 'Settings', desc: 'Dense, clean scrap maximizing furnace melt yields.' },
+      { id: 4, title: 'COST EFFECTIVE', icon: 'Leaf', desc: 'Reduces virgin ore dependency.' }
+    ] : [
       { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Lab-tested polymer density & purity.' },
       { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Sustainable circular economy commodity.' },
       { id: 3, title: 'INDUSTRIAL GRADE', icon: 'Settings', desc: 'High tensile strength & thermal stability.' },
@@ -835,7 +876,16 @@ export const getProductDetail = (slug, rawName) => {
       desc: app.desc,
       image: app.image
     })),
-    specifications: [
+    specifications: isMetal ? [
+      { label: 'Material Name', value: formattedName },
+      { label: 'Form', value: 'Loose Scrap / Baled / Shredded' },
+      { label: 'Origin Source', value: 'Post-Consumer / Post-Industrial' },
+      { label: 'Purity Level', value: 'ISRI Standard Grade Compliant' },
+      { label: 'Contaminants', value: 'Free from harmful radiation & excessive dirt' },
+      { label: 'Moisture/Oil', value: '< 1% (Dry and Clean)' },
+      { label: 'Packaging', value: 'Loose in 20ft/40ft Containers or Bundled' },
+      { label: 'Min Order Qty', value: '1 x 20ft Container (approx. 20-25 MT)' }
+    ] : [
       { label: 'Material Name', value: formattedName },
       { label: 'Form', value: 'Flakes / Regrind / Pellets / Lumps / Bales' },
       { label: 'Origin Source', value: 'Certified Post-Industrial Stream' },
