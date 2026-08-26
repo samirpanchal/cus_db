@@ -115,15 +115,6 @@ export const materialsMenu = [
             "name": "PMMA (PolyMethylMethAcrylate)"
           },
           {
-            "name": "POM (PolyOxy Methylene)"
-          },
-          {
-            "name": "PBT (PolyButyleneTerephthalate)"
-          },
-          {
-            "name": "PTFE (Polytetrafluoroethylene)"
-          },
-          {
             "name": "PC+ABS PolyCarbonate (PC) and Acrylonitrile Butadiene Styrene (ABS)"
           }
         ]
