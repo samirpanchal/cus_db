@@ -139,7 +139,7 @@ export const materialsMenu = [
         ]
       },
       {
-        "name": "HMS and Mild steel scrap",
+        "name": "HMS and Mild Steel Scrap",
         "subcategories": [
           {
             "name": "HMS 1 Scrap"
