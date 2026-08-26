@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { getProductDetail } from '../data/productDetailsData';
 import { 
@@ -34,6 +34,7 @@ const getIconComponent = (iconName) => {
 
 const ProductDetail = () => {
   const { slug } = useParams();
+  const navigate = useNavigate();
   const currentSlug = slug || 'polypropylene-pp-scrap';
   
   // Format readable title from slug if needed
@@ -54,9 +55,9 @@ const ProductDetail = () => {
       <div style={{ backgroundColor: '#1e293b', borderBottom: '1px solid #334155', padding: '1rem 0' }}>
         <div className="container" style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontSize: '0.9rem', color: '#94a3b8' }}>
-            <Link to="/materials" style={{ color: '#2ecc71', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontWeight: 600 }}>
+            <button onClick={() => navigate(-1)} style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: '#2ecc71', display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontWeight: 600 }}>
               <ArrowLeft size={16} /> Back to Materials
-            </Link>
+            </button>
             <span>/</span>
             <span>{product.category}</span>
             <span>/</span>
