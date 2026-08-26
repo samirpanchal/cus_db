@@ -38,9 +38,6 @@ export const materialsMenu = [
             "name": "High Impact Polystyrene - PS Regrind"
           },
           {
-            "name": "Polyethylene terephthalate - PET Regrind"
-          },
-          {
             "name": "Polyethylene terephthalate- PET Hot Washed Flakes"
           }
         ]
