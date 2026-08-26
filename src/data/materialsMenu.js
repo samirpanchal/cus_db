@@ -120,55 +120,6 @@ export const materialsMenu = [
         ]
       },
       {
-        "name": "Plastisizers",
-        "subcategories": [
-          {
-            "name": "DOP"
-          },
-          {
-            "name": "DBP"
-          },
-          {
-            "name": "DOA"
-          },
-          {
-            "name": "ESBO"
-          }
-        ]
-      },
-      {
-        "name": "Polymers",
-        "subcategories": [
-          {
-            "name": "Polyvinyl Chloride - PVC Resin"
-          },
-          {
-            "name": "PVC Compounds"
-          },
-          {
-            "name": "Titanium Dioxide (Anatase Grade)"
-          },
-          {
-            "name": "Plastic Granules"
-          },
-          {
-            "name": "Zinc Oxide"
-          },
-          {
-            "name": "High Impact Polystyrene Prime"
-          },
-          {
-            "name": "Polypropylene -PP Polymers"
-          },
-          {
-            "name": "Polyethylene -PE Polymers"
-          },
-          {
-            "name": "Polyethylene terephthalate - PET Prime"
-          }
-        ]
-      },
-      {
         "name": "Technical Plastic",
         "subcategories": [
           {
@@ -196,71 +147,12 @@ export const materialsMenu = [
             "name": "PC+ABS PolyCarbonate (PC) and Acrylonitrile Butadiene Styrene (ABS)"
           }
         ]
-      },
-      {
-        "name": "Off Grade",
-        "subcategories": [
-          {
-            "name": "Polypropylene - PP Off Grade"
-          },
-          {
-            "name": "Polyethylene - PE Off Grade"
-          },
-          {
-            "name": "Polyvinyl Chloride - PVC Off Grade"
-          },
-          {
-            "name": "Polyethylene Terephthalate - PET Off Grade"
-          },
-          {
-            "name": "High Impact Polystyrene PS Off Grade"
-          }
-        ]
-      },
-      {
-        "name": "Non Prime",
-        "subcategories": [
-          {
-            "name": "Polyethylene -PE Non Prime"
-          },
-          {
-            "name": "Polyvinyl Chloride Non Prime"
-          },
-          {
-            "name": "High Impact Polystyrene Non Prime"
-          },
-          {
-            "name": "Polyethylene Terephthalate - PET Non Prime"
-          }
-        ]
-      },
-      {
-        "name": "Near Prime",
-        "subcategories": [
-          {
-            "name": "Polypropylene - PP Near Prime"
-          },
-          {
-            "name": "Polyethylene - PE Near Prime"
-          },
-          {
-            "name": "Polyvinyl Chloride Near Prime"
-          },
-          {
-            "name": "High Impact Polystyrene Near Prime"
-          },
-          {
-            "name": "Polyethylene Terephthalate - PET Near Prime"
-          }
-        ]
       }
     ]
   },
   {
     "name": "Metals",
     "subcategories": [
-
-
       {
         "name": "Stainless Steel Scrap",
         "subcategories": [
@@ -315,7 +207,6 @@ export const materialsMenu = [
           }
         ]
       },
-
       {
         "name": "Mild Steel Scrap",
         "subcategories": [
@@ -338,7 +229,6 @@ export const materialsMenu = [
       }
     ]
   },
-
   {
     "name": "Used Tyre / Tire Scrap",
     "subcategories": [
