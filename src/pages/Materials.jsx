@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { materialsMenu } from '../data/materialsMenu';
 import { Layers, ArrowRight } from 'lucide-react';
@@ -19,7 +19,14 @@ const getCategoryImage = (catName) => {
 };
 
 const Materials = () => {
-  const [activeCategoryIndex, setActiveCategoryIndex] = useState(0);
+  const [activeCategoryIndex, setActiveCategoryIndex] = useState(() => {
+    const saved = sessionStorage.getItem('activeMaterialCategory');
+    return saved !== null ? parseInt(saved, 10) : 0;
+  });
+
+  useEffect(() => {
+    sessionStorage.setItem('activeMaterialCategory', activeCategoryIndex);
+  }, [activeCategoryIndex]);
 
   const activeCategory = materialsMenu[activeCategoryIndex];
 
