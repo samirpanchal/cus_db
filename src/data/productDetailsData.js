@@ -694,8 +694,8 @@ export const productDetailsData = {
     applications: [
       { id: 1, title: 'AUTOMOTIVE INTERIOR COMPONENTS', icon: 'Battery', desc: 'Molded black plastic automotive interior trim components and dashboards.', image: '/images/pe_regranulate_app1.jpg' },
       { id: 2, title: 'HIGH-STRENGTH LINERS & FILM', icon: 'Package', desc: 'Heavy duty industrial trash bag rolls and agricultural plastic film.', image: '/images/pe_regranulate_app2.jpg' },
-      { id: 3, title: 'ELECTRICAL WIRE JACKETING', icon: 'Settings', desc: 'Flexible wire insulation and soft shoe soles.', image: 'https://image.pollinations.ai/prompt/ELECTRICAL%20WIRE%20JACKETING%20industrial%20plastic%20scrap?width=800&height=600&nologo=true' },
-      { id: 4, title: 'CARBONATED BEVERAGE BOTTLES', icon: 'Trash2', desc: 'Crystal-clear rPET beverage bottles and egg cartons.', image: 'https://image.pollinations.ai/prompt/CARBONATED%20BEVERAGE%20BOTTLES%20industrial%20plastic%20scrap?width=800&height=600&nologo=true' }
+      { id: 3, title: 'ELECTRICAL WIRE JACKETING', icon: 'Settings', desc: 'Flexible wire insulation and soft shoe soles.', image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop' },
+      { id: 4, title: 'CARBONATED BEVERAGE BOTTLES', icon: 'Trash2', desc: 'Crystal-clear rPET beverage bottles and egg cartons.', image: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=800&auto=format&fit=crop' }
     ],
     specifications: [
       { label: 'Material Name', value: 'Polyethylene -PE Regranulate' },
@@ -721,7 +721,7 @@ export const getProductDetail = (slug, rawName) => {
   
   let categoryName = 'Plastics Division';
   let taglineText = 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY';
-  let heroImage = `https://image.pollinations.ai/prompt/industrial%20plastic%20scrap%20${encodeURIComponent(formattedName)}?width=800&height=600&nologo=true`;
+  let heroImage = 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=800&auto=format&fit=crop';
 
   let isMetal = false;
   if (slug.includes('ss-') || slug.includes('stainless')) {
@@ -743,106 +743,106 @@ export const getProductDetail = (slug, rawName) => {
   if (slug.includes('lump')) {
     categoryName = 'Plastic Lumps';
     taglineText = 'DENSE EXTRUSION & INJECTION PURGING LUMPS';
-    heroImage = `https://image.pollinations.ai/prompt/industrial%20plastic%20scrap%20${encodeURIComponent(formattedName)}?width=800&height=600&nologo=true`;
+    heroImage = 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('bale')) {
     categoryName = 'Bales';
     taglineText = 'HIGH DENSITY PRESSED BALES FOR LARGE SCALE RECYCLING';
-    heroImage = `https://image.pollinations.ai/prompt/industrial%20plastic%20scrap%20${encodeURIComponent(formattedName)}?width=800&height=600&nologo=true`;
+    heroImage = 'https://images.unsplash.com/photo-1527016021513-b09758b777bd?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('regranulate')) {
     categoryName = 'Regranulate';
     taglineText = 'UNIFORM EXTRUDED RECYCLED POLYMER PELLETS';
-    heroImage = `https://image.pollinations.ai/prompt/industrial%20plastic%20scrap%20${encodeURIComponent(formattedName)}?width=800&height=600&nologo=true`;
+    heroImage = 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('sheet')) {
     categoryName = 'Sheets';
     taglineText = 'EXTRUDED THERMOFORMING & FABRICATION SHEETS';
-    heroImage = `https://image.pollinations.ai/prompt/industrial%20plastic%20scrap%20${encodeURIComponent(formattedName)}?width=800&height=600&nologo=true`;
+    heroImage = 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('dop') || slug.includes('dbp') || slug.includes('doa') || slug.includes('esbo')) {
     categoryName = 'Plastisizers';
     taglineText = 'HIGH PURITY CHEMICAL PLASTICIZER SOLVENTS';
-    heroImage = `https://image.pollinations.ai/prompt/industrial%20plastic%20scrap%20${encodeURIComponent(formattedName)}?width=800&height=600&nologo=true`;
+    heroImage = 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('polymer') || slug.includes('resin') || slug.includes('granule') || slug.includes('titanium') || slug.includes('zinc')) {
     categoryName = 'Polymers';
     taglineText = 'REPROCESSED & PRIME VIRGIN GRADE POLYMER PELLETS';
-    heroImage = `https://image.pollinations.ai/prompt/industrial%20plastic%20scrap%20${encodeURIComponent(formattedName)}?width=800&height=600&nologo=true`;
+    heroImage = 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('abs') || slug.includes('pa6') || slug.includes('pc') || slug.includes('pmma') || slug.includes('pom') || slug.includes('pbt') || slug.includes('ptfe')) {
     categoryName = 'Technical Plastic';
     taglineText = 'HIGH-PERFORMANCE ENGINEERING & TECHNICAL POLYMERS';
-    heroImage = `https://image.pollinations.ai/prompt/industrial%20plastic%20scrap%20${encodeURIComponent(formattedName)}?width=800&height=600&nologo=true`;
+    heroImage = 'https://images.unsplash.com/photo-1550009158-9effb6623347?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('off-grade')) {
     categoryName = 'Off Grade';
     taglineText = 'NEAR-PRIME INDUSTRIAL OFF-GRADE RESIN LOTS';
-    heroImage = `https://image.pollinations.ai/prompt/industrial%20plastic%20scrap%20${encodeURIComponent(formattedName)}?width=800&height=600&nologo=true`;
+    heroImage = 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('non-prime')) {
     categoryName = 'Non Prime';
     taglineText = 'SECONDARY NON-PRIME POLYMER COMMODITY LOTS';
-    heroImage = `https://image.pollinations.ai/prompt/industrial%20plastic%20scrap%20${encodeURIComponent(formattedName)}?width=800&height=600&nologo=true`;
+    heroImage = 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?q=80&w=800&auto=format&fit=crop';
   } else if (slug.includes('near-prime')) {
     categoryName = 'Near Prime';
     taglineText = 'NEAR-VIRGIN PRIME GRADE REPROCESSED RESINS';
-    heroImage = `https://image.pollinations.ai/prompt/industrial%20plastic%20scrap%20${encodeURIComponent(formattedName)}?width=800&height=600&nologo=true`;
+    heroImage = 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop';
   }
 
   const categoryAppsMap = {
     'Plastic Lumps': [
-      { title: 'HEAVY-DUTY INDUSTRIAL PALLETS', desc: 'Molded returnable industrial transport pallets.', image: 'https://image.pollinations.ai/prompt/HEAVY-DUTY%20INDUSTRIAL%20PALLETS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'PROFILE EXTRUSION SHEET', desc: 'Thick industrial sheet and profile extrusion compounding.', image: 'https://image.pollinations.ai/prompt/PROFILE%20EXTRUSION%20SHEET%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'UNDERGROUND UTILITY COVERING', desc: 'Heavy subterranean cable covers and septic tanks.', image: 'https://image.pollinations.ai/prompt/UNDERGROUND%20UTILITY%20COVERING%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'STURDY STORAGE CRATES', desc: 'Rugged molded toolboxes and logistics tote containers.', image: 'https://image.pollinations.ai/prompt/STURDY%20STORAGE%20CRATES%20industrial%20scrap?width=800&height=600&nologo=true' }
+      { title: 'HEAVY-DUTY INDUSTRIAL PALLETS', desc: 'Molded returnable industrial transport pallets.', image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop' },
+      { title: 'PROFILE EXTRUSION SHEET', desc: 'Thick industrial sheet and profile extrusion compounding.', image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop' },
+      { title: 'UNDERGROUND UTILITY COVERING', desc: 'Heavy subterranean cable covers and septic tanks.', image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop' },
+      { title: 'STURDY STORAGE CRATES', desc: 'Rugged molded toolboxes and logistics tote containers.', image: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=800&auto=format&fit=crop' }
     ],
     'Bales': [
-      { title: 'BOTTLE-TO-BOTTLE RECYCLING', desc: 'Large scale washing and automated optical sorting plants.', image: 'https://image.pollinations.ai/prompt/BOTTLE-TO-BOTTLE%20RECYCLING%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'SYNTHETIC TEXTILE FLEECE', desc: 'Spinning polyester staple fibers for garments and blankets.', image: 'https://image.pollinations.ai/prompt/SYNTHETIC%20TEXTILE%20FLEECE%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'AGRICULTURAL WOVEN SACKS', desc: 'High-strength woven sacks and agricultural twine.', image: 'https://image.pollinations.ai/prompt/AGRICULTURAL%20WOVEN%20SACKS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'THERMAL INSULATION BOARDS', desc: 'Architectural decorative moldings and shock absorbers.', image: 'https://image.pollinations.ai/prompt/THERMAL%20INSULATION%20BOARDS%20industrial%20scrap?width=800&height=600&nologo=true' }
+      { title: 'BOTTLE-TO-BOTTLE RECYCLING', desc: 'Large scale washing and automated optical sorting plants.', image: 'https://images.unsplash.com/photo-1527016021513-b09758b777bd?q=80&w=800&auto=format&fit=crop' },
+      { title: 'SYNTHETIC TEXTILE FLEECE', desc: 'Spinning polyester staple fibers for garments and blankets.', image: 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?q=80&w=800&auto=format&fit=crop' },
+      { title: 'AGRICULTURAL WOVEN SACKS', desc: 'High-strength woven sacks and agricultural twine.', image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=800&auto=format&fit=crop' },
+      { title: 'THERMAL INSULATION BOARDS', desc: 'Architectural decorative moldings and shock absorbers.', image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop' }
     ],
     'Regranulate': [
-      { title: 'AUTOMOTIVE INTERIOR COMPONENTS', desc: 'Molded dashboard trim, fastener clips, and rivets.', image: 'https://image.pollinations.ai/prompt/AUTOMOTIVE%20INTERIOR%20COMPONENTS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'HIGH-STRENGTH LINERS & FILM', desc: 'Refuse bags, shrink wrap packaging, and agricultural films.', image: 'https://image.pollinations.ai/prompt/HIGH-STRENGTH%20LINERS%20%26%20FILM%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'ELECTRICAL WIRE JACKETING', desc: 'Flexible wire insulation and soft shoe soles.', image: 'https://image.pollinations.ai/prompt/ELECTRICAL%20WIRE%20JACKETING%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'CARBONATED BEVERAGE BOTTLES', desc: 'Crystal-clear rPET beverage bottles and egg cartons.', image: 'https://image.pollinations.ai/prompt/CARBONATED%20BEVERAGE%20BOTTLES%20industrial%20scrap?width=800&height=600&nologo=true' }
+      { title: 'AUTOMOTIVE INTERIOR COMPONENTS', desc: 'Molded dashboard trim, fastener clips, and rivets.', image: 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=800&auto=format&fit=crop' },
+      { title: 'HIGH-STRENGTH LINERS & FILM', desc: 'Refuse bags, shrink wrap packaging, and agricultural films.', image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop' },
+      { title: 'ELECTRICAL WIRE JACKETING', desc: 'Flexible wire insulation and soft shoe soles.', image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800&auto=format&fit=crop' },
+      { title: 'CARBONATED BEVERAGE BOTTLES', desc: 'Crystal-clear rPET beverage bottles and egg cartons.', image: 'https://images.unsplash.com/photo-1527016021513-b09758b777bd?q=80&w=800&auto=format&fit=crop' }
     ],
     'Sheets': [
-      { title: 'BAKERY & FRUIT CLAMSHELLS', desc: 'Thermoformed clear packaging trays and deli covers.', image: 'https://image.pollinations.ai/prompt/BAKERY%20%26%20FRUIT%20CLAMSHELLS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'CORRUGATED PACKAGING BOXES', desc: 'Waterproof floor protection and document folders.', image: 'https://image.pollinations.ai/prompt/CORRUGATED%20PACKAGING%20BOXES%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'ADVERTISING SIGNAGE BOARDS', desc: 'Vacuum-formed POS displays and wall cladding panels.', image: 'https://image.pollinations.ai/prompt/ADVERTISING%20SIGNAGE%20BOARDS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'INDUSTRIAL CUTTING BOARDS', desc: 'HDPE/UHMW-PE marine components and landfill geomembranes.', image: 'https://image.pollinations.ai/prompt/INDUSTRIAL%20CUTTING%20BOARDS%20industrial%20scrap?width=800&height=600&nologo=true' }
+      { title: 'BAKERY & FRUIT CLAMSHELLS', desc: 'Thermoformed clear packaging trays and deli covers.', image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop' },
+      { title: 'CORRUGATED PACKAGING BOXES', desc: 'Waterproof floor protection and document folders.', image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop' },
+      { title: 'ADVERTISING SIGNAGE BOARDS', desc: 'Vacuum-formed POS displays and wall cladding panels.', image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop' },
+      { title: 'INDUSTRIAL CUTTING BOARDS', desc: 'HDPE/UHMW-PE marine components and landfill geomembranes.', image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop' }
     ],
     'Plastisizers': [
-      { title: 'FLEXIBLE VINYL ARTIFICIAL LEATHER', desc: 'Waterproof vinyl upholstery and artificial leather fabrics.', image: 'https://image.pollinations.ai/prompt/FLEXIBLE%20VINYL%20ARTIFICIAL%20LEATHER%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'VINYL FLOOR TILES', desc: 'Flexible PVC floor mats and underlayments.', image: 'https://image.pollinations.ai/prompt/VINYL%20FLOOR%20TILES%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'MEDICAL FLUID TUBING & BAGS', desc: 'Medical-grade flexible PVC tubing and IV bags.', image: 'https://image.pollinations.ai/prompt/MEDICAL%20FLUID%20TUBING%20%26%20BAGS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'WIRE & CABLE COATING', desc: 'Flexible electrical cable sheathing and insulation.', image: 'https://image.pollinations.ai/prompt/WIRE%20%26%20CABLE%20COATING%20industrial%20scrap?width=800&height=600&nologo=true' }
+      { title: 'FLEXIBLE VINYL ARTIFICIAL LEATHER', desc: 'Waterproof vinyl upholstery and artificial leather fabrics.', image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop' },
+      { title: 'VINYL FLOOR TILES', desc: 'Flexible PVC floor mats and underlayments.', image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop' },
+      { title: 'MEDICAL FLUID TUBING & BAGS', desc: 'Medical-grade flexible PVC tubing and IV bags.', image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop' },
+      { title: 'WIRE & CABLE COATING', desc: 'Flexible electrical cable sheathing and insulation.', image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800&auto=format&fit=crop' }
     ],
     'Technical Plastic': [
-      { title: 'AUTOMOTIVE UNDER-HOOD PARTS', desc: 'Engine intake manifolds, grilles, and sensor housings.', image: 'https://image.pollinations.ai/prompt/AUTOMOTIVE%20UNDER-HOOD%20PARTS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'ELECTRONICS & COMPUTERS', desc: 'Laptop chassis, keyboard keys, and power tool housings.', image: 'https://image.pollinations.ai/prompt/ELECTRONICS%20%26%20COMPUTERS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'PRECISION WEAR GEARS', desc: 'Self-lubricating mechanical gears, sliding fasteners, and bearings.', image: 'https://image.pollinations.ai/prompt/PRECISION%20WEAR%20GEARS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'SAFETY GLAZING & LIGHTING', desc: 'Optically clear polycarbonate shields and LED diffusers.', image: 'https://image.pollinations.ai/prompt/SAFETY%20GLAZING%20%26%20LIGHTING%20industrial%20scrap?width=800&height=600&nologo=true' }
+      { title: 'AUTOMOTIVE UNDER-HOOD PARTS', desc: 'Engine intake manifolds, grilles, and sensor housings.', image: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=800&auto=format&fit=crop' },
+      { title: 'ELECTRONICS & COMPUTERS', desc: 'Laptop chassis, keyboard keys, and power tool housings.', image: 'https://images.unsplash.com/photo-1550009158-9effb6623347?q=80&w=800&auto=format&fit=crop' },
+      { title: 'PRECISION WEAR GEARS', desc: 'Self-lubricating mechanical gears, sliding fasteners, and bearings.', image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop' },
+      { title: 'SAFETY GLAZING & LIGHTING', desc: 'Optically clear polycarbonate shields and LED diffusers.', image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop' }
     ],
     
     'Stainless Steel Scrap': [
-      { title: 'INDUSTRIAL PIPING & VALVES', desc: 'Recycled into high-pressure pipes, valves, and industrial fluid systems.', image: 'https://image.pollinations.ai/prompt/INDUSTRIAL%20PIPING%20%26%20VALVES%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'MEDICAL & FOOD EQUIPMENT', desc: 'Repurposed for sanitary medical tools and commercial kitchen surfaces.', image: 'https://image.pollinations.ai/prompt/MEDICAL%20%26%20FOOD%20EQUIPMENT%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'AUTOMOTIVE EXHAUST SYSTEMS', desc: 'Used in manufacturing durable, heat-resistant exhaust pipes and mufflers.', image: 'https://image.pollinations.ai/prompt/AUTOMOTIVE%20EXHAUST%20SYSTEMS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'ARCHITECTURAL CLADDING', desc: 'Processed into structural panels and decorative architectural facades.', image: 'https://image.pollinations.ai/prompt/ARCHITECTURAL%20CLADDING%20industrial%20scrap?width=800&height=600&nologo=true' }
+      { title: 'INDUSTRIAL PIPING & VALVES', desc: 'Recycled into high-pressure pipes, valves, and industrial fluid systems.', image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=800&auto=format&fit=crop' },
+      { title: 'MEDICAL & FOOD EQUIPMENT', desc: 'Repurposed for sanitary medical tools and commercial kitchen surfaces.', image: 'https://images.unsplash.com/photo-1574347719702-861fbc34d8fb?q=80&w=800&auto=format&fit=crop' },
+      { title: 'AUTOMOTIVE EXHAUST SYSTEMS', desc: 'Used in manufacturing durable, heat-resistant exhaust pipes and mufflers.', image: 'https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?q=80&w=800&auto=format&fit=crop' },
+      { title: 'ARCHITECTURAL CLADDING', desc: 'Processed into structural panels and decorative architectural facades.', image: 'https://images.unsplash.com/photo-1598463567823-388274d81297?q=80&w=800&auto=format&fit=crop' }
     ],
     'HMS & Mild Steel Scrap': [
-      { title: 'STRUCTURAL STEEL BEAMS', desc: 'Melted down to produce heavy-duty I-beams for commercial construction.', image: 'https://image.pollinations.ai/prompt/STRUCTURAL%20STEEL%20BEAMS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'AUTOMOTIVE CHASSIS COMPONENTS', desc: 'Recycled into strong steel frames and undercarriage parts for vehicles.', image: 'https://image.pollinations.ai/prompt/AUTOMOTIVE%20CHASSIS%20COMPONENTS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'REINFORCING REBAR', desc: 'Processed into concrete reinforcing bars for infrastructure projects.', image: 'https://image.pollinations.ai/prompt/REINFORCING%20REBAR%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'HEAVY MACHINERY CASTINGS', desc: 'Used as raw material for industrial machinery and agricultural equipment.', image: 'https://image.pollinations.ai/prompt/HEAVY%20MACHINERY%20CASTINGS%20industrial%20scrap?width=800&height=600&nologo=true' }
+      { title: 'STRUCTURAL STEEL BEAMS', desc: 'Melted down to produce heavy-duty I-beams for commercial construction.', image: 'https://images.unsplash.com/photo-1505374465893-97992982d6b3?q=80&w=800&auto=format&fit=crop' },
+      { title: 'AUTOMOTIVE CHASSIS COMPONENTS', desc: 'Recycled into strong steel frames and undercarriage parts for vehicles.', image: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800&auto=format&fit=crop' },
+      { title: 'REINFORCING REBAR', desc: 'Processed into concrete reinforcing bars for infrastructure projects.', image: 'https://images.unsplash.com/photo-1520697268571-08f3b2dd0a56?q=80&w=800&auto=format&fit=crop' },
+      { title: 'HEAVY MACHINERY CASTINGS', desc: 'Used as raw material for industrial machinery and agricultural equipment.', image: 'https://images.unsplash.com/photo-1501705353147-380d3ce3a00c?q=80&w=800&auto=format&fit=crop' }
     ],
     'Aluminium Scrap': [
-      { title: 'AEROSPACE & AUTOMOTIVE ALLOYS', desc: 'Recycled into lightweight structural components for planes and cars.', image: 'https://image.pollinations.ai/prompt/AEROSPACE%20%26%20AUTOMOTIVE%20ALLOYS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'BEVERAGE CAN PRODUCTION', desc: 'Closed-loop recycling into new aluminum cans and food packaging.', image: 'https://image.pollinations.ai/prompt/BEVERAGE%20CAN%20PRODUCTION%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'ELECTRICAL TRANSMISSION LINES', desc: 'Processed into conductive wire and cable for power grids.', image: 'https://image.pollinations.ai/prompt/ELECTRICAL%20TRANSMISSION%20LINES%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'WINDOW FRAMES & EXTRUSIONS', desc: 'Extruded into architectural frames and structural building materials.', image: 'https://image.pollinations.ai/prompt/WINDOW%20FRAMES%20%26%20EXTRUSIONS%20industrial%20scrap?width=800&height=600&nologo=true' }
+      { title: 'AEROSPACE & AUTOMOTIVE ALLOYS', desc: 'Recycled into lightweight structural components for planes and cars.', image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=800&auto=format&fit=crop' },
+      { title: 'BEVERAGE CAN PRODUCTION', desc: 'Closed-loop recycling into new aluminum cans and food packaging.', image: 'https://images.unsplash.com/photo-1557007788-b2dc40d9cbce?q=80&w=800&auto=format&fit=crop' },
+      { title: 'ELECTRICAL TRANSMISSION LINES', desc: 'Processed into conductive wire and cable for power grids.', image: 'https://images.unsplash.com/photo-1592661559902-602c32cf9768?q=80&w=800&auto=format&fit=crop' },
+      { title: 'WINDOW FRAMES & EXTRUSIONS', desc: 'Extruded into architectural frames and structural building materials.', image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop' }
     ],
 'Default': [
-      { title: 'INJECTION MOLDED COMPONENTS', desc: 'Precision industrial injection molded parts.', image: 'https://image.pollinations.ai/prompt/INJECTION%20MOLDED%20COMPONENTS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'EXTRUDED PROFILES & PIPING', desc: 'Durable extruded profiles and industrial piping.', image: 'https://image.pollinations.ai/prompt/EXTRUDED%20PROFILES%20%26%20PIPING%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'PACKAGING FILMS & BAGS', desc: 'High-strength flexible packaging films.', image: 'https://image.pollinations.ai/prompt/PACKAGING%20FILMS%20%26%20BAGS%20industrial%20scrap?width=800&height=600&nologo=true' },
-      { title: 'AUTOMOTIVE & APPLIANCE TRIM', desc: 'Resilient automotive interior trim and appliance housings.', image: 'https://image.pollinations.ai/prompt/AUTOMOTIVE%20%26%20APPLIANCE%20TRIM%20industrial%20scrap?width=800&height=600&nologo=true' }
+      { title: 'INJECTION MOLDED COMPONENTS', desc: 'Precision industrial injection molded parts.', image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop' },
+      { title: 'EXTRUDED PROFILES & PIPING', desc: 'Durable extruded profiles and industrial piping.', image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop' },
+      { title: 'PACKAGING FILMS & BAGS', desc: 'High-strength flexible packaging films.', image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop' },
+      { title: 'AUTOMOTIVE & APPLIANCE TRIM', desc: 'Resilient automotive interior trim and appliance housings.', image: 'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=800&auto=format&fit=crop' }
     ]
   };
 
