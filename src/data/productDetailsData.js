@@ -847,52 +847,52 @@ export const getProductDetail = (slug, rawName) => {
   };
 
   
-    const specificMetalApps = {
+      const specificMetalApps = {
     'ss-316-scrap': [
       { title: 'MARINE HARDWARE', desc: 'Recycled into corrosion-resistant marine grade fittings.', image: '/images/app_ship.jpg' },
-      { title: 'PHARMACEUTICAL TANKS', desc: 'Melted for high-purity chemical and pharmaceutical storage.', image: '/images/app_surgical.jpg' },
-      { title: 'SURGICAL INSTRUMENTS', desc: 'High molybdenum content ideal for medical tool casting.', image: '/images/app_pipe.jpg' },
-      { title: 'COASTAL ARCHITECTURE', desc: 'Used for exposed structural bracing in high-salt environments.', image: '/images/app_factory.jpg' }
+      { title: 'PHARMACEUTICAL TANKS', desc: 'Melted for high-purity chemical and pharmaceutical storage.', image: '/images/app_factory.jpg' },
+      { title: 'SURGICAL INSTRUMENTS', desc: 'High molybdenum content ideal for medical tool casting.', image: '/images/app_surgical.jpg' },
+      { title: 'COASTAL ARCHITECTURE', desc: 'Used for exposed structural bracing in high-salt environments.', image: '/images/app_rebar.jpg' }
     ],
     'ss-304-scrap': [
       { title: 'KITCHEN APPLIANCES', desc: 'Recycled into high-end sinks and food preparation surfaces.', image: '/images/app_sink.jpg' },
       { title: 'BREWERY VATS', desc: 'Food-safe steel repurposed for large scale fermentation tanks.', image: '/images/app_factory.jpg' },
       { title: 'EXHAUST SYSTEMS', desc: 'Melted for aftermarket automotive and motorcycle exhausts.', image: '/images/app_engine.jpg' },
-      { title: 'FASTENERS & NUTS', desc: 'Drawn into rust-proof industrial bolts and architectural fasteners.', image: '/images/app_wire.jpg' }
+      { title: 'FASTENERS & NUTS', desc: 'Drawn into rust-proof industrial bolts and architectural fasteners.', image: '/images/app_screw.jpg' }
     ],
     'ss-310-scrap': [
-      { title: 'MUFFLE FURNACES', desc: 'High temperature resistance for industrial heating elements.', image: '/images/app_factory.jpg' },
+      { title: 'MUFFLE FURNACES', desc: 'High temperature resistance for industrial heating elements.', image: '/images/app_furnace.jpg' },
       { title: 'JET ENGINE PARTS', desc: 'Alloyed into heat-resistant components for aerospace.', image: '/images/app_airplane.jpg' },
-      { title: 'HEAT TREATMENT BASKETS', desc: 'Used in highly volatile foundry casting processes.', image: '/images/app_pipe.jpg' },
-      { title: 'CHEMICAL PIPING', desc: 'Extreme corrosion resistance for chemical plant pipelines.', image: '/images/app_rebar.jpg' }
+      { title: 'HEAT TREATMENT BASKETS', desc: 'Used in highly volatile foundry casting processes.', image: '/images/app_factory.jpg' },
+      { title: 'CHEMICAL PIPING', desc: 'Extreme corrosion resistance for chemical plant pipelines.', image: '/images/app_pipe.jpg' }
     ],
     'ss-208-scrap': [
-      { title: 'DOMESTIC APPLIANCES', desc: 'Cost-effective alternative for washing machine drums.', image: '/images/app_sink.jpg' },
+      { title: 'DOMESTIC APPLIANCES', desc: 'Cost-effective alternative for washing machine drums.', image: '/images/app_appliance.jpg' },
       { title: 'AUTOMOTIVE TRIM', desc: 'Recycled into decorative structural elements and grilles.', image: '/images/app_engine.jpg' },
       { title: 'STRUCTURAL SUPPORTS', desc: 'Melted for use in non-critical architectural framing.', image: '/images/app_rebar.jpg' },
-      { title: 'HVAC DUCTING', desc: 'Corrosion-resistant ventilation and air conditioning systems.', image: '/images/app_factory.jpg' }
+      { title: 'HVAC DUCTING', desc: 'Corrosion-resistant ventilation and air conditioning systems.', image: '/images/app_pipe.jpg' }
     ],
     'hms-1-scrap': [
       { title: 'I-BEAM PRODUCTION', desc: 'Heavy melting steel is prime feedstock for structural I-beams.', image: '/images/app_rebar.jpg' },
       { title: 'HEAVY MACHINERY', desc: 'Castings for excavators, bulldozers, and mining equipment.', image: '/images/app_excavator.jpg' },
       { title: 'SHIPBUILDING PLATES', desc: 'Melted and rolled into thick marine hull plating.', image: '/images/app_ship.jpg' },
-      { title: 'RAILROAD TRACKS', desc: 'High-density scrap ensures optimal tensile strength for rails.', image: '/images/app_pipe.jpg' }
+      { title: 'RAILROAD TRACKS', desc: 'High-density scrap ensures optimal tensile strength for rails.', image: '/images/app_factory.jpg' }
     ],
     'shredded-steel-scrap': [
-      { title: 'ELECTRIC ARC FURNACES', desc: 'Ideal density and size for rapid melting in EAF steelmaking.', image: '/images/app_factory.jpg' },
+      { title: 'ELECTRIC ARC FURNACES', desc: 'Ideal density and size for rapid melting in EAF steelmaking.', image: '/images/app_furnace.jpg' },
       { title: 'AUTOMOTIVE CASTINGS', desc: 'Recycled into engine blocks and transmission housings.', image: '/images/app_engine.jpg' },
       { title: 'REINFORCING BAR', desc: 'High-yield feedstock for commercial construction rebar.', image: '/images/app_rebar.jpg' },
       { title: 'PIPE MANUFACTURING', desc: 'Seamless and welded pipe production for oil & gas.', image: '/images/app_pipe.jpg' }
     ],
     'hms-2-scrap': [
-      { title: 'GALVANIZED ROOFING', desc: 'Repurposed into corrugated iron and roofing sheets.', image: '/images/app_factory.jpg' },
+      { title: 'GALVANIZED ROOFING', desc: 'Repurposed into corrugated iron and roofing sheets.', image: '/images/app_roofing.jpg' },
       { title: 'FENCING & WIRE MESH', desc: 'Drawn into agricultural fencing and security wire.', image: '/images/app_wire.jpg' },
-      { title: 'BICYCLE FRAMES', desc: 'Melted for lightweight tubular steel applications.', image: '/images/app_wheel.jpg' },
-      { title: 'NAILS & FASTENERS', desc: 'Mass production of industrial nails, bolts, and screws.', image: '/images/app_rebar.jpg' }
+      { title: 'BICYCLE FRAMES', desc: 'Melted for lightweight tubular steel applications.', image: '/images/app_bicycle.jpg' },
+      { title: 'NAILS & FASTENERS', desc: 'Mass production of industrial nails, bolts, and screws.', image: '/images/app_screw.jpg' }
     ],
     'ms-sheet-fabrication-scrap': [
       { title: 'HVAC SYSTEMS', desc: 'Recycled into climate control ductwork and casings.', image: '/images/app_pipe.jpg' },
-      { title: 'APPLIANCE BODIES', desc: 'Washing machine and refrigerator exterior panels.', image: '/images/app_sink.jpg' },
+      { title: 'APPLIANCE BODIES', desc: 'Washing machine and refrigerator exterior panels.', image: '/images/app_appliance.jpg' },
       { title: 'METAL STAMPING', desc: 'Flat feedstock ideal for precision stamping processes.', image: '/images/app_factory.jpg' },
       { title: 'STORAGE RACKS', desc: 'Warehouse racking and heavy-duty shelving units.', image: '/images/app_rebar.jpg' }
     ],
@@ -904,7 +904,7 @@ export const getProductDetail = (slug, rawName) => {
     ],
     'ms-forging-scrap': [
       { title: 'AUTOMOTIVE DRIVETRAINS', desc: 'High-carbon scrap perfect for forging axles and crankshafts.', image: '/images/app_engine.jpg' },
-      { title: 'HAND TOOLS', desc: 'Wrenches, hammers, and drop-forged industrial tools.', image: '/images/app_factory.jpg' },
+      { title: 'HAND TOOLS', desc: 'Wrenches, hammers, and drop-forged industrial tools.', image: '/images/app_tool.jpg' },
       { title: 'GEAR MANUFACTURING', desc: 'Recycled into heavy-duty transmission gears.', image: '/images/app_wheel.jpg' },
       { title: 'FLANGES & FITTINGS', desc: 'Forged into high-pressure pipe flanges and couplings.', image: '/images/app_pipe.jpg' }
     ],
@@ -916,7 +916,7 @@ export const getProductDetail = (slug, rawName) => {
     ],
     'ms-sheet-stamping-scrap': [
       { title: 'MOTOR LAMINATIONS', desc: 'Recycled into magnetic cores for electric motors.', image: '/images/app_factory.jpg' },
-      { title: 'METAL ROOFING', desc: 'Melted and pressed into weather-resistant roof tiles.', image: '/images/app_rebar.jpg' },
+      { title: 'METAL ROOFING', desc: 'Melted and pressed into weather-resistant roof tiles.', image: '/images/app_roofing.jpg' },
       { title: 'ELECTRICAL ENCLOSURES', desc: 'Cabinetry for circuit breakers and switchboards.', image: '/images/app_wire.jpg' },
       { title: 'AUTOMOTIVE PANELS', desc: 'Re-stamped into vehicle doors, hoods, and fenders.', image: '/images/app_engine.jpg' }
     ],
@@ -929,7 +929,7 @@ export const getProductDetail = (slug, rawName) => {
     'used-beverage-can-ubc-scrap': [
       { title: 'CAN-TO-CAN RECYCLING', desc: 'Melted and rolled into new beverage cans within 60 days.', image: '/images/app_cans.jpg' },
       { title: 'FOIL PACKAGING', desc: 'Foil containers and sealable lids for perishables.', image: '/images/app_factory.jpg' },
-      { title: 'BICYCLE COMPONENTS', desc: 'Alloyed into lightweight consumer sporting goods.', image: '/images/app_wheel.jpg' },
+      { title: 'BICYCLE COMPONENTS', desc: 'Alloyed into lightweight consumer sporting goods.', image: '/images/app_bicycle.jpg' },
       { title: 'CONSUMER ELECTRONICS', desc: 'Recycled into smartphone casings and laptop bodies.', image: '/images/app_wire.jpg' }
     ],
     'aluminum-cables-scrap': [
@@ -941,18 +941,18 @@ export const getProductDetail = (slug, rawName) => {
     'cast-aluminum-tense-scrap': [
       { title: 'ENGINE BLOCKS', desc: 'Melted to cast lightweight automotive engines and transmissions.', image: '/images/app_engine.jpg' },
       { title: 'PUMP HOUSINGS', desc: 'Corrosion-resistant casings for industrial fluid pumps.', image: '/images/app_pipe.jpg' },
-      { title: 'COOKWARE', desc: 'Cast into premium frying pans and heavy-duty pots.', image: '/images/app_sink.jpg' },
+      { title: 'COOKWARE', desc: 'Cast into premium frying pans and heavy-duty pots.', image: '/images/app_cookware.jpg' },
       { title: 'OUTDOOR FURNITURE', desc: 'Weather-proof cast patio furniture and lighting fixtures.', image: '/images/app_factory.jpg' }
     ],
     'aluminium-wire-scrap': [
       { title: 'COAXIAL CABLES', desc: 'Shielding and conductors for telecommunication lines.', image: '/images/app_wire.jpg' },
-      { title: 'FENCING MESH', desc: 'Rust-proof chain link fencing and agricultural netting.', image: '/images/app_factory.jpg' },
-      { title: 'RIVETS & FASTENERS', desc: 'Cold-headed into lightweight aerospace and automotive rivets.', image: '/images/app_engine.jpg' },
-      { title: 'ANTENNA SYSTEMS', desc: 'Fabricated into rigid TV, radio, and satellite antennas.', image: '/images/app_rebar.jpg' }
+      { title: 'FENCING MESH', desc: 'Rust-proof chain link fencing and agricultural netting.', image: '/images/app_rebar.jpg' },
+      { title: 'RIVETS & FASTENERS', desc: 'Cold-headed into lightweight aerospace and automotive rivets.', image: '/images/app_screw.jpg' },
+      { title: 'ANTENNA SYSTEMS', desc: 'Fabricated into rigid TV, radio, and satellite antennas.', image: '/images/app_factory.jpg' }
     ],
     'aluminium-6063-scrap': [
       { title: 'ARCHITECTURAL FRAMES', desc: 'Extruded directly back into premium window and door frames.', image: '/images/app_factory.jpg' },
-      { title: 'SOLAR PANEL MOUNTS', desc: 'Structural rails and racking for photovoltaic arrays.', image: '/images/app_rebar.jpg' },
+      { title: 'SOLAR PANEL MOUNTS', desc: 'Structural rails and racking for photovoltaic arrays.', image: '/images/app_solar.jpg' },
       { title: 'HEAT SINKS', desc: 'Custom extruded thermal management for LEDs and CPUs.', image: '/images/app_sink.jpg' },
       { title: 'MARINE RAILINGS', desc: 'Corrosion-resistant boarding ladders and boat railings.', image: '/images/app_ship.jpg' }
     ]
