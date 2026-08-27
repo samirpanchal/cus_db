@@ -337,7 +337,7 @@ export const productDetailsData = {
   // 7. PMMA
   'pmma-acrylic': {
     slug: 'pmma-acrylic',
-    name: 'PMMA (PolyMethylMethAcrylate)',
+    name: 'PMMA (Acrylic)',
     code: 'PMMA ACRYLIC',
     tagline: 'SUPERIOR TRANSPARENCY ACRYLIC RESIN',
     sourceText: 'Superior transparent PMMA acrylic resin offering glass-like clarity, excellent weatherability, and exceptional scratch resistance.',
