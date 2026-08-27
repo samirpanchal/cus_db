@@ -973,7 +973,7 @@ export const getProductDetail = (slug, rawName) => {
     category: categoryName,
     heroImage: heroImage,
     badges: isMetal ? [
-      { id: 1, title: 'ISRI COMPLIANT', icon: 'ShieldCheck', desc: 'Adheres to strict international scrap specifications.' },
+      { id: 1, title: 'INDUSTRIAL & PRODUCTION WASTE', icon: 'ShieldCheck', desc: 'Sourced directly from certified manufacturing facilities and heavy industry pipelines.' },
       { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Crucial for lowering carbon emissions in metallurgy.' },
       { id: 3, title: 'HIGH YIELD', icon: 'Settings', desc: 'Dense, clean scrap maximizing furnace melt yields.' },
       { id: 4, title: 'COST EFFECTIVE', icon: 'Leaf', desc: 'Reduces virgin ore dependency.' }
