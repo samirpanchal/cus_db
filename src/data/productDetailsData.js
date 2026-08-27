@@ -337,7 +337,7 @@ export const productDetailsData = {
   // 7. PMMA
   'pmma-polymethylmethacrylate': {
     slug: 'pmma-polymethylmethacrylate',
-    name: 'PMMA (Acrylic)',
+    name: 'PMMA (PolyMethylMethAcrylate)',
     code: 'PMMA ACRYLIC',
     tagline: 'SUPERIOR TRANSPARENCY ACRYLIC RESIN',
     sourceText: 'Commercial studio product photograph of transparent acrylic PMMA resin granules, neutral light grey background.',
@@ -602,7 +602,7 @@ export const productDetailsData = {
   // 7. PMMA
   'pmma-polymethylmethacrylate': {
     slug: 'pmma-polymethylmethacrylate',
-    name: 'PMMA (Acrylic)',
+    name: 'PMMA (PolyMethylMethAcrylate)',
     code: 'PMMA ACRYLIC',
     tagline: 'SUPERIOR TRANSPARENCY ACRYLIC RESIN',
     sourceText: 'Commercial studio product photograph of transparent acrylic PMMA resin granules, neutral light grey background.',
