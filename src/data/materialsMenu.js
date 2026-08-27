@@ -109,7 +109,7 @@ export const materialsMenu = [
             "name": "PC (PolyCarbonate)"
           },
           {
-            "name": "PMMA (PolyMethylMethAcrylate)"
+            "name": "PMMA (Acrylic)"
           },
           {
             "name": "PC+ABS PolyCarbonate (PC) and Acrylonitrile Butadiene Styrene (ABS)"
