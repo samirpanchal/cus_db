@@ -142,7 +142,7 @@ export const productDetailsData = {
     name: 'Polyvinyl Chloride - PVC Regranulate',
     code: 'PVC REGRANULATE',
     tagline: 'PREMIUM GRADE RECYCLED PVC COMPOUND',
-    sourceText: 'Commercial studio product photograph of clean PVC regranulate pellets, neutral light grey background, softbox lighting.',
+    sourceText: 'High-purity Polyvinyl Chloride regranulate recovered from industrial pipes and profiles, rigorously tested for consistency.',
     category: 'Plastics Scraps',
     heroImage: '/images/plastics_final/polyvinyl_chloride_pvc_regranulate.jpg',
     badges: [
@@ -175,7 +175,7 @@ export const productDetailsData = {
     name: 'Polyethylene terephthalate - PET Regranulate',
     code: 'PET REGRANULATE',
     tagline: 'HIGH-VISCOSITY CLEAR PET REGRANULATE',
-    sourceText: 'Commercial studio product photograph of clear PET regranulate flakes, neutral light grey background, softbox lighting.',
+    sourceText: 'Premium clear PET regranulate sourced from closed-loop food-grade packaging, offering exceptional viscosity and clarity.',
     category: 'Plastics Scraps',
     heroImage: '/images/plastics_final/polyethylene_terephthalate_pet_regranulate.jpg',
     badges: [
@@ -208,7 +208,7 @@ export const productDetailsData = {
     name: 'High Impact Polystyrene - PS Regranulate',
     code: 'HIPS REGRANULATE',
     tagline: 'PREMIUM HIGH IMPACT POLYSTYRENE RESIN',
-    sourceText: 'Commercial studio product photograph of white polystyrene regranulate pellets, neutral light grey background.',
+    sourceText: 'Durable High Impact Polystyrene regranulate repurposed from e-waste and industrial appliances, ideal for injection molding.',
     category: 'Plastics Scraps',
     heroImage: '/images/plastics_final/high_impact_polystyrene_ps_regranulate.jpg',
     badges: [
@@ -241,7 +241,7 @@ export const productDetailsData = {
     name: 'ABS (Acrylonitrile Butadiene Styrene)',
     code: 'ABS PLASTIC',
     tagline: 'ULTRA-TOUGH ENGINEERING POLYMER',
-    sourceText: 'Commercial studio product photograph of premium ABS industrial pellets, neutral light grey background.',
+    sourceText: 'Engineering-grade ABS plastic pellets offering unmatched toughness, impact resistance, and thermal stability for heavy duty applications.',
     category: 'Technical Plastic',
     heroImage: '/images/plastics_final/abs_acrylonitrile_butadiene_styrene.jpg',
     badges: [
@@ -274,7 +274,7 @@ export const productDetailsData = {
     name: 'PA (PA6, PA66) (PolyAmide)',
     code: 'POLYAMIDE RESIN',
     tagline: 'HIGH-PERFORMANCE ENGINEERING PLASTIC',
-    sourceText: 'Commercial studio product photograph of engineering grade Polyamide resin, neutral light grey background.',
+    sourceText: 'High-performance engineering Polyamide resin featuring superior tensile strength and wear resistance for mechanical and automotive parts.',
     category: 'Technical Plastic',
     heroImage: '/images/plastics_final/pa_pa6_pa66_polyamide.jpg',
     badges: [
@@ -307,7 +307,7 @@ export const productDetailsData = {
     name: 'PC (PolyCarbonate)',
     code: 'PC RESIN',
     tagline: 'ULTRA-CLEAR HIGH IMPACT POLYMER',
-    sourceText: 'Commercial studio product photograph of optically clear Polycarbonate granules, neutral light grey background.',
+    sourceText: 'Optically clear Polycarbonate granules delivering extreme impact resistance and high light transmission for demanding optical applications.',
     category: 'Technical Plastic',
     heroImage: '/images/plastics_final/pc_polycarbonate.jpg',
     badges: [
@@ -340,7 +340,7 @@ export const productDetailsData = {
     name: 'PMMA (PolyMethylMethAcrylate)',
     code: 'PMMA ACRYLIC',
     tagline: 'SUPERIOR TRANSPARENCY ACRYLIC RESIN',
-    sourceText: 'Commercial studio product photograph of transparent acrylic PMMA resin granules, neutral light grey background.',
+    sourceText: 'Superior transparent PMMA acrylic resin offering glass-like clarity, excellent weatherability, and exceptional scratch resistance.',
     category: 'Technical Plastic',
     heroImage: '/images/plastics_final/pmma_polymethylmethacrylate.jpg',
     badges: [
@@ -373,7 +373,7 @@ export const productDetailsData = {
     name: 'PC+ABS PolyCarbonate (PC) and Acrylonitrile Butadiene Styrene (ABS)',
     code: 'PC+ABS ALLOY',
     tagline: 'PREMIUM PC & ABS POLYMER BLEND',
-    sourceText: 'Commercial studio product photograph of highly robust PC+ABS alloy pellets, neutral light grey background.',
+    sourceText: 'Premium PC+ABS polymer alloy blending the extreme heat resistance of Polycarbonate with the impact toughness of ABS.',
     category: 'Technical Plastic',
     heroImage: '/images/plastics_final/pc_abs_polycarbonate_pc_and_acrylonitrile_butadiene_styrene_abs.jpg',
     badges: [
