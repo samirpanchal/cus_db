@@ -206,86 +206,162 @@ export const materialsMenu = [
       }
     ]
   },
-  {
-    "name": "Stock Lots Plastic/Paper",
+{
+    "name": "Stocklot Plastic Films",
     "subcategories": [
       {
-        "name": "Stocklot Of Plastic Film Rolls",
-        "subcategories": [
-          {
-            "name": "Stocklot Of LDPE Film"
-          },
-          {
-            "name": "Stocklot Of PVC Film"
-          },
-          {
-            "name": "Stocklot Of BOPP Film"
-          },
-          {
-            "name": "Stocklot Of Co-Extruded Film"
-          },
-          {
-            "name": "Stocklot Of PE/PA Film"
-          },
-          {
-            "name": "Stocklot Of PP/PA Film"
-          },
-          {
-            "name": "Stocklot Of Multi Layer Film"
-          },
-          {
-            "name": "Stocklot Of Pet/PE Film"
-          },
-          {
-            "name": "Stocklot Of Pet/ALU/PE Film"
-          },
-          {
-            "name": "Stocklot Of Hot Stamping Foil"
-          },
-          {
-            "name": "Stocklot Of Printed Film"
-          },
-          {
-            "name": "Stocklot Of Aluminium Foil"
-          },
-          {
-            "name": "Stocklot Of PET Film"
-          }
-        ]
+        "name": "Polyester(PET) uncoated   film in reels (Natural, Holographic, Metalized)"
       },
       {
-        "name": "Stocklot Of Paper Rolls",
-        "subcategories": [
-          {
-            "name": "Stocklot Of Wallpaper"
-          },
-          {
-            "name": "Stocklot Of Aluminium Paper"
-          },
-          {
-            "name": "Stocklot Of Ice Cream Paper"
-          },
-          {
-            "name": "Stocklot Of Kraft Paper"
-          },
-          {
-            "name": "Stocklot Of Silicon Paper"
-          },
-          {
-            "name": "Stocklot Of Cigarette Paper"
-          }
-        ]
+        "name": "Polyester(PET) -1 side Silicon coated"
       },
       {
-        "name": "Stocklot Of Coated Fabric",
-        "subcategories": [
-          {
-            "name": "Stocklot Of PVC Coated Fabric"
-          },
-          {
-            "name": "Stocklot Of PE Coated Fabric"
-          }
-        ]
+        "name": "Polyester (PET)  hazy  or  Transculant  film ( Application Insulation)"
+      },
+      {
+        "name": "BOPP Film in reels (Natural , Metalized, Pearlised )"
+      },
+      {
+        "name": "PVC soft/rigid film in reels/sheet(Natural, white, color)"
+      },
+      {
+        "name": "LDPE Film in reels"
+      },
+      {
+        "name": "LLDPE FILM (Strech film)"
+      },
+      {
+        "name": "Synthetic film -white (matt,gloss and textured)"
+      },
+      {
+        "name": "PE/PA film any color"
+      },
+      {
+        "name": "Hot Stamping Foil-Graphic  in reels (Golden/Silver/ colors)"
+      },
+      {
+        "name": "ALU/PE  Foils in reels & triplex foil  ALU/PE/PET ROLL or coffe foil"
+      },
+      {
+        "name": "PVC Vinyl and self adhesive vinyl /Flex in reels(color/white)"
+      },
+      {
+        "name": "Stocklot / Rejects PMMA SHEET 1-mm-6 mm  color and clear (2 side masking)"
+      },
+      {
+        "name": "Stocklot / RejectsPC (Polycarbonate ) film"
+      },
+      {
+        "name": "Stocklot / RejectsPC clear Sheet 0.5 mm -6mm (2 side masking)"
+      }
+    ]
+  },
+  {
+    "name": "Stocklot Papers",
+    "subcategories": [
+      {
+        "name": "Silicon printed/unprinted paper/ Release Paper"
+      },
+      {
+        "name": "Metalized paper, silver/gold paper (reels/sheet)"
+      },
+      {
+        "name": "Alu laminated paper (reels/sheet)"
+      },
+      {
+        "name": "Kraft Papers (Virgin/Bleach/Sack) (Max width 1600mm)"
+      },
+      {
+        "name": "Thermal paper"
+      },
+      {
+        "name": "Color Paper & Board (side run )"
+      },
+      {
+        "name": "Greaseproof paper/Parchment white and colored"
+      },
+      {
+        "name": "Decor Laminate Base Paper"
+      },
+      {
+        "name": "Gloss Lable paper"
+      },
+      {
+        "name": "Tetra Printed"
+      },
+      {
+        "name": "Self adhesive Label stock /sticker paper (sheet /reels)"
+      },
+      {
+        "name": "Cupstock Coated-uncoated /polycoated paper board(1s/2s)"
+      },
+      {
+        "name": "Wood-free uncoated paper"
+      },
+      {
+        "name": "Playing card board/ Black Centre triplex board"
+      },
+      {
+        "name": "Tracing Paper-white"
+      },
+      {
+        "name": "Filter Papers"
+      },
+      {
+        "name": "Printed /unprinted PE coated paper"
+      },
+      {
+        "name": "Cast coated paper used (Leather release paper)"
+      },
+      {
+        "name": "Butter Paper"
+      },
+      {
+        "name": "PE coated paper (1S Gloss)"
+      },
+      {
+        "name": "Inject Glossy paper/Photo paper"
+      },
+      {
+        "name": "Tyvek paper"
+      },
+      {
+        "name": "Rough Gloss Coated Digital Paper"
+      },
+      {
+        "name": "2 side Matt Coated"
+      },
+      {
+        "name": "2 side Gloss Coated"
+      },
+      {
+        "name": "Ready Napkin"
+      },
+      {
+        "name": "Toilet Paper Napkin 2 Ply IN Reels"
+      },
+      {
+        "name": "Wet Wipes"
+      }
+    ]
+  },
+  {
+    "name": "Stocklot Fabrics & Other",
+    "subcategories": [
+      {
+        "name": "Bales Air Bag Fabric (Coated & UNCOATED)"
+      },
+      {
+        "name": "Stocklot / RejectsPP, Polyester Non woven ( fleece)"
+      },
+      {
+        "name": "Stocklot / RejectsFiber Glass"
+      },
+      {
+        "name": "Stocklot / RejectsTarpoulin Reel/Sheet ( Waterproof thin materials)"
+      },
+      {
+        "name": "Stocklot / RejectsConveyor nylon Belt (used/stocklot/Excess Inventory)"
       }
     ]
   },
