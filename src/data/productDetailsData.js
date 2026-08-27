@@ -739,8 +739,7 @@ export const getProductDetail = (slug, rawName) => {
     taglineText = 'CLEAN RECYCLABLE ALUMINIUM SCRAP METALS';
     heroImage = `/images/metal_final/${slug.replace(/-/g, '_')}.jpg`;
     isMetal = true;
-  }  } else 
-  if (slug.includes('lump')) {
+  } else if (slug.includes('lump')) {
     categoryName = 'Plastic Lumps';
     taglineText = 'DENSE EXTRUSION & INJECTION PURGING LUMPS';
     heroImage = 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop';
