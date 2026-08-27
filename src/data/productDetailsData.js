@@ -1,4 +1,1379 @@
 export const productDetailsData = {
+  'polyester-pet-uncoated-film-in-reels-natural-holographic-metalized': {
+    slug: 'polyester-pet-uncoated-film-in-reels-natural-holographic-metalized',
+    name: 'Polyester(PET) uncoated   film in reels (Natural, Holographic, Metalized)',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality Polyester(PET) uncoated   film in reels (Natural, Holographic, Metalized) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Polyester(PET) uncoated   film in reels (Natural, Holographic, Metalized)' },
+      { label: 'Thickness / GSM', value: '4.5,9,12,18,23,36,50, 75,100,125 Mic' },
+      { label: 'Width', value: '900mm+' },
+      { label: 'Monthly Availability', value: '500 MT' },
+      { label: 'Special Notes', value: 'Should be uncoated,  no PVDC, Chemical, SILICON COATED, no sealable' },
+    ]
+  },
+  'polyester-pet-1-side-silicon-coated': {
+    slug: 'polyester-pet-1-side-silicon-coated',
+    name: 'Polyester(PET) -1 side Silicon coated',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality Polyester(PET) -1 side Silicon coated sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Polyester(PET) -1 side Silicon coated' },
+      { label: 'Thickness / GSM', value: '23-50 MIC' },
+      { label: 'Width', value: '900mm+' },
+      { label: 'Monthly Availability', value: '50 MT' },
+      { label: 'Special Notes', value: 'One side silicon coated only, 2 side has no market' },
+    ]
+  },
+  'polyester-pet-hazy-or-transculant-film-application-insulation': {
+    slug: 'polyester-pet-hazy-or-transculant-film-application-insulation',
+    name: 'Polyester (PET)  hazy  or  Transculant  film ( Application Insulation)',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality Polyester (PET)  hazy  or  Transculant  film ( Application Insulation) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Polyester (PET)  hazy  or  Transculant  film ( Application Insulation)' },
+      { label: 'Thickness / GSM', value: '25-350 mic' },
+      { label: 'Width', value: '700mm+' },
+      { label: 'Monthly Availability', value: '500 mt' },
+    ]
+  },
+  'bopp-film-in-reels-natural-metalized-pearlised': {
+    slug: 'bopp-film-in-reels-natural-metalized-pearlised',
+    name: 'BOPP Film in reels (Natural , Metalized, Pearlised )',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality BOPP Film in reels (Natural , Metalized, Pearlised ) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'BOPP Film in reels (Natural , Metalized, Pearlised )' },
+      { label: 'Thickness / GSM', value: '4,9,12,18,25, 30, 50 mic' },
+      { label: 'Width', value: '250mm' },
+      { label: 'Monthly Availability', value: '500 MT' },
+      { label: 'Special Notes', value: 'no coated at all, all corona treatment should be there,  need to know it is heat  sealable or not heat sealable , PVDC And blake ton is not acceptable' },
+    ]
+  },
+  'pvc-soft-rigid-film-in-reels-sheet-natural-white-color': {
+    slug: 'pvc-soft-rigid-film-in-reels-sheet-natural-white-color',
+    name: 'PVC soft/rigid film in reels/sheet(Natural, white, color)',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality PVC soft/rigid film in reels/sheet(Natural, white, color) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'PVC soft/rigid film in reels/sheet(Natural, white, color)' },
+      { label: 'Thickness / GSM', value: '70-200 mic' },
+      { label: 'Width', value: '500mm' },
+      { label: 'Monthly Availability', value: '200 MT' },
+      { label: 'Special Notes', value: 'clear soft pvc most is more wanted in market' },
+    ]
+  },
+  'ldpe-film-in-reels': {
+    slug: 'ldpe-film-in-reels',
+    name: 'LDPE Film in reels',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality LDPE Film in reels sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_ldpe-film-in-reels.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_ldpe-film-in-reels_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_ldpe-film-in-reels_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_ldpe-film-in-reels_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_ldpe-film-in-reels_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'LDPE Film in reels' },
+      { label: 'Thickness / GSM', value: '8-300 mic' },
+      { label: 'Width', value: '250mm' },
+      { label: 'Monthly Availability', value: '200 MT' },
+      { label: 'Special Notes', value: 'width should be 18 -20 inch' },
+    ]
+  },
+  'lldpe-film-strech-film': {
+    slug: 'lldpe-film-strech-film',
+    name: 'LLDPE FILM (Strech film)',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality LLDPE FILM (Strech film) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_lldpe-film-strech-film.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_lldpe-film-strech-film_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_lldpe-film-strech-film_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_lldpe-film-strech-film_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_lldpe-film-strech-film_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'LLDPE FILM (Strech film)' },
+      { label: 'Thickness / GSM', value: '12-25 mic' },
+      { label: 'Width', value: '400mm' },
+      { label: 'Monthly Availability', value: '50 mt' },
+    ]
+  },
+  'synthetic-film-white-matt-gloss-and-textured': {
+    slug: 'synthetic-film-white-matt-gloss-and-textured',
+    name: 'Synthetic film -white (matt,gloss and textured)',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality Synthetic film -white (matt,gloss and textured) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Synthetic film -white (matt,gloss and textured)' },
+      { label: 'Thickness / GSM', value: '130-250 MIC' },
+      { label: 'Width', value: '500 mm' },
+      { label: 'Monthly Availability', value: '100 mt' },
+      { label: 'Special Notes', value: 'for Visiting card, tag,' },
+    ]
+  },
+  'pe-pa-film-any-color': {
+    slug: 'pe-pa-film-any-color',
+    name: 'PE/PA film any color',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality PE/PA film any color sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_pe-pa-film-any-color.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_pe-pa-film-any-color_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_pe-pa-film-any-color_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_pe-pa-film-any-color_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_pe-pa-film-any-color_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'PE/PA film any color' },
+      { label: 'Thickness / GSM', value: '55-500 MIC' },
+      { label: 'Width', value: '3600mm+' },
+      { label: 'Monthly Availability', value: '200 MT' },
+      { label: 'Special Notes', value: '12 feet plus  or multifold of 6 feet (tubeing) for Tarp' },
+    ]
+  },
+  'hot-stamping-foil-graphic-in-reels-golden-silver-colors': {
+    slug: 'hot-stamping-foil-graphic-in-reels-golden-silver-colors',
+    name: 'Hot Stamping Foil-Graphic  in reels (Golden/Silver/ colors)',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality Hot Stamping Foil-Graphic  in reels (Golden/Silver/ colors) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Hot Stamping Foil-Graphic  in reels (Golden/Silver/ colors)' },
+      { label: 'Thickness / GSM', value: '12 & 18 mic' },
+      { label: 'Width', value: '30 mm+' },
+      { label: 'Monthly Availability', value: '200 MT' },
+      { label: 'Special Notes', value: 'One side siliconi coated only' },
+    ]
+  },
+  'alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil': {
+    slug: 'alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil',
+    name: 'ALU/PE  Foils in reels & triplex foil  ALU/PE/PET ROLL or coffe foil',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality ALU/PE  Foils in reels & triplex foil  ALU/PE/PET ROLL or coffe foil sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'ALU/PE  Foils in reels & triplex foil  ALU/PE/PET ROLL or coffe foil' },
+      { label: 'Thickness / GSM', value: '50-100mic' },
+      { label: 'Width', value: '350mm' },
+      { label: 'Monthly Availability', value: '100 MT' },
+      { label: 'Special Notes', value: 'it should be sealable one side' },
+    ]
+  },
+  'pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white': {
+    slug: 'pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white',
+    name: 'PVC Vinyl and self adhesive vinyl /Flex in reels(color/white)',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality PVC Vinyl and self adhesive vinyl /Flex in reels(color/white) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'PVC Vinyl and self adhesive vinyl /Flex in reels(color/white)' },
+      { label: 'Width', value: '800mm' },
+      { label: 'Monthly Availability', value: '200 MT' },
+      { label: 'Special Notes', value: 'adhesive should be good' },
+    ]
+  },
+  'stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking': {
+    slug: 'stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking',
+    name: 'Stocklot / Rejects PMMA SHEET 1-mm-6 mm  color and clear (2 side masking)',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality Stocklot / Rejects PMMA SHEET 1-mm-6 mm  color and clear (2 side masking) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Stocklot / Rejects PMMA SHEET 1-mm-6 mm  color and clear (2 side masking)' },
+      { label: 'Thickness / GSM', value: '1 mm -6mm' },
+      { label: 'Width', value: '4X8  FEET' },
+      { label: 'Monthly Availability', value: '100 MT' },
+      { label: 'Special Notes', value: 'clear would be more prefrable and is more wanted in the market' },
+    ]
+  },
+  'stocklot-rejectspc-polycarbonate-film': {
+    slug: 'stocklot-rejectspc-polycarbonate-film',
+    name: 'Stocklot / RejectsPC (Polycarbonate ) film',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality Stocklot / RejectsPC (Polycarbonate ) film sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Stocklot / RejectsPC (Polycarbonate ) film' },
+      { label: 'Thickness / GSM', value: '0.2mm-0.6mm' },
+      { label: 'Width', value: '1000mm' },
+      { label: 'Monthly Availability', value: '50 MT' },
+      { label: 'Special Notes', value: 'clear would be more prefrable and is more used in the market, some matt film is okay' },
+    ]
+  },
+  'stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking': {
+    slug: 'stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking',
+    name: 'Stocklot / RejectsPC clear Sheet 0.5 mm -6mm (2 side masking)',
+    code: 'STOCKLOT',
+    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
+    sourceText: 'High-quality Stocklot / RejectsPC clear Sheet 0.5 mm -6mm (2 side masking) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    category: 'Stocklot Plastic Films',
+    heroImage: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking_app1.jpg' },
+      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking_app2.jpg' },
+      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Stocklot / RejectsPC clear Sheet 0.5 mm -6mm (2 side masking)' },
+      { label: 'Thickness / GSM', value: '0.5 mm -6mm' },
+      { label: 'Width', value: '4X8  FEET' },
+      { label: 'Monthly Availability', value: '50 mt' },
+      { label: 'Special Notes', value: 'clear would be more prefrable and is more used in the market' },
+    ]
+  },
+  'silicon-printed-unprinted-paper-release-paper': {
+    slug: 'silicon-printed-unprinted-paper-release-paper',
+    name: 'Silicon printed/unprinted paper/ Release Paper',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Silicon printed/unprinted paper/ Release Paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Silicon printed/unprinted paper/ Release Paper' },
+      { label: 'Thickness / GSM', value: '35-140 GSM' },
+      { label: 'Width', value: '25mm' },
+      { label: 'Monthly Availability', value: '500 MT' },
+      { label: 'Special Notes', value: 'silicon coated one side only' },
+    ]
+  },
+  'metalized-paper-silver-gold-paper-reels-sheet': {
+    slug: 'metalized-paper-silver-gold-paper-reels-sheet',
+    name: 'Metalized paper, silver/gold paper (reels/sheet)',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Metalized paper, silver/gold paper (reels/sheet) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Metalized paper, silver/gold paper (reels/sheet)' },
+      { label: 'Thickness / GSM', value: '40-300 GSM' },
+      { label: 'Width', value: '500mm' },
+      { label: 'Monthly Availability', value: '200  MT' },
+      { label: 'Special Notes', value: 'should be silver gloss' },
+    ]
+  },
+  'alu-laminated-paper-reels-sheet': {
+    slug: 'alu-laminated-paper-reels-sheet',
+    name: 'Alu laminated paper (reels/sheet)',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Alu laminated paper (reels/sheet) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Alu laminated paper (reels/sheet)' },
+      { label: 'Thickness / GSM', value: '30-100 GSM' },
+      { label: 'Width', value: '600mm' },
+      { label: 'Monthly Availability', value: '200  MT' },
+      { label: 'Special Notes', value: 'should be silver gloss' },
+    ]
+  },
+  'kraft-papers-virgin-bleach-sack-max-width-1600mm': {
+    slug: 'kraft-papers-virgin-bleach-sack-max-width-1600mm',
+    name: 'Kraft Papers (Virgin/Bleach/Sack) (Max width 1600mm)',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Kraft Papers (Virgin/Bleach/Sack) (Max width 1600mm) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Kraft Papers (Virgin/Bleach/Sack) (Max width 1600mm)' },
+      { label: 'Thickness / GSM', value: '30-120 GSM' },
+      { label: 'Width', value: '800mm' },
+      { label: 'Monthly Availability', value: '500 MT' },
+      { label: 'Special Notes', value: 'virgin only' },
+    ]
+  },
+  'thermal-paper': {
+    slug: 'thermal-paper',
+    name: 'Thermal paper',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Thermal paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_thermal-paper.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_thermal-paper_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_thermal-paper_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_thermal-paper_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_thermal-paper_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Thermal paper' },
+      { label: 'Thickness / GSM', value: '45-75 GSM' },
+      { label: 'Width', value: '200mm' },
+      { label: 'Monthly Availability', value: '125  MT' },
+      { label: 'Special Notes', value: '45-55 would be more prefrable and is more used in the market' },
+    ]
+  },
+  'color-paper-board-side-run': {
+    slug: 'color-paper-board-side-run',
+    name: 'Color Paper & Board (side run )',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Color Paper & Board (side run ) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_color-paper-board-side-run.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_color-paper-board-side-run_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_color-paper-board-side-run_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_color-paper-board-side-run_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_color-paper-board-side-run_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Color Paper & Board (side run )' },
+      { label: 'Thickness / GSM', value: '35-350 GSM' },
+      { label: 'Width', value: '100mm' },
+      { label: 'Monthly Availability', value: '150  MT' },
+      { label: 'Special Notes', value: 'no grey, no ivory,only  fast solid color , solid black paper has great demand' },
+    ]
+  },
+  'greaseproof-paper-parchment-white-and-colored': {
+    slug: 'greaseproof-paper-parchment-white-and-colored',
+    name: 'Greaseproof paper/Parchment white and colored',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Greaseproof paper/Parchment white and colored recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Greaseproof paper/Parchment white and colored' },
+      { label: 'Thickness / GSM', value: '15-250 GSM' },
+      { label: 'Width', value: '500mm' },
+      { label: 'Monthly Availability', value: '150  MT' },
+    ]
+  },
+  'decor-laminate-base-paper': {
+    slug: 'decor-laminate-base-paper',
+    name: 'Decor Laminate Base Paper',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Decor Laminate Base Paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_decor-laminate-base-paper.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_decor-laminate-base-paper_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_decor-laminate-base-paper_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_decor-laminate-base-paper_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_decor-laminate-base-paper_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Decor Laminate Base Paper' },
+      { label: 'Thickness / GSM', value: '60-75GSM' },
+      { label: 'Width', value: '1250mm' },
+      { label: 'Monthly Availability', value: '300  MT' },
+      { label: 'Special Notes', value: 'white and egg white are more prefrable, if printed white back, should be water abosrbent' },
+    ]
+  },
+  'gloss-lable-paper': {
+    slug: 'gloss-lable-paper',
+    name: 'Gloss Lable paper',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Gloss Lable paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_gloss-lable-paper.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_gloss-lable-paper_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_gloss-lable-paper_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_gloss-lable-paper_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_gloss-lable-paper_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Gloss Lable paper' },
+      { label: 'Thickness / GSM', value: '40-80 GSM' },
+      { label: 'Width', value: '500mm' },
+      { label: 'Monthly Availability', value: '500  MT' },
+      { label: 'Special Notes', value: '40-50 gsm has great demand' },
+    ]
+  },
+  'tetra-printed': {
+    slug: 'tetra-printed',
+    name: 'Tetra Printed',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Tetra Printed recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_tetra-printed.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_tetra-printed_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_tetra-printed_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_tetra-printed_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_tetra-printed_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Tetra Printed' },
+      { label: 'Thickness / GSM', value: '200-350 GSM' },
+      { label: 'Width', value: '200mm' },
+      { label: 'Monthly Availability', value: '300  MT' },
+      { label: 'Special Notes', value: 'no drill hole' },
+    ]
+  },
+  'self-adhesive-label-stock-sticker-paper-sheet-reels': {
+    slug: 'self-adhesive-label-stock-sticker-paper-sheet-reels',
+    name: 'Self adhesive Label stock /sticker paper (sheet /reels)',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Self adhesive Label stock /sticker paper (sheet /reels) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Self adhesive Label stock /sticker paper (sheet /reels)' },
+      { label: 'Thickness / GSM', value: '30 - 80 GSM' },
+      { label: 'Width', value: '150mm' },
+      { label: 'Monthly Availability', value: '250  MT' },
+      { label: 'Special Notes', value: 'top side gloss  or thermal has great demand' },
+    ]
+  },
+  'cupstock-coated-uncoated-polycoated-paper-board-1s-2s': {
+    slug: 'cupstock-coated-uncoated-polycoated-paper-board-1s-2s',
+    name: 'Cupstock Coated-uncoated /polycoated paper board(1s/2s)',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Cupstock Coated-uncoated /polycoated paper board(1s/2s) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Cupstock Coated-uncoated /polycoated paper board(1s/2s)' },
+      { label: 'Thickness / GSM', value: '50-200 GSM' },
+      { label: 'Width', value: '50mm' },
+      { label: 'Monthly Availability', value: '500  MT' },
+      { label: 'Special Notes', value: 'one side poly paper 140 to 170 gsm, and for bottom 25 to 55 mm' },
+    ]
+  },
+  'wood-free-uncoated-paper': {
+    slug: 'wood-free-uncoated-paper',
+    name: 'Wood-free uncoated paper',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Wood-free uncoated paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_wood-free-uncoated-paper.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_wood-free-uncoated-paper_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_wood-free-uncoated-paper_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_wood-free-uncoated-paper_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_wood-free-uncoated-paper_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Wood-free uncoated paper' },
+      { label: 'Thickness / GSM', value: '40-70 GSM' },
+      { label: 'Width', value: '200mm' },
+      { label: 'Monthly Availability', value: '500  MT' },
+      { label: 'Special Notes', value: '45 to 55 for book making  has great demand' },
+    ]
+  },
+  'playing-card-board-black-centre-triplex-board': {
+    slug: 'playing-card-board-black-centre-triplex-board',
+    name: 'Playing card board/ Black Centre triplex board',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Playing card board/ Black Centre triplex board recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Playing card board/ Black Centre triplex board' },
+      { label: 'Thickness / GSM', value: '200-350 GSM' },
+      { label: 'Width', value: '450mm' },
+      { label: 'Monthly Availability', value: '50 MT' },
+    ]
+  },
+  'tracing-paper-white': {
+    slug: 'tracing-paper-white',
+    name: 'Tracing Paper-white',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Tracing Paper-white recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_tracing-paper-white.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_tracing-paper-white_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_tracing-paper-white_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_tracing-paper-white_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_tracing-paper-white_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Tracing Paper-white' },
+      { label: 'Thickness / GSM', value: '90-150 GSM' },
+      { label: 'Width', value: '450mm' },
+      { label: 'Monthly Availability', value: '100  MT' },
+    ]
+  },
+  'filter-papers': {
+    slug: 'filter-papers',
+    name: 'Filter Papers',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Filter Papers recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_filter-papers.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_filter-papers_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_filter-papers_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_filter-papers_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_filter-papers_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Filter Papers' },
+      { label: 'Thickness / GSM', value: '20-70 GSM' },
+      { label: 'Width', value: '400mm+' },
+      { label: 'Monthly Availability', value: '50 MT' },
+    ]
+  },
+  'printed-unprinted-pe-coated-paper': {
+    slug: 'printed-unprinted-pe-coated-paper',
+    name: 'Printed /unprinted PE coated paper',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Printed /unprinted PE coated paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Printed /unprinted PE coated paper' },
+      { label: 'Thickness / GSM', value: '40-90 GSM' },
+      { label: 'Width', value: '300mm' },
+      { label: 'Monthly Availability', value: '200  MT' },
+    ]
+  },
+  'cast-coated-paper-used-leather-release-paper': {
+    slug: 'cast-coated-paper-used-leather-release-paper',
+    name: 'Cast coated paper used (Leather release paper)',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Cast coated paper used (Leather release paper) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Cast coated paper used (Leather release paper)' },
+      { label: 'Thickness / GSM', value: '50-100 gsm' },
+      { label: 'Width', value: '1000mm' },
+      { label: 'Monthly Availability', value: '100  MT' },
+    ]
+  },
+  'butter-paper': {
+    slug: 'butter-paper',
+    name: 'Butter Paper',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Butter Paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_butter-paper.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_butter-paper_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_butter-paper_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_butter-paper_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_butter-paper_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Butter Paper' },
+      { label: 'Thickness / GSM', value: '30-100 GSM' },
+      { label: 'Width', value: '800mm +' },
+      { label: 'Monthly Availability', value: '100 MT' },
+      { label: 'Special Notes', value: '30 -60 gsm has great demand' },
+    ]
+  },
+  'pe-coated-paper-1s-gloss': {
+    slug: 'pe-coated-paper-1s-gloss',
+    name: 'PE coated paper (1S Gloss)',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium PE coated paper (1S Gloss) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'PE coated paper (1S Gloss)' },
+      { label: 'Thickness / GSM', value: '20-70 GSM' },
+      { label: 'Width', value: '700mm+' },
+      { label: 'Monthly Availability', value: '200 MT' },
+    ]
+  },
+  'inject-glossy-paper-photo-paper': {
+    slug: 'inject-glossy-paper-photo-paper',
+    name: 'Inject Glossy paper/Photo paper',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Inject Glossy paper/Photo paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Inject Glossy paper/Photo paper' },
+      { label: 'Thickness / GSM', value: '70-200 GSM' },
+      { label: 'Width', value: '1000mm' },
+      { label: 'Monthly Availability', value: '50 MT' },
+      { label: 'Special Notes', value: 'Photo paper 150-180 gsm, with poly or without poly' },
+    ]
+  },
+  'tyvek-paper': {
+    slug: 'tyvek-paper',
+    name: 'Tyvek paper',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Tyvek paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_tyvek-paper.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_tyvek-paper_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_tyvek-paper_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_tyvek-paper_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_tyvek-paper_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Tyvek paper' },
+      { label: 'Thickness / GSM', value: '45 - 100 GSM' },
+      { label: 'Width', value: '400mm' },
+      { label: 'Monthly Availability', value: '50 mt' },
+      { label: 'Special Notes', value: 'uncoated is most prefarable' },
+    ]
+  },
+  'rough-gloss-coated-digital-paper': {
+    slug: 'rough-gloss-coated-digital-paper',
+    name: 'Rough Gloss Coated Digital Paper',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Rough Gloss Coated Digital Paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Rough Gloss Coated Digital Paper' },
+      { label: 'Thickness / GSM', value: '120, 130.160,170. 200, 250' },
+      { label: 'Width', value: '635X910mm' },
+      { label: 'Monthly Availability', value: '50 to 200mt' },
+    ]
+  },
+  '2-side-matt-coated': {
+    slug: '2-side-matt-coated',
+    name: '2 side Matt Coated',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium 2 side Matt Coated recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_2-side-matt-coated.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_2-side-matt-coated_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_2-side-matt-coated_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_2-side-matt-coated_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_2-side-matt-coated_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: '2 side Matt Coated' },
+      { label: 'Thickness / GSM', value: '120, 130.160,170. 200, 250' },
+      { label: 'Width', value: '720x1020mm' },
+      { label: 'Monthly Availability', value: '50 to 200mt' },
+    ]
+  },
+  '2-side-gloss-coated': {
+    slug: '2-side-gloss-coated',
+    name: '2 side Gloss Coated',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium 2 side Gloss Coated recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_2-side-gloss-coated.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_2-side-gloss-coated_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_2-side-gloss-coated_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_2-side-gloss-coated_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_2-side-gloss-coated_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: '2 side Gloss Coated' },
+      { label: 'Thickness / GSM', value: '120, 130.160,170. 200, 250' },
+      { label: 'Width', value: '720x1020mm' },
+      { label: 'Monthly Availability', value: '50 to 200mt' },
+    ]
+  },
+  'ready-napkin': {
+    slug: 'ready-napkin',
+    name: 'Ready Napkin',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Ready Napkin recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_ready-napkin.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_ready-napkin_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_ready-napkin_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_ready-napkin_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_ready-napkin_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Ready Napkin' },
+      { label: 'Thickness / GSM', value: '20-60 GSM' },
+      { label: 'Width', value: '16"X16"' },
+      { label: 'Monthly Availability', value: '50 MT' },
+      { label: 'Special Notes', value: 'Duni brand is more prefrable' },
+    ]
+  },
+  'toilet-paper-napkin-2-ply-in-reels': {
+    slug: 'toilet-paper-napkin-2-ply-in-reels',
+    name: 'Toilet Paper Napkin 2 Ply IN Reels',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Toilet Paper Napkin 2 Ply IN Reels recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Toilet Paper Napkin 2 Ply IN Reels' },
+      { label: 'Thickness / GSM', value: '15-22 GSM' },
+      { label: 'Width', value: '1000mm+' },
+      { label: 'Monthly Availability', value: '50 MT' },
+    ]
+  },
+  'wet-wipes': {
+    slug: 'wet-wipes',
+    name: 'Wet Wipes',
+    code: 'STOCKLOT',
+    tagline: 'HIGH-GRADE STOCKLOT PAPER',
+    sourceText: 'Premium Wet Wipes recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    category: 'Stocklot Papers',
+    heroImage: '/images/stocklots_final/stocklot_wet-wipes.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_wet-wipes_app1.jpg' },
+      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_wet-wipes_app2.jpg' },
+      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_wet-wipes_app3.jpg' },
+      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_wet-wipes_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Wet Wipes' },
+      { label: 'Thickness / GSM', value: '30 -60 gsm' },
+      { label: 'Width', value: '150 mm' },
+      { label: 'Monthly Availability', value: '100' },
+    ]
+  },
+  'bales-air-bag-fabric-coated-uncoated': {
+    slug: 'bales-air-bag-fabric-coated-uncoated',
+    name: 'Bales Air Bag Fabric (Coated & UNCOATED)',
+    code: 'STOCKLOT',
+    tagline: 'INDUSTRIAL STOCKLOT MATERIALS',
+    sourceText: 'Durable Bales Air Bag Fabric (Coated & UNCOATED) suitable for heavy-duty industrial applications, rigorously quality checked.',
+    category: 'Stocklot Fabrics & Other',
+    heroImage: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'MANUFACTURING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated_app1.jpg' },
+      { id: 2, title: 'AUTOMOTIVE', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated_app2.jpg' },
+      { id: 3, title: 'CONSTRUCTION', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated_app3.jpg' },
+      { id: 4, title: 'PROTECTIVE GEAR', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Bales Air Bag Fabric (Coated & UNCOATED)' },
+      { label: 'Thickness / GSM', value: '100-300 gsm' },
+      { label: 'Width', value: '1000mm' },
+      { label: 'Monthly Availability', value: '100 MT' },
+      { label: 'Special Notes', value: 'coated is Prefrable,  always waterproof' },
+    ]
+  },
+  'stocklot-rejectspp-polyester-non-woven-fleece': {
+    slug: 'stocklot-rejectspp-polyester-non-woven-fleece',
+    name: 'Stocklot / RejectsPP, Polyester Non woven ( fleece)',
+    code: 'STOCKLOT',
+    tagline: 'INDUSTRIAL STOCKLOT MATERIALS',
+    sourceText: 'Durable Stocklot / RejectsPP, Polyester Non woven ( fleece) suitable for heavy-duty industrial applications, rigorously quality checked.',
+    category: 'Stocklot Fabrics & Other',
+    heroImage: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'MANUFACTURING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece_app1.jpg' },
+      { id: 2, title: 'AUTOMOTIVE', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece_app2.jpg' },
+      { id: 3, title: 'CONSTRUCTION', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece_app3.jpg' },
+      { id: 4, title: 'PROTECTIVE GEAR', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Stocklot / RejectsPP, Polyester Non woven ( fleece)' },
+      { label: 'Thickness / GSM', value: '12-100 GSM' },
+      { label: 'Width', value: '1000 mm' },
+      { label: 'Monthly Availability', value: '200 MT' },
+    ]
+  },
+  'stocklot-rejectsfiber-glass': {
+    slug: 'stocklot-rejectsfiber-glass',
+    name: 'Stocklot / RejectsFiber Glass',
+    code: 'STOCKLOT',
+    tagline: 'INDUSTRIAL STOCKLOT MATERIALS',
+    sourceText: 'Durable Stocklot / RejectsFiber Glass suitable for heavy-duty industrial applications, rigorously quality checked.',
+    category: 'Stocklot Fabrics & Other',
+    heroImage: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'MANUFACTURING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass_app1.jpg' },
+      { id: 2, title: 'AUTOMOTIVE', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass_app2.jpg' },
+      { id: 3, title: 'CONSTRUCTION', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass_app3.jpg' },
+      { id: 4, title: 'PROTECTIVE GEAR', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Stocklot / RejectsFiber Glass' },
+      { label: 'Thickness / GSM', value: '25-250 GSM' },
+      { label: 'Width', value: '800mm' },
+      { label: 'Monthly Availability', value: '100 MT' },
+      { label: 'Special Notes', value: 'thin materials  25 gsm-75 gsm is more common in the market.' },
+    ]
+  },
+  'stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials': {
+    slug: 'stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials',
+    name: 'Stocklot / RejectsTarpoulin Reel/Sheet ( Waterproof thin materials)',
+    code: 'STOCKLOT',
+    tagline: 'INDUSTRIAL STOCKLOT MATERIALS',
+    sourceText: 'Durable Stocklot / RejectsTarpoulin Reel/Sheet ( Waterproof thin materials) suitable for heavy-duty industrial applications, rigorously quality checked.',
+    category: 'Stocklot Fabrics & Other',
+    heroImage: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'MANUFACTURING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials_app1.jpg' },
+      { id: 2, title: 'AUTOMOTIVE', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials_app2.jpg' },
+      { id: 3, title: 'CONSTRUCTION', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials_app3.jpg' },
+      { id: 4, title: 'PROTECTIVE GEAR', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Stocklot / RejectsTarpoulin Reel/Sheet ( Waterproof thin materials)' },
+      { label: 'Width', value: '1500mm' },
+      { label: 'Monthly Availability', value: '200 MT' },
+      { label: 'Special Notes', value: 'it should be non terable thin materials that is more prefrable and is more wanted in the market' },
+    ]
+  },
+  'stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory': {
+    slug: 'stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory',
+    name: 'Stocklot / RejectsConveyor nylon Belt (used/stocklot/Excess Inventory)',
+    code: 'STOCKLOT',
+    tagline: 'INDUSTRIAL STOCKLOT MATERIALS',
+    sourceText: 'Durable Stocklot / RejectsConveyor nylon Belt (used/stocklot/Excess Inventory) suitable for heavy-duty industrial applications, rigorously quality checked.',
+    category: 'Stocklot Fabrics & Other',
+    heroImage: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory.jpg',
+    badges: [
+      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Thoroughly inspected rolls.' },
+      { id: 2, title: 'HIGH VOLUME', icon: 'Package', desc: 'Ready for bulk dispatch.' },
+      { id: 3, title: 'COST EFFECTIVE', icon: 'TrendingDown', desc: 'Maximizes margins.' },
+      { id: 4, title: 'SUSTAINABLE', icon: 'Leaf', desc: 'Circular economy materials.' }
+    ],
+    sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
+    applications: [
+      { id: 1, title: 'MANUFACTURING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory_app1.jpg' },
+      { id: 2, title: 'AUTOMOTIVE', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory_app2.jpg' },
+      { id: 3, title: 'CONSTRUCTION', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory_app3.jpg' },
+      { id: 4, title: 'PROTECTIVE GEAR', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory_app4.jpg' }
+    ],
+    specifications: [
+      { label: 'Material', value: 'Stocklot / RejectsConveyor nylon Belt (used/stocklot/Excess Inventory)' },
+      { label: 'Thickness / GSM', value: '10-14mm' },
+      { label: 'Width', value: '800-2000mm' },
+      { label: 'Monthly Availability', value: '1000 MT' },
+      { label: 'Special Notes', value: 'if used then  thread should not be seen from top' },
+    ]
+  },
   // 1. PP Scrap
   'polypropylene-pp-scrap': {
     slug: 'polypropylene-pp-scrap',
