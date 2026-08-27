@@ -12,6 +12,9 @@ const getCategoryImage = (catName) => {
     case 'Metals': return '/images/metals_scrap_premium.png';
     case 'Used Tyre / Tire Scrap': return '/images/tyre_scrap_premium.png';
     case 'Stock Lots Plastic/Paper': return '/images/paper_scrap_premium.png';
+    case 'Stocklot Plastic Films': return '/images/plastic_scrap_premium.png';
+    case 'Stocklot Papers': return '/images/paper_scrap_premium.png';
+    case 'Stocklot Fabrics & Other': return '/images/paper_scrap_premium.png';
     case 'E-waste Scrap': return '/images/ewaste_scrap_premium.png';
     case 'Battery Scrap': return '/images/battery_scrap_premium.png';
     default: return '/images/hero_logistics_premium.png';
