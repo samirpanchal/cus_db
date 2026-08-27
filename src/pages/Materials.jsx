@@ -92,7 +92,7 @@ const Materials = () => {
                 <div className="subcategory-grid">
                   {activeCategory.subcategories.map((sub, subIdx) => (
                     <div key={subIdx} className="subcategory-card">
-                      <h4>{sub.name}</h4>
+                      <h4 style={{ fontWeight: 'bold', fontSize: '1.2rem', marginBottom: '1rem', color: 'var(--bg-dark)' }}>{sub.name}</h4>
                       
                       {/* Render Sub-Sub Categories if they exist */}
                       {sub.subcategories && sub.subcategories.length > 0 && (
