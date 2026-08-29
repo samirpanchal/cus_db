@@ -50,10 +50,10 @@ const Quote = () => {
         <meta name="description" content="Request a formal quote for bulk scrap materials including plastics, metals, and paper from Anchorstone Global LLP." />
         <link rel="canonical" href="https://anchorstoneglobal.co.in/quote" />
       </Helmet>
-      <section className="section" style={{ backgroundColor: 'var(--bg-dark)', color: 'white', padding: '60px 0', textAlign: 'center' }}>
+      <section className="section" style={{ backgroundColor: '#ffffff', color: '#0f172a', padding: '60px 0', textAlign: 'center', borderBottom: '1px solid #e2e8f0' }}>
         <div className="container">
           <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Request a Formal Quote</h1>
-          <p style={{ fontSize: '1.2rem', color: '#ccc', maxWidth: '600px', margin: '0 auto' }}>
+          <p style={{ fontSize: '1.2rem', color: '#475569', maxWidth: '600px', margin: '0 auto' }}>
             Looking for a specific scrap material or bulk supply? Let us know your requirements and our sales team will generate a formal quotation.
           </p>
         </div>

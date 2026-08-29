@@ -71,10 +71,10 @@ const Contact = () => {
           })}
         </script>
       </Helmet>
-      <section className="section" style={{ backgroundColor: 'var(--bg-dark)', color: 'white', padding: '60px 0', textAlign: 'center' }}>
+      <section className="section" style={{ backgroundColor: '#ffffff', color: '#0f172a', padding: '60px 0', textAlign: 'center', borderBottom: '1px solid #e2e8f0' }}>
         <div className="container">
           <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Get In Touch</h1>
-          <p style={{ fontSize: '1.2rem', color: '#ccc' }}>
+          <p style={{ fontSize: '1.2rem', color: '#475569' }}>
             We'd love to hear from you. Request a quote or ask us anything.
           </p>
         </div>

@@ -193,20 +193,6 @@ export const materialsMenu = [
     ]
   },
   {
-    "name": "Used Tyre / Tire Scrap",
-    "subcategories": [
-      {
-        "name": "Bales Tyre Scrap"
-      },
-      {
-        "name": "3 Piece Cut Tyre Scrap"
-      },
-      {
-        "name": "Shredded Tyre Scrap"
-      }
-    ]
-  },
-  {
     "name": "Stocklot Plastic Films",
     "subcategories": [
       {
@@ -379,12 +365,5 @@ export const materialsMenu = [
         ]
       }
     ]
-  },
-
-  {
-    "name": "E-waste Scrap"
-  },
-  {
-    "name": "Battery Scrap"
   }
 ];

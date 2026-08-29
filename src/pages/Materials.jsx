@@ -10,14 +10,22 @@ const getCategoryImage = (catName) => {
   switch(catName) {
     case 'Plastics': return '/images/plastic_scrap_premium.png';
     case 'Metals': return '/images/metals_scrap_premium.png';
-    case 'Used Tyre / Tire Scrap': return '/images/tyre_scrap_premium.png';
     case 'Stock Lots Plastic/Paper': return '/images/paper_scrap_premium.png';
     case 'Stocklot Plastic Films': return '/images/plastic_scrap_premium.png';
     case 'Stocklot Papers': return '/images/paper_scrap_premium.png';
-    case 'Stocklot Fabrics & Other': return '/images/paper_scrap_premium.png';
-    case 'E-waste Scrap': return '/images/ewaste_scrap_premium.png';
-    case 'Battery Scrap': return '/images/battery_scrap_premium.png';
+    case 'Stocklot Fabrics & Other': return '/images/stocklot_fabrics_temp.png';
     default: return '/images/hero_logistics_premium.png';
+  }
+};
+
+const getCategoryVideo = (catName) => {
+  switch(catName) {
+    case 'Metals': return '/videos/metals_animation.mp4';
+    case 'Stocklot Plastic Films': return '/videos/A_cinematic_slow_panning_shot.mp4';
+    case 'Stocklot Papers': return '/videos/stocklot_ani_paper.mp4';
+    case 'Plastics': return '/videos/Materials_Products_1.mp4';
+    case 'Stocklot Fabrics & Other': return '/videos/stocklot_fabric.mp4';
+    default: return '/videos/Materials_Products_1.mp4';
   }
 };
 
@@ -41,10 +49,10 @@ const Materials = () => {
         <meta name="keywords" content="Plastics Scraps, Polypropylene -PP Scrap, Polyethylene -PE Scrap, Polyvinyl Chloride Scrap - PVC Scrap, High Impact Polystyrene Scrap - PS Scrap, Polyethylene terephthalate - PET Scrap, Regrind, PP Regrind, PE Regrind, PVC Regrind, PS Regrind, PET Regrind, PET Hot Washed Flakes, Plastic Lumps, PP Lumps, PE Lumps, PVC Lumps, PS Lumps, PET Lumps, Bales, PP Bales, PS Bales, PET Bales, Regranulate, PP Regranulate, PE Regranulate, PVC Regranulate, PET Regranulate, PS Regranulate, Sheets, PET sheets, PP Sheets, PS Sheets, PVC Sheets, PE Sheets, Plastisizers, DOP, DBP, DOA, ESBO, Polymers, PVC Resin, PVC Compounds, Titanium Dioxide, Plastic Granules, Zinc Oxide, High Impact Polystyrene Prime, PP Polymers, PE Polymers, PET Prime, Technical Plastic, ABS, PA6, PA66, PC, PMMA, POM, PBT, PTFE, Off Grade, PP Off Grade, PE Off Grade, PVC Off Grade, PET Off Grade, PS Off Grade, Non Prime, Near Prime" />
         <link rel="canonical" href="https://anchorstoneglobal.co.in/materials" />
       </Helmet>
-      <section className="section" style={{ backgroundColor: 'var(--bg-dark)', color: 'white', padding: '60px 0', textAlign: 'center' }}>
+      <section className="section" style={{ backgroundColor: '#ffffff', color: '#0f172a', padding: '60px 0', textAlign: 'center', borderBottom: '1px solid #e2e8f0' }}>
         <div className="container">
           <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Materials & Products</h1>
-          <p style={{ fontSize: '1.2rem', color: '#ccc' }}>
+          <p style={{ fontSize: '1.2rem', color: '#475569' }}>
             Explore our extensive catalog of high-quality scrap materials for recycling and industrial use.
           </p>
         </div>
@@ -81,11 +89,38 @@ const Materials = () => {
                 height: '300px',
                 borderRadius: '12px',
                 marginBottom: '2.5rem',
-                backgroundImage: `url(${getCategoryImage(activeCategory?.name)})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                boxShadow: '0 8px 24px rgba(0,0,0,0.1)'
-              }}></div>
+                overflow: 'hidden',
+                boxShadow: '0 8px 24px rgba(0,0,0,0.1)',
+                position: 'relative'
+              }}>
+                {getCategoryVideo(activeCategory?.name) ? (
+                  <video 
+                    key={activeCategory?.name}
+                    autoPlay 
+                    loop 
+                    muted 
+                    playsInline 
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover'
+                    }}
+                  >
+                    <source src={getCategoryVideo(activeCategory?.name)} type="video/mp4" />
+                  </video>
+                ) : (
+                  <img
+                    key={activeCategory?.name}
+                    src={getCategoryImage(activeCategory?.name)}
+                    alt={activeCategory?.name}
+                    style={{
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover'
+                    }}
+                  />
+                )}
+              </div>
               
               <h2 style={{ fontSize: '2.5rem', color: 'var(--primary-green)', marginBottom: '2rem' }}>
                 {activeCategory?.name}

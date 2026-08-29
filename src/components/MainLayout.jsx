@@ -19,6 +19,9 @@ const MainLayout = () => {
         allowClickAway
         notification
         notificationSound
+        style={{ left: '2rem', right: 'auto', zIndex: 100 }}
+        buttonStyle={{ left: '2rem', right: 'auto' }}
+        chatboxStyle={{ left: '2rem', right: 'auto' }}
       />
     </>
   );

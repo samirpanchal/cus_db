@@ -20,30 +20,9 @@ const slides = [
   },
   {
     id: 3,
-    title: 'PAPER SCRAP',
+    title: 'STOCK LOTS PLASTIC/PAPER',
     subtitle: 'Bulk Stocklot Paper Rolls & Recyclables',
     image: '/images/paper_scrap_premium.png',
-    link: '/materials'
-  },
-  {
-    id: 4,
-    title: 'TYRE SCRAP',
-    subtitle: 'Bales, Cut, & Shredded Tyre Scraps',
-    image: '/images/tyre_scrap_premium.png',
-    link: '/materials'
-  },
-  {
-    id: 5,
-    title: 'BATTERY SCRAP',
-    subtitle: 'Reliable Sourcing for Industrial Battery Scraps',
-    image: '/images/battery_scrap_premium.png',
-    link: '/materials'
-  },
-  {
-    id: 6,
-    title: 'E-WASTE SCRAP',
-    subtitle: 'Responsible Processing of Electronic Components',
-    image: '/images/ewaste_scrap_premium.png',
     link: '/materials'
   }
 ];

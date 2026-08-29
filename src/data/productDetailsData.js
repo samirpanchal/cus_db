@@ -1,10 +1,10 @@
 export const productDetailsData = {
   'polyester-pet-uncoated-film-in-reels-natural-holographic-metalized': {
     slug: 'polyester-pet-uncoated-film-in-reels-natural-holographic-metalized',
-    name: 'Polyester(PET) uncoated   film in reels (Natural, Holographic, Metalized)',
+    name: 'Polyester(PET) uncoated film in reels',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality Polyester(PET) uncoated   film in reels (Natural, Holographic, Metalized) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'HIGH-TENSILE POLYESTER STOCKLOTS',
+    sourceText: 'Industrial-grade Polyester(PET) uncoated film in reels providing exceptional barrier properties, clarity, and mechanical strength. Ideal for demanding conversion processes requiring strict dimensional stability.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized.jpg',
     badges: [
@@ -15,13 +15,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized_app4.jpg' }
+      { id: 1, title: 'FLEXIBLE FOOD PACKAGING', icon: 'Package', desc: 'Blocks moisture, oxygen, and aromas to keep food fresh for a longer time.', image: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized_app1.jpg' },
+      { id: 2, title: 'ELECTRICAL INSULATION', icon: 'Settings', desc: 'Acts as an insulating layer inside motors, cables, and transformers.', image: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized_app2.jpg' },
+      { id: 3, title: 'GRAPHIC ARTS & PRINTING', icon: 'Layers', desc: 'Used for high-quality printing, labels, and graphic displays.', image: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized_app3.jpg' },
+      { id: 4, title: 'INDUSTRIAL TAPES', icon: 'ShieldCheck', desc: 'Forms the backing material for strong industrial and adhesive tapes.', image: '/images/stocklots_final/stocklot_polyester-pet-uncoated-film-in-reels-natural-holographic-metalized_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Polyester(PET) uncoated   film in reels (Natural, Holographic, Metalized)' },
+      { label: 'Material', value: 'Polyester(PET) uncoated film in reels' },
+      { label: 'Variants', value: 'Natural, Holographic, Metalized' },
       { label: 'Thickness / GSM', value: '4.5,9,12,18,23,36,50, 75,100,125 Mic' },
       { label: 'Width', value: '900mm+' },
       { label: 'Monthly Availability', value: '500 MT' },
@@ -32,8 +33,8 @@ export const productDetailsData = {
     slug: 'polyester-pet-1-side-silicon-coated',
     name: 'Polyester(PET) -1 side Silicon coated',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality Polyester(PET) -1 side Silicon coated sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'HIGH-TENSILE POLYESTER STOCKLOTS',
+    sourceText: 'Industrial-grade Polyester(PET) -1 side Silicon coated providing exceptional barrier properties, clarity, and mechanical strength. Ideal for demanding conversion processes requiring strict dimensional stability.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated.jpg',
     badges: [
@@ -44,10 +45,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated_app4.jpg' }
+      { id: 1, title: 'RELEASE LINERS', icon: 'Layers', desc: 'Serves as a high-quality backing for pressure-sensitive adhesives and labels.', image: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated_app1.jpg' },
+      { id: 2, title: 'MEDICAL PATCHES', icon: 'ShieldCheck', desc: 'Provides a sterile, non-stick surface for transdermal medical patches.', image: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated_app2.jpg' },
+      { id: 3, title: 'INDUSTRIAL LAMINATES', icon: 'Settings', desc: 'Prevents sticking during high-temperature pressing and lamination processes.', image: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated_app3.jpg' },
+      { id: 4, title: 'ELECTRONIC COMPONENTS', icon: 'Package', desc: 'Used as a protective release layer in printed circuit board manufacturing.', image: '/images/stocklots_final/stocklot_polyester-pet-1-side-silicon-coated_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Polyester(PET) -1 side Silicon coated' },
@@ -59,10 +60,10 @@ export const productDetailsData = {
   },
   'polyester-pet-hazy-or-transculant-film-application-insulation': {
     slug: 'polyester-pet-hazy-or-transculant-film-application-insulation',
-    name: 'Polyester (PET)  hazy  or  Transculant  film ( Application Insulation)',
+    name: 'Polyester (PET) hazy or Transculant film',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality Polyester (PET)  hazy  or  Transculant  film ( Application Insulation) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'HIGH-TENSILE POLYESTER STOCKLOTS',
+    sourceText: 'Industrial-grade Polyester (PET) hazy or Transculant film providing exceptional barrier properties, clarity, and mechanical strength. Ideal for demanding conversion processes requiring strict dimensional stability.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation.jpg',
     badges: [
@@ -73,13 +74,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation_app4.jpg' }
+      { id: 1, title: 'MOTOR INSULATION', icon: 'ShieldCheck', desc: 'Provides excellent dielectric properties and thermal resistance for electric motors.', image: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation_app1.jpg' },
+      { id: 2, title: 'CABLE WRAPPING', icon: 'Layers', desc: 'Used to insulate and protect power cables and communication lines.', image: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation_app2.jpg' },
+      { id: 3, title: 'TRANSFORMER COILS', icon: 'Settings', desc: 'Acts as a robust separator and insulator within transformer assemblies.', image: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation_app3.jpg' },
+      { id: 4, title: 'BACKING MATERIAL', icon: 'Package', desc: 'Serves as a reliable, semi-transparent base for abrasive belts and industrial tapes.', image: '/images/stocklots_final/stocklot_polyester-pet-hazy-or-transculant-film-application-insulation_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Polyester (PET)  hazy  or  Transculant  film ( Application Insulation)' },
+      { label: 'Material', value: 'Polyester (PET) hazy or Transculant film' },
+      { label: 'Variants', value: 'Application Insulation' },
       { label: 'Thickness / GSM', value: '25-350 mic' },
       { label: 'Width', value: '700mm+' },
       { label: 'Monthly Availability', value: '500 mt' },
@@ -87,10 +89,10 @@ export const productDetailsData = {
   },
   'bopp-film-in-reels-natural-metalized-pearlised': {
     slug: 'bopp-film-in-reels-natural-metalized-pearlised',
-    name: 'BOPP Film in reels (Natural , Metalized, Pearlised )',
+    name: 'BOPP Film in reels',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality BOPP Film in reels (Natural , Metalized, Pearlised ) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'VERSATILE POLYMER FILM REELS',
+    sourceText: 'Highly adaptable BOPP Film in reels offering superb printability, sealability, and moisture resistance. A cost-effective solution for mass-market packaging and labeling.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised.jpg',
     badges: [
@@ -101,13 +103,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised_app4.jpg' }
+      { id: 1, title: 'SNACK PACKAGING', icon: 'Package', desc: 'Provides an excellent moisture barrier to keep chips and baked goods crispy.', image: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised_app1.jpg' },
+      { id: 2, title: 'GIFT WRAPPING', icon: 'Layers', desc: 'Metalized and pearlised variants offer glossy, premium aesthetics for gifts.', image: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised_app2.jpg' },
+      { id: 3, title: 'ADHESIVE TAPES', icon: 'Settings', desc: 'Forms the durable backing for standard carton-sealing packaging tapes.', image: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised_app3.jpg' },
+      { id: 4, title: 'BOTTLE LABELS', icon: 'ShieldCheck', desc: 'Highly printable surface ideal for wrap-around beverage bottle labels.', image: '/images/stocklots_final/stocklot_bopp-film-in-reels-natural-metalized-pearlised_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'BOPP Film in reels (Natural , Metalized, Pearlised )' },
+      { label: 'Material', value: 'BOPP Film in reels' },
+      { label: 'Variants', value: 'Natural, Metalized, Pearlised' },
       { label: 'Thickness / GSM', value: '4,9,12,18,25, 30, 50 mic' },
       { label: 'Width', value: '250mm' },
       { label: 'Monthly Availability', value: '500 MT' },
@@ -116,10 +119,10 @@ export const productDetailsData = {
   },
   'pvc-soft-rigid-film-in-reels-sheet-natural-white-color': {
     slug: 'pvc-soft-rigid-film-in-reels-sheet-natural-white-color',
-    name: 'PVC soft/rigid film in reels/sheet(Natural, white, color)',
+    name: 'PVC soft/rigid film in reels/sheet',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality PVC soft/rigid film in reels/sheet(Natural, white, color) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'VERSATILE POLYMER FILM REELS',
+    sourceText: 'Highly adaptable PVC soft/rigid film in reels/sheet offering superb printability, sealability, and moisture resistance. A cost-effective solution for mass-market packaging and labeling.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color.jpg',
     badges: [
@@ -130,13 +133,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color_app4.jpg' }
+      { id: 1, title: 'BLISTER PACKAGING', icon: 'Package', desc: 'Rigid PVC provides clear, protective cavities for pharmaceuticals and small retail goods.', image: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color_app1.jpg' },
+      { id: 2, title: 'STATIONERY FOLDERS', icon: 'Layers', desc: 'Soft PVC is widely used to manufacture durable document files and binders.', image: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color_app2.jpg' },
+      { id: 3, title: 'MEDICAL BAGS', icon: 'ShieldCheck', desc: 'Soft, flexible PVC grades are utilized for IV fluid and blood storage bags.', image: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color_app3.jpg' },
+      { id: 4, title: 'THERMOFORMED TRAYS', icon: 'Settings', desc: 'Easily molded into custom shapes for electronics and hardware packaging.', image: '/images/stocklots_final/stocklot_pvc-soft-rigid-film-in-reels-sheet-natural-white-color_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'PVC soft/rigid film in reels/sheet(Natural, white, color)' },
+      { label: 'Material', value: 'PVC soft/rigid film in reels/sheet' },
+      { label: 'Variants', value: 'Natural, white, color' },
       { label: 'Thickness / GSM', value: '70-200 mic' },
       { label: 'Width', value: '500mm' },
       { label: 'Monthly Availability', value: '200 MT' },
@@ -147,8 +151,8 @@ export const productDetailsData = {
     slug: 'ldpe-film-in-reels',
     name: 'LDPE Film in reels',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality LDPE Film in reels sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'LDPE FILM IN REELS RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from industrial packaging excess, distribution center shrink wrap discards, and agricultural protective film offcuts.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_ldpe-film-in-reels.jpg',
     badges: [
@@ -159,10 +163,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_ldpe-film-in-reels_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_ldpe-film-in-reels_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_ldpe-film-in-reels_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_ldpe-film-in-reels_app4.jpg' }
+      { id: 1, title: 'SHRINK WRAP', icon: 'Package', desc: 'Provides secure bundling for multi-packs of beverages and canned goods.', image: '/images/stocklots_final/stocklot_ldpe-film-in-reels_app1.jpg' },
+      { id: 2, title: 'AGRICULTURAL MULCH', icon: 'Leaf', desc: 'Used in farming to retain soil moisture and control weed growth.', image: '/images/stocklots_final/stocklot_ldpe-film-in-reels_app2.jpg' },
+      { id: 3, title: 'INDUSTRIAL LINERS', icon: 'ShieldCheck', desc: 'Acts as a heavy-duty moisture barrier for drums and bulk shipping containers.', image: '/images/stocklots_final/stocklot_ldpe-film-in-reels_app3.jpg' },
+      { id: 4, title: 'CONSTRUCTION SHEETING', icon: 'Layers', desc: 'Used as a vapor barrier and protective cover on building sites.', image: '/images/stocklots_final/stocklot_ldpe-film-in-reels_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'LDPE Film in reels' },
@@ -174,10 +178,10 @@ export const productDetailsData = {
   },
   'lldpe-film-strech-film': {
     slug: 'lldpe-film-strech-film',
-    name: 'LLDPE FILM (Strech film)',
+    name: 'LLDPE FILM',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality LLDPE FILM (Strech film) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'LLDPE FILM (STRECH FILM) RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from pallet wrap discards at major logistics hubs, warehouse consolidation centers, and retail distribution facilities.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_lldpe-film-strech-film.jpg',
     badges: [
@@ -188,13 +192,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_lldpe-film-strech-film_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_lldpe-film-strech-film_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_lldpe-film-strech-film_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_lldpe-film-strech-film_app4.jpg' }
+      { id: 1, title: 'PALLET WRAPPING', icon: 'Package', desc: 'Secures and stabilizes heavy loads on pallets during transport and storage.', image: '/images/stocklots_final/stocklot_lldpe-film-strech-film_app1.jpg' },
+      { id: 2, title: 'SILAGE WRAP', icon: 'Leaf', desc: 'Protects baled hay and agricultural feed from moisture and spoilage.', image: '/images/stocklots_final/stocklot_lldpe-film-strech-film_app2.jpg' },
+      { id: 3, title: 'FURNITURE PROTECTION', icon: 'ShieldCheck', desc: 'Shields furniture and large appliances from dust and scratches during moving.', image: '/images/stocklots_final/stocklot_lldpe-film-strech-film_app3.jpg' },
+      { id: 4, title: 'LUGGAGE WRAP', icon: 'Settings', desc: 'Provides security and tamper-evidence for passenger luggage at airports.', image: '/images/stocklots_final/stocklot_lldpe-film-strech-film_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'LLDPE FILM (Strech film)' },
+      { label: 'Material', value: 'LLDPE FILM' },
+      { label: 'Variants', value: 'Strech film' },
       { label: 'Thickness / GSM', value: '12-25 mic' },
       { label: 'Width', value: '400mm' },
       { label: 'Monthly Availability', value: '50 mt' },
@@ -202,10 +207,10 @@ export const productDetailsData = {
   },
   'synthetic-film-white-matt-gloss-and-textured': {
     slug: 'synthetic-film-white-matt-gloss-and-textured',
-    name: 'Synthetic film -white (matt,gloss and textured)',
+    name: 'Synthetic film -white',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality Synthetic film -white (matt,gloss and textured) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'SYNTHETIC FILM -WHITE (MATT,GLOSS AND TEXTURED) RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from commercial printing press offcuts, packaging label manufacturing rejects, and synthetic paper production side-runs.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured.jpg',
     badges: [
@@ -216,13 +221,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured_app4.jpg' }
+      { id: 1, title: 'DURABLE MENUS', icon: 'Layers', desc: 'Tear-resistant and waterproof material perfect for restaurant menus.', image: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured_app1.jpg' },
+      { id: 2, title: 'OUTDOOR TAGS', icon: 'ShieldCheck', desc: 'Weatherproof tags for lumber, steel, and agricultural products.', image: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured_app2.jpg' },
+      { id: 3, title: 'MAPS & MANUALS', icon: 'Package', desc: 'Produces long-lasting, foldable maps and heavy-use technical manuals.', image: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured_app3.jpg' },
+      { id: 4, title: 'IDENTIFICATION CARDS', icon: 'Settings', desc: 'Used as a printable core layer for ID cards and membership badges.', image: '/images/stocklots_final/stocklot_synthetic-film-white-matt-gloss-and-textured_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Synthetic film -white (matt,gloss and textured)' },
+      { label: 'Material', value: 'Synthetic film -white' },
+      { label: 'Variants', value: 'matt, gloss and textured' },
       { label: 'Thickness / GSM', value: '130-250 MIC' },
       { label: 'Width', value: '500 mm' },
       { label: 'Monthly Availability', value: '100 mt' },
@@ -233,8 +239,8 @@ export const productDetailsData = {
     slug: 'pe-pa-film-any-color',
     name: 'PE/PA film any color',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality PE/PA film any color sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'PE/PA FILM ANY COLOR RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from food packaging manufacturing defects, vacuum pouch production offcuts, and medical device barrier film trimmings.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_pe-pa-film-any-color.jpg',
     badges: [
@@ -245,10 +251,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_pe-pa-film-any-color_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_pe-pa-film-any-color_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_pe-pa-film-any-color_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_pe-pa-film-any-color_app4.jpg' }
+      { id: 1, title: 'VACUUM POUCHES', icon: 'Package', desc: 'PA provides oxygen barrier while PE offers sealability for fresh meat and cheese.', image: '/images/stocklots_final/stocklot_pe-pa-film-any-color_app1.jpg' },
+      { id: 2, title: 'MEDICAL PACKAGING', icon: 'ShieldCheck', desc: 'Puncture-resistant pouches for sterilizing and storing surgical instruments.', image: '/images/stocklots_final/stocklot_pe-pa-film-any-color_app2.jpg' },
+      { id: 3, title: 'INDUSTRIAL BAGS', icon: 'Layers', desc: 'Heavy-duty packaging for chemicals and resins requiring high strength.', image: '/images/stocklots_final/stocklot_pe-pa-film-any-color_app3.jpg' },
+      { id: 4, title: 'LIQUID PACKAGING', icon: 'Settings', desc: 'Used in bag-in-box applications for juices, wines, and dairy products.', image: '/images/stocklots_final/stocklot_pe-pa-film-any-color_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'PE/PA film any color' },
@@ -260,10 +266,10 @@ export const productDetailsData = {
   },
   'hot-stamping-foil-graphic-in-reels-golden-silver-colors': {
     slug: 'hot-stamping-foil-graphic-in-reels-golden-silver-colors',
-    name: 'Hot Stamping Foil-Graphic  in reels (Golden/Silver/ colors)',
+    name: 'Hot Stamping Foil-Graphic in reels',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality Hot Stamping Foil-Graphic  in reels (Golden/Silver/ colors) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'HOT STAMPING FOIL-GRAPHIC  IN REELS (GOLDEN/SILVER/ COLORS) RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from commercial print finishing operations, luxury packaging manufacturing rejects, and label stamping offcuts.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors.jpg',
     badges: [
@@ -274,13 +280,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors_app4.jpg' }
+      { id: 1, title: 'HIGH-QUALITY PACKAGING', icon: 'Package', desc: 'Adds luxurious metallic accents to cosmetic and perfume boxes.', image: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors_app1.jpg' },
+      { id: 2, title: 'WINE & SPIRITS LABELS', icon: 'Layers', desc: 'Enhances brand appeal with shiny, high-contrast decorative elements.', image: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors_app2.jpg' },
+      { id: 3, title: 'SECURITY PRINTING', icon: 'ShieldCheck', desc: 'Holographic stamping foils are used on banknotes and tickets to prevent counterfeiting.', image: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors_app3.jpg' },
+      { id: 4, title: 'GREETING CARDS', icon: 'Settings', desc: 'Provides striking visual appeal for invitations and specialty stationery.', image: '/images/stocklots_final/stocklot_hot-stamping-foil-graphic-in-reels-golden-silver-colors_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Hot Stamping Foil-Graphic  in reels (Golden/Silver/ colors)' },
+      { label: 'Material', value: 'Hot Stamping Foil-Graphic in reels' },
+      { label: 'Variants', value: 'Golden/Silver/ colors' },
       { label: 'Thickness / GSM', value: '12 & 18 mic' },
       { label: 'Width', value: '30 mm+' },
       { label: 'Monthly Availability', value: '200 MT' },
@@ -291,8 +298,8 @@ export const productDetailsData = {
     slug: 'alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil',
     name: 'ALU/PE  Foils in reels & triplex foil  ALU/PE/PET ROLL or coffe foil',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality ALU/PE  Foils in reels & triplex foil  ALU/PE/PET ROLL or coffe foil sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'HIGH-TENSILE POLYESTER STOCKLOTS',
+    sourceText: 'Industrial-grade ALU/PE  Foils in reels & triplex foil  ALU/PE/PET ROLL or coffe foil providing exceptional barrier properties, clarity, and mechanical strength. Ideal for demanding conversion processes requiring strict dimensional stability.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil.jpg',
     badges: [
@@ -303,10 +310,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil_app4.jpg' }
+      { id: 1, title: 'COFFEE PACKAGING', icon: 'Package', desc: 'Preserves aroma and protects against oxygen and moisture for roasted coffee beans.', image: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil_app1.jpg' },
+      { id: 2, title: 'PHARMA SACHETS', icon: 'ShieldCheck', desc: 'High-barrier pouches for powders, granules, and moisture-sensitive medications.', image: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil_app2.jpg' },
+      { id: 3, title: 'LIDDING FOILS', icon: 'Layers', desc: 'Heat-sealable lids for yogurt cups and single-serve dairy containers.', image: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil_app3.jpg' },
+      { id: 4, title: 'INSULATION PANELS', icon: 'Settings', desc: 'Reflective barrier used in construction for thermal insulation and vapor blocking.', image: '/images/stocklots_final/stocklot_alu-pe-foils-in-reels-triplex-foil-alu-pe-pet-roll-or-coffe-foil_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'ALU/PE  Foils in reels & triplex foil  ALU/PE/PET ROLL or coffe foil' },
@@ -318,10 +325,10 @@ export const productDetailsData = {
   },
   'pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white': {
     slug: 'pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white',
-    name: 'PVC Vinyl and self adhesive vinyl /Flex in reels(color/white)',
+    name: 'PVC Vinyl and self adhesive vinyl /Flex in reels',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality PVC Vinyl and self adhesive vinyl /Flex in reels(color/white) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'VERSATILE POLYMER FILM REELS',
+    sourceText: 'Highly adaptable PVC Vinyl and self adhesive vinyl /Flex in reels offering superb printability, sealability, and moisture resistance. A cost-effective solution for mass-market packaging and labeling.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white.jpg',
     badges: [
@@ -332,13 +339,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white_app4.jpg' }
+      { id: 1, title: 'VEHICLE WRAPS', icon: 'Package', desc: 'Conformable, self-adhesive vinyl for commercial fleet branding and color changes.', image: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white_app1.jpg' },
+      { id: 2, title: 'OUTDOOR BANNERS', icon: 'Layers', desc: 'Durable flex material used for large format advertising billboards and signs.', image: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white_app2.jpg' },
+      { id: 3, title: 'WINDOW GRAPHICS', icon: 'Settings', desc: 'Perforated and clear vinyl for retail storefront displays and privacy.', image: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white_app3.jpg' },
+      { id: 4, title: 'FLOOR DECALS', icon: 'ShieldCheck', desc: 'Slip-resistant, printable vinyl for wayfinding and promotional floor graphics.', image: '/images/stocklots_final/stocklot_pvc-vinyl-and-self-adhesive-vinyl-flex-in-reels-color-white_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'PVC Vinyl and self adhesive vinyl /Flex in reels(color/white)' },
+      { label: 'Material', value: 'PVC Vinyl and self adhesive vinyl /Flex in reels' },
+      { label: 'Variants', value: 'color/white' },
       { label: 'Width', value: '800mm' },
       { label: 'Monthly Availability', value: '200 MT' },
       { label: 'Special Notes', value: 'adhesive should be good' },
@@ -346,10 +354,10 @@ export const productDetailsData = {
   },
   'stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking': {
     slug: 'stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking',
-    name: 'Stocklot / Rejects PMMA SHEET 1-mm-6 mm  color and clear (2 side masking)',
+    name: 'Stocklot / Rejects PMMA SHEET 1-mm-6 mm color and clear',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality Stocklot / Rejects PMMA SHEET 1-mm-6 mm  color and clear (2 side masking) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'STOCKLOT / REJECTS PMMA SHEET 1-MM-6 MM  COLOR AND CLEAR (2 SIDE MASKING) RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from signage manufacturing offcuts, architectural glazing rejects, and automotive lighting lens production scraps.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking.jpg',
     badges: [
@@ -360,13 +368,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking_app4.jpg' }
+      { id: 1, title: 'SIGNAGE & DISPLAYS', icon: 'Layers', desc: 'Excellent light transmission for illuminated signs and point-of-purchase displays.', image: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking_app1.jpg' },
+      { id: 2, title: 'ARCHITECTURAL GLAZING', icon: 'ShieldCheck', desc: 'Shatter-resistant alternative to glass for skylights and protective barriers.', image: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking_app2.jpg' },
+      { id: 3, title: 'LIGHTING FIXTURES', icon: 'Settings', desc: 'Used for diffusers and lenses in LED and fluorescent lighting applications.', image: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking_app3.jpg' },
+      { id: 4, title: 'AQUARIUM TANKS', icon: 'Package', desc: 'High clarity and impact resistance make it ideal for custom aquarium construction.', image: '/images/stocklots_final/stocklot_stocklot-rejects-pmma-sheet-1-mm-6-mm-color-and-clear-2-side-masking_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Stocklot / Rejects PMMA SHEET 1-mm-6 mm  color and clear (2 side masking)' },
+      { label: 'Material', value: 'Stocklot / Rejects PMMA SHEET 1-mm-6 mm color and clear' },
+      { label: 'Variants', value: '2 side masking' },
       { label: 'Thickness / GSM', value: '1 mm -6mm' },
       { label: 'Width', value: '4X8  FEET' },
       { label: 'Monthly Availability', value: '100 MT' },
@@ -377,8 +386,8 @@ export const productDetailsData = {
     slug: 'stocklot-rejectspc-polycarbonate-film',
     name: 'Stocklot / RejectsPC (Polycarbonate ) film',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality Stocklot / RejectsPC (Polycarbonate ) film sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'STOCKLOT / REJECTSPC (POLYCARBONATE ) FILM RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from electronic display manufacturing offcuts, membrane switch production rejects, and safety eyewear trimmings.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film.jpg',
     badges: [
@@ -389,10 +398,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film_app4.jpg' }
+      { id: 1, title: 'MEMBRANE SWITCHES', icon: 'Settings', desc: 'Durable, printable film used for control panels on appliances and medical devices.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film_app1.jpg' },
+      { id: 2, title: 'NAMEPLATES', icon: 'Layers', desc: 'High-temperature resistant labels for industrial machinery and automotive parts.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film_app2.jpg' },
+      { id: 3, title: 'SECURITY CARDS', icon: 'ShieldCheck', desc: 'Provides laser-engravable layers for passports and national ID cards.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film_app3.jpg' },
+      { id: 4, title: 'LENS COVERS', icon: 'Package', desc: 'Scratch-resistant protective films for optical devices and displays.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-polycarbonate-film_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Stocklot / RejectsPC (Polycarbonate ) film' },
@@ -404,10 +413,10 @@ export const productDetailsData = {
   },
   'stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking': {
     slug: 'stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking',
-    name: 'Stocklot / RejectsPC clear Sheet 0.5 mm -6mm (2 side masking)',
+    name: 'Stocklot / RejectsPC clear Sheet 0.5 mm -6mm',
     code: 'STOCKLOT',
-    tagline: 'PREMIUM STOCKLOT PLASTIC FILM',
-    sourceText: 'High-quality Stocklot / RejectsPC clear Sheet 0.5 mm -6mm (2 side masking) sourced from excess inventory and industrial stocklots, thoroughly inspected for industrial conversion.',
+    tagline: 'STOCKLOT / REJECTSPC CLEAR SHEET 0.5 MM -6MM (2 SIDE MASKING) RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from security glazing offcuts, riot shield manufacturing rejects, and machine guard fabrication scraps.',
     category: 'Stocklot Plastic Films',
     heroImage: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking.jpg',
     badges: [
@@ -418,13 +427,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'PACKAGING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking_app1.jpg' },
-      { id: 2, title: 'LAMINATION', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking_app2.jpg' },
-      { id: 3, title: 'PRINTING', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking_app3.jpg' },
-      { id: 4, title: 'INDUSTRIAL COVERS', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking_app4.jpg' }
+      { id: 1, title: 'MACHINE GUARDS', icon: 'ShieldCheck', desc: 'Extreme impact resistance protects operators from flying debris in factories.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking_app1.jpg' },
+      { id: 2, title: 'ROOFING PANELS', icon: 'Layers', desc: 'UV-resistant transparent sheets used for greenhouses and patio covers.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking_app2.jpg' },
+      { id: 3, title: 'RIOT SHIELDS', icon: 'Settings', desc: 'Virtually unbreakable material provides vital protection for law enforcement.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking_app3.jpg' },
+      { id: 4, title: 'SOUND BARRIERS', icon: 'Package', desc: 'Transparent acoustic walls used along highways to reduce traffic noise.', image: '/images/stocklots_final/stocklot_stocklot-rejectspc-clear-sheet-0-5-mm-6mm-2-side-masking_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Stocklot / RejectsPC clear Sheet 0.5 mm -6mm (2 side masking)' },
+      { label: 'Material', value: 'Stocklot / RejectsPC clear Sheet 0.5 mm -6mm' },
+      { label: 'Variants', value: '2 side masking' },
       { label: 'Thickness / GSM', value: '0.5 mm -6mm' },
       { label: 'Width', value: '4X8  FEET' },
       { label: 'Monthly Availability', value: '50 mt' },
@@ -435,8 +445,8 @@ export const productDetailsData = {
     slug: 'silicon-printed-unprinted-paper-release-paper',
     name: 'Silicon printed/unprinted paper/ Release Paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Silicon printed/unprinted paper/ Release Paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'SPECIALTY COATED PAPERS',
+    sourceText: 'Precision-engineered Silicon printed/unprinted paper/ Release Paper featuring advanced chemical coatings for specific industrial uses, including heat-sensitive printing and adhesive release.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper.jpg',
     badges: [
@@ -447,10 +457,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper_app4.jpg' }
+      { id: 1, title: 'LABEL BACKING', icon: 'Layers', desc: 'Provides a non-stick carrier for die-cut self-adhesive labels and stickers.', image: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper_app1.jpg' },
+      { id: 2, title: 'MEDICAL TAPES', icon: 'ShieldCheck', desc: 'Release liner for bandages, surgical drapes, and wound care products.', image: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper_app2.jpg' },
+      { id: 3, title: 'COMPOSITE MANUFACTURING', icon: 'Settings', desc: 'Used as a carrier in the production of carbon fiber prepregs.', image: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper_app3.jpg' },
+      { id: 4, title: 'HYGIENE PRODUCTS', icon: 'Package', desc: 'Release paper for the adhesive strips on diapers and feminine care products.', image: '/images/stocklots_final/stocklot_silicon-printed-unprinted-paper-release-paper_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Silicon printed/unprinted paper/ Release Paper' },
@@ -462,10 +472,10 @@ export const productDetailsData = {
   },
   'metalized-paper-silver-gold-paper-reels-sheet': {
     slug: 'metalized-paper-silver-gold-paper-reels-sheet',
-    name: 'Metalized paper, silver/gold paper (reels/sheet)',
+    name: 'Metalized paper, silver/gold paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Metalized paper, silver/gold paper (reels/sheet) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'METALIZED PAPER, SILVER/GOLD PAPER (REELS/SHEET) RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from gift wrap manufacturing excess, premium label printing offcuts, and decorative packaging production side-runs.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet.jpg',
     badges: [
@@ -476,13 +486,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet_app4.jpg' }
+      { id: 1, title: 'BEER LABELS', icon: 'Layers', desc: 'Moisture-resistant, shiny labels for premium beverage bottles.', image: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet_app1.jpg' },
+      { id: 2, title: 'CIGARETTE INNER LINERS', icon: 'Package', desc: 'Maintains freshness and aroma within tobacco packaging.', image: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet_app2.jpg' },
+      { id: 3, title: 'GIFT WRAP', icon: 'Settings', desc: 'Provides a luxurious, reflective finish for high-end retail wrapping.', image: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet_app3.jpg' },
+      { id: 4, title: 'CONFECTIONERY WRAPPERS', icon: 'ShieldCheck', desc: 'Used for wrapping chocolates and chewing gum to protect against moisture.', image: '/images/stocklots_final/stocklot_metalized-paper-silver-gold-paper-reels-sheet_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Metalized paper, silver/gold paper (reels/sheet)' },
+      { label: 'Material', value: 'Metalized paper, silver/gold paper' },
+      { label: 'Variants', value: 'reels/sheet' },
       { label: 'Thickness / GSM', value: '40-300 GSM' },
       { label: 'Width', value: '500mm' },
       { label: 'Monthly Availability', value: '200  MT' },
@@ -491,10 +502,10 @@ export const productDetailsData = {
   },
   'alu-laminated-paper-reels-sheet': {
     slug: 'alu-laminated-paper-reels-sheet',
-    name: 'Alu laminated paper (reels/sheet)',
+    name: 'Alu laminated paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Alu laminated paper (reels/sheet) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'ALU LAMINATED PAPER (REELS/SHEET) RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from food and pharmaceutical packaging production rejects, cigarette inner liner offcuts, and thermal insulation backing scrap.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet.jpg',
     badges: [
@@ -505,13 +516,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet_app4.jpg' }
+      { id: 1, title: 'BUTTER WRAPPERS', icon: 'Package', desc: 'Provides an absolute barrier against light, oxygen, and moisture to prevent rancidity.', image: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet_app1.jpg' },
+      { id: 2, title: 'SOUP POUCHES', icon: 'ShieldCheck', desc: 'Used as the core barrier layer in dehydrated food and soup sachets.', image: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet_app2.jpg' },
+      { id: 3, title: 'INSULATION FACING', icon: 'Layers', desc: 'Acts as a vapor retarder and radiant barrier on fiberglass building insulation.', image: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet_app3.jpg' },
+      { id: 4, title: 'CIGARETTE PACKAGING', icon: 'Settings', desc: 'Protects tobacco products from moisture and aroma loss.', image: '/images/stocklots_final/stocklot_alu-laminated-paper-reels-sheet_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Alu laminated paper (reels/sheet)' },
+      { label: 'Material', value: 'Alu laminated paper' },
+      { label: 'Variants', value: 'reels/sheet' },
       { label: 'Thickness / GSM', value: '30-100 GSM' },
       { label: 'Width', value: '600mm' },
       { label: 'Monthly Availability', value: '200  MT' },
@@ -520,10 +532,10 @@ export const productDetailsData = {
   },
   'kraft-papers-virgin-bleach-sack-max-width-1600mm': {
     slug: 'kraft-papers-virgin-bleach-sack-max-width-1600mm',
-    name: 'Kraft Papers (Virgin/Bleach/Sack) (Max width 1600mm)',
+    name: 'Kraft Papers (Virgin/Bleach/Sack)',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Kraft Papers (Virgin/Bleach/Sack) (Max width 1600mm) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'SUSTAINABLE KRAFT & UNCOATED PAPERS',
+    sourceText: 'Heavy-duty Kraft Papers (Virgin/Bleach/Sack) known for its exceptional tear resistance and burst strength. Sourced from premium mills for reliable industrial packaging and printing.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm.jpg',
     badges: [
@@ -534,13 +546,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm_app4.jpg' }
+      { id: 1, title: 'MULTI-WALL SACKS', icon: 'Package', desc: 'High tensile strength for packaging cement, flour, and animal feed.', image: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm_app1.jpg' },
+      { id: 2, title: 'CORRUGATED BOXES', icon: 'Layers', desc: 'Used as the strong fluting and linerboard in shipping cartons.', image: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm_app2.jpg' },
+      { id: 3, title: 'SHOPPING BAGS', icon: 'Settings', desc: 'Provides durable, sustainable alternatives to plastic retail bags.', image: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm_app3.jpg' },
+      { id: 4, title: 'WRAPPING PAPER', icon: 'ShieldCheck', desc: 'Used for protective void-fill and wrapping of industrial parts during shipping.', image: '/images/stocklots_final/stocklot_kraft-papers-virgin-bleach-sack-max-width-1600mm_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Kraft Papers (Virgin/Bleach/Sack) (Max width 1600mm)' },
+      { label: 'Material', value: 'Kraft Papers (Virgin/Bleach/Sack)' },
+      { label: 'Variants', value: 'Max width 1600mm' },
       { label: 'Thickness / GSM', value: '30-120 GSM' },
       { label: 'Width', value: '800mm' },
       { label: 'Monthly Availability', value: '500 MT' },
@@ -551,8 +564,8 @@ export const productDetailsData = {
     slug: 'thermal-paper',
     name: 'Thermal paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Thermal paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'SPECIALTY COATED PAPERS',
+    sourceText: 'Precision-engineered Thermal paper featuring advanced chemical coatings for specific industrial uses, including heat-sensitive printing and adhesive release.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_thermal-paper.jpg',
     badges: [
@@ -563,10 +576,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_thermal-paper_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_thermal-paper_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_thermal-paper_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_thermal-paper_app4.jpg' }
+      { id: 1, title: 'POS RECEIPTS', icon: 'Package', desc: 'Standard paper for cash registers, credit card terminals, and ATM receipts.', image: '/images/stocklots_final/stocklot_thermal-paper_app1.jpg' },
+      { id: 2, title: 'SHIPPING LABELS', icon: 'Layers', desc: 'Used in logistics for printing barcodes and tracking information instantly.', image: '/images/stocklots_final/stocklot_thermal-paper_app2.jpg' },
+      { id: 3, title: 'EVENT TICKETS', icon: 'Settings', desc: 'Prints tickets for cinemas, concerts, and public transportation.', image: '/images/stocklots_final/stocklot_thermal-paper_app3.jpg' },
+      { id: 4, title: 'MEDICAL IMAGING', icon: 'ShieldCheck', desc: 'High-resolution thermal paper is used for ultrasound and ECG printouts.', image: '/images/stocklots_final/stocklot_thermal-paper_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Thermal paper' },
@@ -578,10 +591,10 @@ export const productDetailsData = {
   },
   'color-paper-board-side-run': {
     slug: 'color-paper-board-side-run',
-    name: 'Color Paper & Board (side run )',
+    name: 'Color Paper & Board',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Color Paper & Board (side run ) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'COLOR PAPER & BOARD (SIDE RUN ) RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from commercial printing press side-runs, educational material production overruns, and craft paper manufacturing excess.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_color-paper-board-side-run.jpg',
     badges: [
@@ -592,13 +605,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_color-paper-board-side-run_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_color-paper-board-side-run_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_color-paper-board-side-run_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_color-paper-board-side-run_app4.jpg' }
+      { id: 1, title: 'STATIONERY & CRAFTS', icon: 'Layers', desc: 'Used for notebooks, origami, scrapbooking, and art projects.', image: '/images/stocklots_final/stocklot_color-paper-board-side-run_app1.jpg' },
+      { id: 2, title: 'FILE FOLDERS', icon: 'Settings', desc: 'Sturdy colored board is ideal for organizing office documents by color.', image: '/images/stocklots_final/stocklot_color-paper-board-side-run_app2.jpg' },
+      { id: 3, title: 'TICKETS & TAGS', icon: 'Package', desc: 'Provides vibrant, recognizable colors for event tickets and retail hang tags.', image: '/images/stocklots_final/stocklot_color-paper-board-side-run_app3.jpg' },
+      { id: 4, title: 'FLYERS & BROCHURES', icon: 'ShieldCheck', desc: 'Eye-catching paper for promotional materials and direct mail advertising.', image: '/images/stocklots_final/stocklot_color-paper-board-side-run_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Color Paper & Board (side run )' },
+      { label: 'Material', value: 'Color Paper & Board' },
+      { label: 'Variants', value: 'side run' },
       { label: 'Thickness / GSM', value: '35-350 GSM' },
       { label: 'Width', value: '100mm' },
       { label: 'Monthly Availability', value: '150  MT' },
@@ -609,8 +623,8 @@ export const productDetailsData = {
     slug: 'greaseproof-paper-parchment-white-and-colored',
     name: 'Greaseproof paper/Parchment white and colored',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Greaseproof paper/Parchment white and colored recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'GREASEPROOF PAPER/PARCHMENT WHITE AND COLORED RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from commercial baking supply manufacturing rejects, fast-food wrapper production offcuts, and industrial food packaging excess.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored.jpg',
     badges: [
@@ -621,10 +635,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored_app4.jpg' }
+      { id: 1, title: 'BAKING LINERS', icon: 'Package', desc: 'Prevents baked goods from sticking to pans without needing additional fats.', image: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored_app1.jpg' },
+      { id: 2, title: 'FAST FOOD WRAPS', icon: 'Layers', desc: 'Wraps burgers, sandwiches, and fries, keeping grease from leaking through.', image: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored_app2.jpg' },
+      { id: 3, title: 'MEAT & CHEESE WRAP', icon: 'ShieldCheck', desc: 'Provides a breathable, hygienic barrier for deli products.', image: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored_app3.jpg' },
+      { id: 4, title: 'CUPCAKE LINERS', icon: 'Settings', desc: 'Colored parchment is formed into fluted cups for muffins and pastries.', image: '/images/stocklots_final/stocklot_greaseproof-paper-parchment-white-and-colored_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Greaseproof paper/Parchment white and colored' },
@@ -637,8 +651,8 @@ export const productDetailsData = {
     slug: 'decor-laminate-base-paper',
     name: 'Decor Laminate Base Paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Decor Laminate Base Paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'DECOR LAMINATE BASE PAPER RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from furniture surfacing manufacturing side-runs, flooring laminate production rejects, and architectural paneling offcuts.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_decor-laminate-base-paper.jpg',
     badges: [
@@ -649,10 +663,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_decor-laminate-base-paper_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_decor-laminate-base-paper_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_decor-laminate-base-paper_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_decor-laminate-base-paper_app4.jpg' }
+      { id: 1, title: 'FURNITURE SURFACES', icon: 'Layers', desc: 'Printed with woodgrains to create durable laminate surfaces for desks and cabinets.', image: '/images/stocklots_final/stocklot_decor-laminate-base-paper_app1.jpg' },
+      { id: 2, title: 'LAMINATE FLOORING', icon: 'Settings', desc: 'Acts as the decorative top layer in engineered flooring systems.', image: '/images/stocklots_final/stocklot_decor-laminate-base-paper_app2.jpg' },
+      { id: 3, title: 'KITCHEN WORKTOPS', icon: 'ShieldCheck', desc: 'Impregnated with melamine to provide scratch and heat-resistant countertops.', image: '/images/stocklots_final/stocklot_decor-laminate-base-paper_app3.jpg' },
+      { id: 4, title: 'WALL PANELS', icon: 'Package', desc: 'Used to produce decorative high-pressure laminates for interior wall cladding.', image: '/images/stocklots_final/stocklot_decor-laminate-base-paper_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Decor Laminate Base Paper' },
@@ -666,8 +680,8 @@ export const productDetailsData = {
     slug: 'gloss-lable-paper',
     name: 'Gloss Lable paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Gloss Lable paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'GLOSS LABLE PAPER RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from consumer goods label printing offcuts, beverage bottle label production rejects, and sticker manufacturing excess.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_gloss-lable-paper.jpg',
     badges: [
@@ -678,10 +692,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_gloss-lable-paper_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_gloss-lable-paper_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_gloss-lable-paper_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_gloss-lable-paper_app4.jpg' }
+      { id: 1, title: 'BEVERAGE LABELS', icon: 'Package', desc: 'Provides a shiny, high-quality finish for wine, spirit, and water bottles.', image: '/images/stocklots_final/stocklot_gloss-lable-paper_app1.jpg' },
+      { id: 2, title: 'FOOD JAR LABELS', icon: 'Layers', desc: 'High printability ensures vibrant graphics for jam, sauce, and honey jars.', image: '/images/stocklots_final/stocklot_gloss-lable-paper_app2.jpg' },
+      { id: 3, title: 'COSMETIC PACKAGING', icon: 'ShieldCheck', desc: 'Offers premium aesthetics for shampoo bottles and skincare products.', image: '/images/stocklots_final/stocklot_gloss-lable-paper_app3.jpg' },
+      { id: 4, title: 'PROMOTIONAL STICKERS', icon: 'Settings', desc: 'Ideal for branded promotional decals and retail sale stickers.', image: '/images/stocklots_final/stocklot_gloss-lable-paper_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Gloss Lable paper' },
@@ -695,8 +709,8 @@ export const productDetailsData = {
     slug: 'tetra-printed',
     name: 'Tetra Printed',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Tetra Printed recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'TETRA PRINTED RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from aseptic liquid packaging production rejects, juice and milk carton manufacturing offcuts, and commercial dairy packaging excess.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_tetra-printed.jpg',
     badges: [
@@ -707,10 +721,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_tetra-printed_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_tetra-printed_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_tetra-printed_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_tetra-printed_app4.jpg' }
+      { id: 1, title: 'RECYCLED PAPERBOARD', icon: 'Layers', desc: 'Repulped to recover strong fibers for manufacturing folding cartons and core tubes.', image: '/images/stocklots_final/stocklot_tetra-printed_app1.jpg' },
+      { id: 2, title: 'COMPOSITE PANELS', icon: 'Settings', desc: 'Shredded and pressed into durable, waterproof boards for construction.', image: '/images/stocklots_final/stocklot_tetra-printed_app2.jpg' },
+      { id: 3, title: 'ALUMINUM RECOVERY', icon: 'ShieldCheck', desc: 'Processed in specialized plants to extract the aluminum foil layer for recycling.', image: '/images/stocklots_final/stocklot_tetra-printed_app3.jpg' },
+      { id: 4, title: 'PLASTIC LUMBER', icon: 'Package', desc: 'The PolyAl (polymer-aluminum) residual is used to make outdoor furniture and decking.', image: '/images/stocklots_final/stocklot_tetra-printed_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Tetra Printed' },
@@ -722,10 +736,10 @@ export const productDetailsData = {
   },
   'self-adhesive-label-stock-sticker-paper-sheet-reels': {
     slug: 'self-adhesive-label-stock-sticker-paper-sheet-reels',
-    name: 'Self adhesive Label stock /sticker paper (sheet /reels)',
+    name: 'Self adhesive Label stock /sticker paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Self adhesive Label stock /sticker paper (sheet /reels) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'SPECIALTY COATED PAPERS',
+    sourceText: 'Precision-engineered Self adhesive Label stock /sticker paper featuring advanced chemical coatings for specific industrial uses, including heat-sensitive printing and adhesive release.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels.jpg',
     badges: [
@@ -736,13 +750,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels_app4.jpg' }
+      { id: 1, title: 'BARCODE LABELS', icon: 'Package', desc: 'Used for inventory tracking, shipping, and retail product identification.', image: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels_app1.jpg' },
+      { id: 2, title: 'PRODUCT BRANDING', icon: 'Layers', desc: 'Custom printed stickers for packaging, jars, and artisan goods.', image: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels_app2.jpg' },
+      { id: 3, title: 'WARNING LABELS', icon: 'ShieldCheck', desc: 'Provides durable safety instructions on machinery and chemical containers.', image: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels_app3.jpg' },
+      { id: 4, title: 'OFFICE SUPPLIES', icon: 'Settings', desc: 'Used for address labels, file folder labels, and organizational stickers.', image: '/images/stocklots_final/stocklot_self-adhesive-label-stock-sticker-paper-sheet-reels_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Self adhesive Label stock /sticker paper (sheet /reels)' },
+      { label: 'Material', value: 'Self adhesive Label stock /sticker paper' },
+      { label: 'Variants', value: 'sheet /reels' },
       { label: 'Thickness / GSM', value: '30 - 80 GSM' },
       { label: 'Width', value: '150mm' },
       { label: 'Monthly Availability', value: '250  MT' },
@@ -751,10 +766,10 @@ export const productDetailsData = {
   },
   'cupstock-coated-uncoated-polycoated-paper-board-1s-2s': {
     slug: 'cupstock-coated-uncoated-polycoated-paper-board-1s-2s',
-    name: 'Cupstock Coated-uncoated /polycoated paper board(1s/2s)',
+    name: 'Cupstock Coated-uncoated /polycoated paper board',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Cupstock Coated-uncoated /polycoated paper board(1s/2s) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'CUPSTOCK COATED-UNCOATED /POLYCOATED PAPER BOARD(1S/2S) RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from disposable coffee cup manufacturing rejects, food container production offcuts, and ice cream tub manufacturing excess.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s.jpg',
     badges: [
@@ -765,13 +780,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s_app4.jpg' }
+      { id: 1, title: 'HOT COFFEE CUPS', icon: 'Package', desc: '1S polycoated board prevents hot liquids from seeping through the cup.', image: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s_app1.jpg' },
+      { id: 2, title: 'COLD DRINK CUPS', icon: 'Layers', desc: '2S polycoated board prevents condensation from weakening the outside of the cup.', image: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s_app2.jpg' },
+      { id: 3, title: 'ICE CREAM TUBS', icon: 'Settings', desc: 'Provides a sturdy, moisture-resistant container for frozen desserts.', image: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s_app3.jpg' },
+      { id: 4, title: 'FOOD TRAYS', icon: 'ShieldCheck', desc: 'Used to manufacture disposable food boats and takeaway containers.', image: '/images/stocklots_final/stocklot_cupstock-coated-uncoated-polycoated-paper-board-1s-2s_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Cupstock Coated-uncoated /polycoated paper board(1s/2s)' },
+      { label: 'Material', value: 'Cupstock Coated-uncoated /polycoated paper board' },
+      { label: 'Variants', value: '1s/2s' },
       { label: 'Thickness / GSM', value: '50-200 GSM' },
       { label: 'Width', value: '50mm' },
       { label: 'Monthly Availability', value: '500  MT' },
@@ -782,8 +798,8 @@ export const productDetailsData = {
     slug: 'wood-free-uncoated-paper',
     name: 'Wood-free uncoated paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Wood-free uncoated paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'SUSTAINABLE KRAFT & UNCOATED PAPERS',
+    sourceText: 'Heavy-duty Wood-free uncoated paper known for its exceptional tear resistance and burst strength. Sourced from premium mills for reliable industrial packaging and printing.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_wood-free-uncoated-paper.jpg',
     badges: [
@@ -794,10 +810,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_wood-free-uncoated-paper_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_wood-free-uncoated-paper_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_wood-free-uncoated-paper_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_wood-free-uncoated-paper_app4.jpg' }
+      { id: 1, title: 'BOOK PUBLISHING', icon: 'Layers', desc: 'Preferred for novels and textbooks due to its longevity and glare-free readability.', image: '/images/stocklots_final/stocklot_wood-free-uncoated-paper_app1.jpg' },
+      { id: 2, title: 'COPY & PRINTER PAPER', icon: 'Settings', desc: 'Standard A4 paper used in laser and inkjet printers for office documents.', image: '/images/stocklots_final/stocklot_wood-free-uncoated-paper_app2.jpg' },
+      { id: 3, title: 'NOTEBOOKS', icon: 'Package', desc: 'Provides a smooth surface for writing with pens and pencils in school supplies.', image: '/images/stocklots_final/stocklot_wood-free-uncoated-paper_app3.jpg' },
+      { id: 4, title: 'ENVELOPES', icon: 'ShieldCheck', desc: 'Used to manufacture standard business and personal mailing envelopes.', image: '/images/stocklots_final/stocklot_wood-free-uncoated-paper_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Wood-free uncoated paper' },
@@ -811,8 +827,8 @@ export const productDetailsData = {
     slug: 'playing-card-board-black-centre-triplex-board',
     name: 'Playing card board/ Black Centre triplex board',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Playing card board/ Black Centre triplex board recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'PLAYING CARD BOARD/ BLACK CENTRE TRIPLEX BOARD STOCKLOTS',
+    sourceText: 'Sourced from casino card manufacturing offcuts, board game production rejects, and premium trading card manufacturing side-runs.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board.jpg',
     badges: [
@@ -823,10 +839,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board_app4.jpg' }
+      { id: 1, title: 'CASINO CARDS', icon: 'Layers', desc: 'The black center prevents light from shining through, ensuring game security.', image: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board_app1.jpg' },
+      { id: 2, title: 'TRADING CARD GAMES', icon: 'Package', desc: 'Provides durability, snap, and high-quality printing for collectible cards.', image: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board_app2.jpg' },
+      { id: 3, title: 'BOARD GAME COMPONENTS', icon: 'Settings', desc: 'Used for punch-out tokens and durable game tiles.', image: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board_app3.jpg' },
+      { id: 4, title: 'HIGH-QUALITY BUSINESS CARDS', icon: 'ShieldCheck', desc: 'Offers a thick, rigid, and luxurious feel for high-end corporate cards.', image: '/images/stocklots_final/stocklot_playing-card-board-black-centre-triplex-board_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Playing card board/ Black Centre triplex board' },
@@ -839,8 +855,8 @@ export const productDetailsData = {
     slug: 'tracing-paper-white',
     name: 'Tracing Paper-white',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Tracing Paper-white recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'TRACING PAPER-WHITE STOCKLOTS',
+    sourceText: 'Sourced from architectural drafting supply manufacturing rejects, art supply production offcuts, and specialty translucent envelope manufacturing excess.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_tracing-paper-white.jpg',
     badges: [
@@ -851,10 +867,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_tracing-paper-white_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_tracing-paper-white_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_tracing-paper-white_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_tracing-paper-white_app4.jpg' }
+      { id: 1, title: 'ARCHITECTURAL DRAFTING', icon: 'Layers', desc: 'High transparency allows architects and engineers to overlay and trace blueprints.', image: '/images/stocklots_final/stocklot_tracing-paper-white_app1.jpg' },
+      { id: 2, title: 'GRAPHIC DESIGN', icon: 'Settings', desc: 'Used by artists for sketching, transferring drawings, and planning layouts.', image: '/images/stocklots_final/stocklot_tracing-paper-white_app2.jpg' },
+      { id: 3, title: 'SEWING PATTERNS', icon: 'Package', desc: 'Provides a durable, see-through material for tracing dressmaking patterns.', image: '/images/stocklots_final/stocklot_tracing-paper-white_app3.jpg' },
+      { id: 4, title: 'LUXURY PACKAGING', icon: 'ShieldCheck', desc: 'Used as an elegant, translucent inner wrapper for perfumes and cosmetics.', image: '/images/stocklots_final/stocklot_tracing-paper-white_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Tracing Paper-white' },
@@ -867,8 +883,8 @@ export const productDetailsData = {
     slug: 'filter-papers',
     name: 'Filter Papers',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Filter Papers recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'FILTER PAPERS STOCKLOTS',
+    sourceText: 'Sourced from automotive oil filter manufacturing offcuts, laboratory supply production rejects, and commercial coffee filter manufacturing excess.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_filter-papers.jpg',
     badges: [
@@ -879,10 +895,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_filter-papers_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_filter-papers_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_filter-papers_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_filter-papers_app4.jpg' }
+      { id: 1, title: 'COFFEE FILTERS', icon: 'Package', desc: 'Allows liquids to pass while retaining fine coffee grounds without tearing.', image: '/images/stocklots_final/stocklot_filter-papers_app1.jpg' },
+      { id: 2, title: 'TEA BAGS', icon: 'Layers', desc: 'Highly porous paper that infuses flavor while keeping tea leaves contained.', image: '/images/stocklots_final/stocklot_filter-papers_app2.jpg' },
+      { id: 3, title: 'LABORATORY FILTRATION', icon: 'Settings', desc: 'Used in chemistry labs for qualitative and quantitative analysis of suspensions.', image: '/images/stocklots_final/stocklot_filter-papers_app3.jpg' },
+      { id: 4, title: 'AUTOMOTIVE FILTERS', icon: 'ShieldCheck', desc: 'Forms the core filtering media for engine oil and air filters.', image: '/images/stocklots_final/stocklot_filter-papers_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Filter Papers' },
@@ -895,8 +911,8 @@ export const productDetailsData = {
     slug: 'printed-unprinted-pe-coated-paper',
     name: 'Printed /unprinted PE coated paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Printed /unprinted PE coated paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'PRINTED /UNPRINTED PE COATED PAPER STOCKLOTS',
+    sourceText: 'Sourced from fast-food wrapping manufacturing rejects, industrial moisture-barrier packaging offcuts, and disposable plate production excess.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper.jpg',
     badges: [
@@ -907,10 +923,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper_app4.jpg' }
+      { id: 1, title: 'SUGAR SACHETS', icon: 'Package', desc: 'PE coating provides heat sealability and moisture protection for single-serve packets.', image: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper_app1.jpg' },
+      { id: 2, title: 'FAST FOOD WRAPS', icon: 'Layers', desc: 'Prevents grease and sauces from leaking through burger and sandwich wrappers.', image: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper_app2.jpg' },
+      { id: 3, title: 'REAM WRAPPERS', icon: 'Settings', desc: 'Protects reams of copy paper from atmospheric moisture during transit and storage.', image: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper_app3.jpg' },
+      { id: 4, title: 'MEDICAL POUCHES', icon: 'ShieldCheck', desc: 'Used for packaging disposable syringes and sterile medical devices.', image: '/images/stocklots_final/stocklot_printed-unprinted-pe-coated-paper_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Printed /unprinted PE coated paper' },
@@ -921,10 +937,10 @@ export const productDetailsData = {
   },
   'cast-coated-paper-used-leather-release-paper': {
     slug: 'cast-coated-paper-used-leather-release-paper',
-    name: 'Cast coated paper used (Leather release paper)',
+    name: 'Cast coated paper used',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Cast coated paper used (Leather release paper) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'CAST COATED PAPER USED (LEATHER RELEASE PAPER) STOCKLOTS',
+    sourceText: 'Sourced from synthetic leather manufacturing offcuts, premium high-gloss label production rejects, and specialty adhesive backing scrap.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper.jpg',
     badges: [
@@ -935,13 +951,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper_app4.jpg' }
+      { id: 1, title: 'SYNTHETIC LEATHER', icon: 'Layers', desc: 'Transfers specific textures (e.g., grain) onto PU or PVC leather during casting.', image: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper_app1.jpg' },
+      { id: 2, title: 'LUXURY PACKAGING', icon: 'Package', desc: 'Ultra-high gloss surface used for premium cosmetic and perfume boxes.', image: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper_app2.jpg' },
+      { id: 3, title: 'HIGH-END LABELS', icon: 'Settings', desc: 'Provides a mirror-like finish for wine and boutique product labels.', image: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper_app3.jpg' },
+      { id: 4, title: 'GREETING CARDS', icon: 'ShieldCheck', desc: 'Excellent ink hold-out ensures photographic quality printing on postcards.', image: '/images/stocklots_final/stocklot_cast-coated-paper-used-leather-release-paper_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Cast coated paper used (Leather release paper)' },
+      { label: 'Material', value: 'Cast coated paper used' },
+      { label: 'Variants', value: 'Leather release paper' },
       { label: 'Thickness / GSM', value: '50-100 gsm' },
       { label: 'Width', value: '1000mm' },
       { label: 'Monthly Availability', value: '100  MT' },
@@ -951,8 +968,8 @@ export const productDetailsData = {
     slug: 'butter-paper',
     name: 'Butter Paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Butter Paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'BUTTER PAPER STOCKLOTS',
+    sourceText: 'Sourced from dairy packaging manufacturing rejects, confectionery wrapping production offcuts, and commercial baking liner excess.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_butter-paper.jpg',
     badges: [
@@ -963,10 +980,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_butter-paper_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_butter-paper_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_butter-paper_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_butter-paper_app4.jpg' }
+      { id: 1, title: 'DAIRY WRAPPING', icon: 'Package', desc: 'Provides a grease-resistant barrier that protects butter and margarine.', image: '/images/stocklots_final/stocklot_butter-paper_app1.jpg' },
+      { id: 2, title: 'CONFECTIONERY', icon: 'Layers', desc: 'Used for wrapping caramels and sticky sweets to prevent them from adhering.', image: '/images/stocklots_final/stocklot_butter-paper_app2.jpg' },
+      { id: 3, title: 'BAKING APPLICATIONS', icon: 'Settings', desc: 'Acts as a non-stick liner for baking trays and cake tins.', image: '/images/stocklots_final/stocklot_butter-paper_app3.jpg' },
+      { id: 4, title: 'INTERLEAVING', icon: 'ShieldCheck', desc: 'Separates slices of cheese or frozen meats in deli packaging.', image: '/images/stocklots_final/stocklot_butter-paper_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Butter Paper' },
@@ -978,10 +995,10 @@ export const productDetailsData = {
   },
   'pe-coated-paper-1s-gloss': {
     slug: 'pe-coated-paper-1s-gloss',
-    name: 'PE coated paper (1S Gloss)',
+    name: 'PE coated paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium PE coated paper (1S Gloss) recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'PE COATED PAPER (1S GLOSS) STOCKLOTS',
+    sourceText: 'Sourced from disposable paper cup production rejects, glossy food packaging offcuts, and industrial wrapping paper manufacturing side-runs.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss.jpg',
     badges: [
@@ -992,13 +1009,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss_app4.jpg' }
+      { id: 1, title: 'FROZEN FOOD BOXES', icon: 'Package', desc: 'Glossy PE layer prevents freezer burn and structural weakening from moisture.', image: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss_app1.jpg' },
+      { id: 2, title: 'SOAP WRAPPERS', icon: 'Layers', desc: 'Protects bar soap from moisture while providing a shiny, printable surface.', image: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss_app2.jpg' },
+      { id: 3, title: 'PAPER PLATES', icon: 'Settings', desc: 'Forms the grease and liquid barrier on disposable party plates.', image: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss_app3.jpg' },
+      { id: 4, title: 'MAGAZINE COVERS', icon: 'ShieldCheck', desc: 'Provides a durable, high-gloss finish that protects against handling and spills.', image: '/images/stocklots_final/stocklot_pe-coated-paper-1s-gloss_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'PE coated paper (1S Gloss)' },
+      { label: 'Material', value: 'PE coated paper' },
+      { label: 'Variants', value: '1S Gloss' },
       { label: 'Thickness / GSM', value: '20-70 GSM' },
       { label: 'Width', value: '700mm+' },
       { label: 'Monthly Availability', value: '200 MT' },
@@ -1008,8 +1026,8 @@ export const productDetailsData = {
     slug: 'inject-glossy-paper-photo-paper',
     name: 'Inject Glossy paper/Photo paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Inject Glossy paper/Photo paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'INJECT GLOSSY PAPER/PHOTO PAPER STOCKLOTS',
+    sourceText: 'Sourced from commercial photo lab supply manufacturing rejects, digital printing paper production offcuts, and premium brochure manufacturing excess.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper.jpg',
     badges: [
@@ -1020,10 +1038,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper_app4.jpg' }
+      { id: 1, title: 'PHOTOGRAPH PRINTING', icon: 'Layers', desc: 'Specialized coating absorbs inkjet ink instantly, producing vibrant, high-res photos.', image: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper_app1.jpg' },
+      { id: 2, title: 'PORTFOLIOS', icon: 'Settings', desc: 'Used by artists and architects for high-quality presentations and portfolios.', image: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper_app2.jpg' },
+      { id: 3, title: 'POSTERS', icon: 'Package', desc: 'Provides professional, glossy finishes for indoor promotional posters.', image: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper_app3.jpg' },
+      { id: 4, title: 'PROOFING', icon: 'ShieldCheck', desc: 'Used in the printing industry for color-accurate prepress proofs.', image: '/images/stocklots_final/stocklot_inject-glossy-paper-photo-paper_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Inject Glossy paper/Photo paper' },
@@ -1037,8 +1055,8 @@ export const productDetailsData = {
     slug: 'tyvek-paper',
     name: 'Tyvek paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Tyvek paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'TYVEK PAPER STOCKLOTS',
+    sourceText: 'Sourced from medical packaging manufacturing rejects, protective envelope production offcuts, and industrial protective apparel manufacturing scrap.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_tyvek-paper.jpg',
     badges: [
@@ -1049,10 +1067,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_tyvek-paper_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_tyvek-paper_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_tyvek-paper_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_tyvek-paper_app4.jpg' }
+      { id: 1, title: 'MEDICAL PACKAGING', icon: 'ShieldCheck', desc: 'Tear-resistant and porous to sterilizing gases while blocking microbes.', image: '/images/stocklots_final/stocklot_tyvek-paper_app1.jpg' },
+      { id: 2, title: 'PROTECTIVE APPAREL', icon: 'Package', desc: 'Used to manufacture disposable hazmat suits and cleanroom garments.', image: '/images/stocklots_final/stocklot_tyvek-paper_app2.jpg' },
+      { id: 3, title: 'HOUSE WRAP', icon: 'Layers', desc: 'Acts as a breathable weather barrier to protect buildings during construction.', image: '/images/stocklots_final/stocklot_tyvek-paper_app3.jpg' },
+      { id: 4, title: 'SHIPPING ENVELOPES', icon: 'Settings', desc: 'Virtually indestructible envelopes used for secure document mailing.', image: '/images/stocklots_final/stocklot_tyvek-paper_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Tyvek paper' },
@@ -1066,8 +1084,8 @@ export const productDetailsData = {
     slug: 'rough-gloss-coated-digital-paper',
     name: 'Rough Gloss Coated Digital Paper',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Rough Gloss Coated Digital Paper recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'ROUGH GLOSS COATED DIGITAL PAPER STOCKLOTS',
+    sourceText: 'Sourced from commercial digital printing press side-runs, catalog and magazine production offcuts, and direct mail manufacturing excess.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper.jpg',
     badges: [
@@ -1078,10 +1096,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper_app4.jpg' }
+      { id: 1, title: 'ART BOOKS', icon: 'Layers', desc: 'Provides a tactile feel with excellent color reproduction for photography books.', image: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper_app1.jpg' },
+      { id: 2, title: 'CORPORATE REPORTS', icon: 'Settings', desc: 'Offers a premium, textured finish for annual reports and brochures.', image: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper_app2.jpg' },
+      { id: 3, title: 'DIRECT MAIL', icon: 'Package', desc: 'Stands out in the mail with a unique combination of gloss imagery and rough texture.', image: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper_app3.jpg' },
+      { id: 4, title: 'MENUS', icon: 'ShieldCheck', desc: 'Durable yet elegant, ideal for high-end restaurant menus.', image: '/images/stocklots_final/stocklot_rough-gloss-coated-digital-paper_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Rough Gloss Coated Digital Paper' },
@@ -1094,8 +1112,8 @@ export const productDetailsData = {
     slug: '2-side-matt-coated',
     name: '2 side Matt Coated',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium 2 side Matt Coated recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: '2 SIDE MATT COATED STOCKLOTS',
+    sourceText: 'Sourced from premium book publishing production offcuts, corporate brochure manufacturing rejects, and fine art printing paper side-runs.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_2-side-matt-coated.jpg',
     badges: [
@@ -1106,10 +1124,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_2-side-matt-coated_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_2-side-matt-coated_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_2-side-matt-coated_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_2-side-matt-coated_app4.jpg' }
+      { id: 1, title: 'MAGAZINES', icon: 'Layers', desc: 'Glare-free surface improves text readability while maintaining vibrant image quality.', image: '/images/stocklots_final/stocklot_2-side-matt-coated_app1.jpg' },
+      { id: 2, title: 'CATALOGS', icon: 'Package', desc: 'Provides a sophisticated, smooth finish for fashion and furniture catalogs.', image: '/images/stocklots_final/stocklot_2-side-matt-coated_app2.jpg' },
+      { id: 3, title: 'BROCHURES', icon: 'Settings', desc: 'Excellent opacity allows for heavy double-sided printing without show-through.', image: '/images/stocklots_final/stocklot_2-side-matt-coated_app3.jpg' },
+      { id: 4, title: 'CALENDARS', icon: 'ShieldCheck', desc: 'Offers a high-quality surface that is easy to write on for wall calendars.', image: '/images/stocklots_final/stocklot_2-side-matt-coated_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: '2 side Matt Coated' },
@@ -1122,8 +1140,8 @@ export const productDetailsData = {
     slug: '2-side-gloss-coated',
     name: '2 side Gloss Coated',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium 2 side Gloss Coated recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: '2 SIDE GLOSS COATED STOCKLOTS',
+    sourceText: 'Sourced from high-end magazine printing offcuts, commercial catalog production rejects, and premium advertising insert manufacturing excess.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_2-side-gloss-coated.jpg',
     badges: [
@@ -1134,10 +1152,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_2-side-gloss-coated_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_2-side-gloss-coated_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_2-side-gloss-coated_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_2-side-gloss-coated_app4.jpg' }
+      { id: 1, title: 'FASHION MAGAZINES', icon: 'Layers', desc: 'High gloss enhances color saturation for striking photographic reproduction.', image: '/images/stocklots_final/stocklot_2-side-gloss-coated_app1.jpg' },
+      { id: 2, title: 'FLYERS', icon: 'Package', desc: 'Cost-effective for high-impact, mass-distributed promotional leaflets.', image: '/images/stocklots_final/stocklot_2-side-gloss-coated_app2.jpg' },
+      { id: 3, title: 'CD/DVD INSERTS', icon: 'Settings', desc: 'Standard choice for media packaging booklets and tray cards.', image: '/images/stocklots_final/stocklot_2-side-gloss-coated_app3.jpg' },
+      { id: 4, title: 'TRAVEL BROCHURES', icon: 'ShieldCheck', desc: 'Makes landscape photography pop, enticing consumers to book vacations.', image: '/images/stocklots_final/stocklot_2-side-gloss-coated_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: '2 side Gloss Coated' },
@@ -1150,8 +1168,8 @@ export const productDetailsData = {
     slug: 'ready-napkin',
     name: 'Ready Napkin',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Ready Napkin recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'ABSORBENT HYGIENE TISSUES',
+    sourceText: 'Ultra-soft, highly absorbent Ready Napkin manufactured from virgin wood pulp. Designed for maximum moisture retention and tear strength in hygiene applications.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_ready-napkin.jpg',
     badges: [
@@ -1162,10 +1180,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_ready-napkin_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_ready-napkin_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_ready-napkin_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_ready-napkin_app4.jpg' }
+      { id: 1, title: 'RESTAURANT SERVICE', icon: 'Package', desc: 'Standard use in dining establishments for customer hygiene and table setting.', image: '/images/stocklots_final/stocklot_ready-napkin_app1.jpg' },
+      { id: 2, title: 'CATERING EVENTS', icon: 'Layers', desc: 'Provides convenient, disposable cleanup solutions for large banquets and parties.', image: '/images/stocklots_final/stocklot_ready-napkin_app2.jpg' },
+      { id: 3, title: 'FAST FOOD', icon: 'Settings', desc: 'Dispenser napkins used for quick-service restaurants and drive-thrus.', image: '/images/stocklots_final/stocklot_ready-napkin_app3.jpg' },
+      { id: 4, title: 'AIRLINE MEALS', icon: 'ShieldCheck', desc: 'Compact, soft napkins included in in-flight dining trays.', image: '/images/stocklots_final/stocklot_ready-napkin_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Ready Napkin' },
@@ -1179,8 +1197,8 @@ export const productDetailsData = {
     slug: 'toilet-paper-napkin-2-ply-in-reels',
     name: 'Toilet Paper Napkin 2 Ply IN Reels',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Toilet Paper Napkin 2 Ply IN Reels recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'ABSORBENT HYGIENE TISSUES',
+    sourceText: 'Ultra-soft, highly absorbent Toilet Paper Napkin 2 Ply IN Reels manufactured from virgin wood pulp. Designed for maximum moisture retention and tear strength in hygiene applications.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels.jpg',
     badges: [
@@ -1191,10 +1209,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels_app4.jpg' }
+      { id: 1, title: 'RESTROOM DISPENSERS', icon: 'ShieldCheck', desc: 'Jumbo rolls used in high-traffic commercial and public washrooms.', image: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels_app1.jpg' },
+      { id: 2, title: 'CONSUMER PACKAGING', icon: 'Package', desc: 'Converted into smaller rolls for household retail sale.', image: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels_app2.jpg' },
+      { id: 3, title: 'HOTEL AMENITIES', icon: 'Layers', desc: 'Provides comfort and hygiene in hospitality sector bathrooms.', image: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels_app3.jpg' },
+      { id: 4, title: 'HOSPITAL USE', icon: 'Settings', desc: 'Essential sanitary supplies for patient rooms and medical facilities.', image: '/images/stocklots_final/stocklot_toilet-paper-napkin-2-ply-in-reels_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Toilet Paper Napkin 2 Ply IN Reels' },
@@ -1207,8 +1225,8 @@ export const productDetailsData = {
     slug: 'wet-wipes',
     name: 'Wet Wipes',
     code: 'STOCKLOT',
-    tagline: 'HIGH-GRADE STOCKLOT PAPER',
-    sourceText: 'Premium Wet Wipes recovered from top-tier paper mills, offering exceptional printability and durability for conversion.',
+    tagline: 'ABSORBENT HYGIENE TISSUES',
+    sourceText: 'Ultra-soft, highly absorbent Wet Wipes manufactured from virgin wood pulp. Designed for maximum moisture retention and tear strength in hygiene applications.',
     category: 'Stocklot Papers',
     heroImage: '/images/stocklots_final/stocklot_wet-wipes.jpg',
     badges: [
@@ -1219,10 +1237,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'COMMERCIAL PRINTING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_wet-wipes_app1.jpg' },
-      { id: 2, title: 'PACKAGING', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_wet-wipes_app2.jpg' },
-      { id: 3, title: 'STATIONERY', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_wet-wipes_app3.jpg' },
-      { id: 4, title: 'LABELING', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_wet-wipes_app4.jpg' }
+      { id: 1, title: 'BABY CARE', icon: 'Package', desc: 'Gentle, pre-moistened wipes for diaper changes and infant hygiene.', image: '/images/stocklots_final/stocklot_wet-wipes_app1.jpg' },
+      { id: 2, title: 'COSMETIC REMOVAL', icon: 'Layers', desc: 'Formulated with cleansers for easy makeup removal on the go.', image: '/images/stocklots_final/stocklot_wet-wipes_app2.jpg' },
+      { id: 3, title: 'SURFACE DISINFECTION', icon: 'ShieldCheck', desc: 'Antibacterial wipes used to clean kitchen counters and gym equipment.', image: '/images/stocklots_final/stocklot_wet-wipes_app3.jpg' },
+      { id: 4, title: 'PERSONAL HYGIENE', icon: 'Settings', desc: 'Travel-friendly wipes for hand cleaning when soap and water are unavailable.', image: '/images/stocklots_final/stocklot_wet-wipes_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Wet Wipes' },
@@ -1233,10 +1251,10 @@ export const productDetailsData = {
   },
   'bales-air-bag-fabric-coated-uncoated': {
     slug: 'bales-air-bag-fabric-coated-uncoated',
-    name: 'Bales Air Bag Fabric (Coated & UNCOATED)',
+    name: 'Bales Air Bag Fabric',
     code: 'STOCKLOT',
-    tagline: 'INDUSTRIAL STOCKLOT MATERIALS',
-    sourceText: 'Durable Bales Air Bag Fabric (Coated & UNCOATED) suitable for heavy-duty industrial applications, rigorously quality checked.',
+    tagline: 'HEAVY-DUTY INDUSTRIAL TEXTILES',
+    sourceText: 'Incredibly durable Bales Air Bag Fabric engineered for extreme mechanical stress, weather exposure, and heavy load-bearing industrial environments.',
     category: 'Stocklot Fabrics & Other',
     heroImage: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated.jpg',
     badges: [
@@ -1247,13 +1265,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'MANUFACTURING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated_app1.jpg' },
-      { id: 2, title: 'AUTOMOTIVE', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated_app2.jpg' },
-      { id: 3, title: 'CONSTRUCTION', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated_app3.jpg' },
-      { id: 4, title: 'PROTECTIVE GEAR', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated_app4.jpg' }
+      { id: 1, title: 'UPCYCLING TO APPAREL', icon: 'Layers', desc: 'Repurposed by sustainable fashion brands into durable jackets and bags.', image: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated_app1.jpg' },
+      { id: 2, title: 'INDUSTRIAL TARPS', icon: 'ShieldCheck', desc: 'High tear strength makes it ideal for heavy-duty covers and truck tarpaulins.', image: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated_app2.jpg' },
+      { id: 3, title: 'REUSABLE SHOPPING BAGS', icon: 'Package', desc: 'Sewn into exceptionally strong, long-lasting grocery bags.', image: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated_app3.jpg' },
+      { id: 4, title: 'TENTS & AWNINGS', icon: 'Settings', desc: 'Weather-resistant properties are utilized for outdoor camping gear.', image: '/images/stocklots_final/stocklot_bales-air-bag-fabric-coated-uncoated_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Bales Air Bag Fabric (Coated & UNCOATED)' },
+      { label: 'Material', value: 'Bales Air Bag Fabric' },
+      { label: 'Variants', value: 'Coated & UNCOATED' },
       { label: 'Thickness / GSM', value: '100-300 gsm' },
       { label: 'Width', value: '1000mm' },
       { label: 'Monthly Availability', value: '100 MT' },
@@ -1262,10 +1281,10 @@ export const productDetailsData = {
   },
   'stocklot-rejectspp-polyester-non-woven-fleece': {
     slug: 'stocklot-rejectspp-polyester-non-woven-fleece',
-    name: 'Stocklot / RejectsPP, Polyester Non woven ( fleece)',
+    name: 'Stocklot / RejectsPP, Polyester Non woven',
     code: 'STOCKLOT',
-    tagline: 'INDUSTRIAL STOCKLOT MATERIALS',
-    sourceText: 'Durable Stocklot / RejectsPP, Polyester Non woven ( fleece) suitable for heavy-duty industrial applications, rigorously quality checked.',
+    tagline: 'HIGH-TENSILE POLYESTER STOCKLOTS',
+    sourceText: 'Industrial-grade Stocklot / RejectsPP, Polyester Non woven providing exceptional barrier properties, clarity, and mechanical strength. Ideal for demanding conversion processes requiring strict dimensional stability.',
     category: 'Stocklot Fabrics & Other',
     heroImage: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece.jpg',
     badges: [
@@ -1276,13 +1295,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'MANUFACTURING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece_app1.jpg' },
-      { id: 2, title: 'AUTOMOTIVE', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece_app2.jpg' },
-      { id: 3, title: 'CONSTRUCTION', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece_app3.jpg' },
-      { id: 4, title: 'PROTECTIVE GEAR', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece_app4.jpg' }
+      { id: 1, title: 'FURNITURE UPHOLSTERY', icon: 'Layers', desc: 'Used as dust covers and hidden structural linings in sofas and chairs.', image: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece_app1.jpg' },
+      { id: 2, title: 'AGRICULTURAL COVERS', icon: 'Leaf', desc: 'Protects crops from frost and insects while allowing sunlight and water to pass.', image: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece_app2.jpg' },
+      { id: 3, title: 'MEDICAL GOWNS', icon: 'ShieldCheck', desc: 'Provides a breathable, fluid-resistant barrier for disposable surgical wear.', image: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece_app3.jpg' },
+      { id: 4, title: 'FILTRATION MEDIA', icon: 'Settings', desc: 'Used in HVAC systems and face masks to filter out airborne particulates.', image: '/images/stocklots_final/stocklot_stocklot-rejectspp-polyester-non-woven-fleece_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Stocklot / RejectsPP, Polyester Non woven ( fleece)' },
+      { label: 'Material', value: 'Stocklot / RejectsPP, Polyester Non woven' },
+      { label: 'Variants', value: 'fleece' },
       { label: 'Thickness / GSM', value: '12-100 GSM' },
       { label: 'Width', value: '1000 mm' },
       { label: 'Monthly Availability', value: '200 MT' },
@@ -1292,8 +1312,8 @@ export const productDetailsData = {
     slug: 'stocklot-rejectsfiber-glass',
     name: 'Stocklot / RejectsFiber Glass',
     code: 'STOCKLOT',
-    tagline: 'INDUSTRIAL STOCKLOT MATERIALS',
-    sourceText: 'Durable Stocklot / RejectsFiber Glass suitable for heavy-duty industrial applications, rigorously quality checked.',
+    tagline: 'STOCKLOT / REJECTSFIBER GLASS RECYCLED STOCKLOTS',
+    sourceText: 'Sourced from automotive composite manufacturing offcuts, wind turbine blade production rejects, and marine boat-building scraps.',
     category: 'Stocklot Fabrics & Other',
     heroImage: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass.jpg',
     badges: [
@@ -1304,10 +1324,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'MANUFACTURING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass_app1.jpg' },
-      { id: 2, title: 'AUTOMOTIVE', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass_app2.jpg' },
-      { id: 3, title: 'CONSTRUCTION', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass_app3.jpg' },
-      { id: 4, title: 'PROTECTIVE GEAR', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass_app4.jpg' }
+      { id: 1, title: 'COMPOSITE REINFORCEMENT', icon: 'Settings', desc: 'Strengthens resins used to manufacture boat hulls, auto parts, and wind blades.', image: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass_app1.jpg' },
+      { id: 2, title: 'THERMAL INSULATION', icon: 'ShieldCheck', desc: 'Woven fiberglass fabrics insulate high-temperature pipes and boilers.', image: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass_app2.jpg' },
+      { id: 3, title: 'PRINTED CIRCUIT BOARDS', icon: 'Layers', desc: 'Forms the structural core (FR4) of modern electronic circuit boards.', image: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass_app3.jpg' },
+      { id: 4, title: 'ROOFING SHINGLES', icon: 'Package', desc: 'Provides dimensional stability and fire resistance to asphalt roofing materials.', image: '/images/stocklots_final/stocklot_stocklot-rejectsfiber-glass_app4.jpg' }
     ],
     specifications: [
       { label: 'Material', value: 'Stocklot / RejectsFiber Glass' },
@@ -1319,10 +1339,10 @@ export const productDetailsData = {
   },
   'stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials': {
     slug: 'stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials',
-    name: 'Stocklot / RejectsTarpoulin Reel/Sheet ( Waterproof thin materials)',
+    name: 'Stocklot / RejectsTarpoulin Reel/Sheet',
     code: 'STOCKLOT',
-    tagline: 'INDUSTRIAL STOCKLOT MATERIALS',
-    sourceText: 'Durable Stocklot / RejectsTarpoulin Reel/Sheet ( Waterproof thin materials) suitable for heavy-duty industrial applications, rigorously quality checked.',
+    tagline: 'HEAVY-DUTY INDUSTRIAL TEXTILES',
+    sourceText: 'Incredibly durable Stocklot / RejectsTarpoulin Reel/Sheet engineered for extreme mechanical stress, weather exposure, and heavy load-bearing industrial environments.',
     category: 'Stocklot Fabrics & Other',
     heroImage: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials.jpg',
     badges: [
@@ -1333,13 +1353,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'MANUFACTURING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials_app1.jpg' },
-      { id: 2, title: 'AUTOMOTIVE', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials_app2.jpg' },
-      { id: 3, title: 'CONSTRUCTION', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials_app3.jpg' },
-      { id: 4, title: 'PROTECTIVE GEAR', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials_app4.jpg' }
+      { id: 1, title: 'TRUCK COVERS', icon: 'ShieldCheck', desc: 'Heavy-duty waterproof covers protect cargo from rain and wind during transport.', image: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials_app1.jpg' },
+      { id: 2, title: 'CONSTRUCTION ENCLOSURES', icon: 'Layers', desc: 'Used as temporary roofing and scaffolding wraps on building sites.', image: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials_app2.jpg' },
+      { id: 3, title: 'AGRICULTURAL STORAGE', icon: 'Leaf', desc: 'Protects harvested grain, hay bales, and machinery from the elements.', image: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials_app3.jpg' },
+      { id: 4, title: 'EMERGENCY SHELTERS', icon: 'Package', desc: 'Rapidly deployable waterproofing for disaster relief tents and camps.', image: '/images/stocklots_final/stocklot_stocklot-rejectstarpoulin-reel-sheet-waterproof-thin-materials_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Stocklot / RejectsTarpoulin Reel/Sheet ( Waterproof thin materials)' },
+      { label: 'Material', value: 'Stocklot / RejectsTarpoulin Reel/Sheet' },
+      { label: 'Variants', value: 'Waterproof thin materials' },
       { label: 'Width', value: '1500mm' },
       { label: 'Monthly Availability', value: '200 MT' },
       { label: 'Special Notes', value: 'it should be non terable thin materials that is more prefrable and is more wanted in the market' },
@@ -1347,10 +1368,10 @@ export const productDetailsData = {
   },
   'stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory': {
     slug: 'stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory',
-    name: 'Stocklot / RejectsConveyor nylon Belt (used/stocklot/Excess Inventory)',
+    name: 'Stocklot / RejectsConveyor nylon Belt',
     code: 'STOCKLOT',
-    tagline: 'INDUSTRIAL STOCKLOT MATERIALS',
-    sourceText: 'Durable Stocklot / RejectsConveyor nylon Belt (used/stocklot/Excess Inventory) suitable for heavy-duty industrial applications, rigorously quality checked.',
+    tagline: 'HEAVY-DUTY INDUSTRIAL TEXTILES',
+    sourceText: 'Incredibly durable Stocklot / RejectsConveyor nylon Belt engineered for extreme mechanical stress, weather exposure, and heavy load-bearing industrial environments.',
     category: 'Stocklot Fabrics & Other',
     heroImage: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory.jpg',
     badges: [
@@ -1361,13 +1382,14 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'PREVENTING WASTE, EMPOWERING INDUSTRY',
     applications: [
-      { id: 1, title: 'MANUFACTURING', icon: 'Package', desc: 'Ideal for continuous operation.', image: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory_app1.jpg' },
-      { id: 2, title: 'AUTOMOTIVE', icon: 'Settings', desc: 'Designed for high stress thresholds.', image: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory_app2.jpg' },
-      { id: 3, title: 'CONSTRUCTION', icon: 'Layers', desc: 'Maintains absolute uniformity.', image: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory_app3.jpg' },
-      { id: 4, title: 'PROTECTIVE GEAR', icon: 'ShieldCheck', desc: 'Long-lasting structural integrity.', image: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory_app4.jpg' }
+      { id: 1, title: 'MINING OPERATIONS', icon: 'Settings', desc: 'Extremely durable belts used for transporting coal, ores, and heavy aggregates.', image: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory_app1.jpg' },
+      { id: 2, title: 'LIVESTOCK MATTING', icon: 'ShieldCheck', desc: 'Used belts are repurposed as tough, easy-to-clean floor mats in horse stables.', image: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory_app2.jpg' },
+      { id: 3, title: 'SNOW PLOW BLADES', icon: 'Layers', desc: 'Cut into strips to create flexible, non-damaging edges for snow plows.', image: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory_app3.jpg' },
+      { id: 4, title: 'MANUFACTURING LINES', icon: 'Package', desc: 'Essential for automated assembly lines and warehouse sorting systems.', image: '/images/stocklots_final/stocklot_stocklot-rejectsconveyor-nylon-belt-used-stocklot-excess-inventory_app4.jpg' }
     ],
     specifications: [
-      { label: 'Material', value: 'Stocklot / RejectsConveyor nylon Belt (used/stocklot/Excess Inventory)' },
+      { label: 'Material', value: 'Stocklot / RejectsConveyor nylon Belt' },
+      { label: 'Variants', value: 'used/stocklot/Excess Inventory' },
       { label: 'Thickness / GSM', value: '10-14mm' },
       { label: 'Width', value: '800-2000mm' },
       { label: 'Monthly Availability', value: '1000 MT' },
@@ -1379,8 +1401,8 @@ export const productDetailsData = {
     slug: 'polypropylene-pp-scrap',
     name: 'Polypropylene - PP Scrap',
     code: 'PPCP / PP SCRAP',
-    tagline: 'MIXED-COLOR / HIGH-PURITY SHREDDED AUTOMOTIVE & INDUSTRIAL SCRAP',
-    sourceText: 'Commercial studio product photograph of clean, sorted Polypropylene (PP) industrial plastic scrap pieces, neutral light grey background, softbox lighting.',
+    tagline: 'MIXED-COLOR SHREDDED AUTOMOTIVE & INDUSTRIAL SCRAP',
+    sourceText: 'End-of-life vehicle dismantling facilities, battery casing recycling centers, post-industrial molding rejects.',
     category: 'Plastics Scraps',
     heroImage: '/images/pp_scrap_hero.jpg',
     badges: [
@@ -1413,10 +1435,10 @@ export const productDetailsData = {
     slug: 'polyethylene-pe-scrap',
     name: 'Polyethylene - PE Scrap',
     code: 'HDPE / LDPE / LLDPE SCRAP',
-    tagline: 'POST-INDUSTRIAL & AGRICULTURAL FILM & RIGID CONTAINER SCRAP',
-    sourceText: 'Centered studio shot of sorted clean polyethylene scrap fragments, clean neutral background, softbox lighting.',
+    tagline: 'VERSATILE POST-INDUSTRIAL FILM & RIGID CONTAINER RECYCLATES',
+    sourceText: 'Agricultural greenhouse film collection programs, commercial packaging waste, rigid drum reconditioning plants.',
     category: 'Plastics Scraps',
-    heroImage: '/images/pe_scrap_hero.jpg',
+    heroImage: '/images/pe_scrap_hero_blue.jpg',
     badges: [
       { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Washed and density-sorted polymer stock.' },
       { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Ideal for secondary pipe & film manufacturing.' },
@@ -1447,8 +1469,8 @@ export const productDetailsData = {
     slug: 'polyvinyl-chloride-scrap-pvc-scrap',
     name: 'Polyvinyl Chloride Scrap - PVC Scrap',
     code: 'RIGID & FLEXIBLE PVC SCRAP',
-    tagline: 'HIGH-DENSITY WINDOW PROFILE, CONDUIT PIPE & CABLE JACKETING SCRAP',
-    sourceText: 'Commercial studio product photograph of crushed rigid and flexible Polyvinyl Chloride (PVC) plastic scrap pieces, neutral light grey background, softbox lighting.',
+    tagline: 'HIGH-DENSITY WINDOW PROFILE & RIGID CONDUIT EXTRUSION SCRAP',
+    sourceText: 'Window and door fabrication offcuts, construction site pipe remnants, cable jacketing stripping operations.',
     category: 'Plastics Scraps',
     heroImage: '/images/pvc_scrap_hero.jpg',
     badges: [
@@ -1481,8 +1503,8 @@ export const productDetailsData = {
     slug: 'high-impact-polystyrene-scrap-ps-scrap',
     name: 'High Impact Polystyrene Scrap - PS Scrap',
     code: 'HIPS / GPPS SCRAP',
-    tagline: 'HIGH IMPACT REFRIGERATOR LINER & ELECTRONIC HOUSING SCRAP',
-    sourceText: 'Commercial studio product photograph of baled and shredded High Impact Polystyrene (HIPS) plastic scrap pieces, neutral light grey background, softbox lighting.',
+    tagline: 'SHATTER-RESISTANT APPLIANCE LINER & ELECTRONIC ENCLOSURE SCRAP',
+    sourceText: 'Appliance recycling facilities, electronic e-waste dismantling yards, thermoforming packaging rejects.',
     category: 'Plastics Scraps',
     heroImage: '/images/ps_scrap_hero.jpg',
     badges: [
@@ -1516,8 +1538,8 @@ export const productDetailsData = {
     slug: 'polyvinyl-chloride-pvc-regranulate',
     name: 'Polyvinyl Chloride - PVC Regranulate',
     code: 'PVC REGRANULATE',
-    tagline: 'PREMIUM GRADE RECYCLED PVC COMPOUND',
-    sourceText: 'High-purity Polyvinyl Chloride regranulate recovered from industrial pipes and profiles, rigorously tested for consistency.',
+    tagline: 'EXTRUSION-READY RECYCLED PVC COMPOUND',
+    sourceText: 'Recovered from industrial plumbing networks, vinyl siding manufacturing excess, rigid profile extrudates.',
     category: 'Plastics Scraps',
     heroImage: '/images/plastics_final/polyvinyl_chloride_pvc_regranulate.jpg',
     badges: [
@@ -1549,8 +1571,8 @@ export const productDetailsData = {
     slug: 'polyethylene-terephthalate-pet-regranulate',
     name: 'Polyethylene terephthalate - PET Regranulate',
     code: 'PET REGRANULATE',
-    tagline: 'HIGH-VISCOSITY CLEAR PET REGRANULATE',
-    sourceText: 'Premium clear PET regranulate sourced from closed-loop food-grade packaging, offering exceptional viscosity and clarity.',
+    tagline: 'HIGH-VISCOSITY CLEAR PET PELLETIZED RESIN',
+    sourceText: 'Sourced from closed-loop food-grade bottle collections, clear thermoform sheet offcuts, industrial textile yarn spinning.',
     category: 'Plastics Scraps',
     heroImage: '/images/plastics_final/polyethylene_terephthalate_pet_regranulate.jpg',
     badges: [
@@ -1582,8 +1604,8 @@ export const productDetailsData = {
     slug: 'high-impact-polystyrene-ps-regranulate',
     name: 'High Impact Polystyrene - PS Regranulate',
     code: 'HIPS REGRANULATE',
-    tagline: 'PREMIUM HIGH IMPACT POLYSTYRENE RESIN',
-    sourceText: 'Durable High Impact Polystyrene regranulate repurposed from e-waste and industrial appliances, ideal for injection molding.',
+    tagline: 'TOUGHENED RECYCLED POLYSTYRENE PELLETIZED RESIN',
+    sourceText: 'Repurposed from post-consumer television casings, computer monitor housings, refrigerator inner liners.',
     category: 'Plastics Scraps',
     heroImage: '/images/plastics_final/high_impact_polystyrene_ps_regranulate.jpg',
     badges: [
@@ -1615,8 +1637,8 @@ export const productDetailsData = {
     slug: 'abs-acrylonitrile-butadiene-styrene',
     name: 'ABS (Acrylonitrile Butadiene Styrene)',
     code: 'ABS PLASTIC',
-    tagline: 'ULTRA-TOUGH ENGINEERING POLYMER',
-    sourceText: 'Engineering-grade ABS plastic pellets offering unmatched toughness, impact resistance, and thermal stability for heavy duty applications.',
+    tagline: 'HIGH-IMPACT ENGINEERING GRADE ABS RESIN',
+    sourceText: 'Derived from automotive bumper fascias, protective helmet manufacturing scrap, heavy-duty machinery housings.',
     category: 'Technical Plastic',
     heroImage: '/images/plastics_final/abs_acrylonitrile_butadiene_styrene.jpg',
     badges: [
@@ -1648,8 +1670,8 @@ export const productDetailsData = {
     slug: 'pa-pa6-pa66-polyamide',
     name: 'PA (PA6, PA66) (PolyAmide)',
     code: 'POLYAMIDE RESIN',
-    tagline: 'HIGH-PERFORMANCE ENGINEERING PLASTIC',
-    sourceText: 'High-performance engineering Polyamide resin featuring superior tensile strength and wear resistance for mechanical and automotive parts.',
+    tagline: 'WEAR-RESISTANT POLYAMIDE ENGINEERING POLYMER',
+    sourceText: 'Sourced from industrial carpet fiber waste, automotive engine compartment components, mechanical gear manufacturing.',
     category: 'Technical Plastic',
     heroImage: '/images/plastics_final/pa_pa6_pa66_polyamide.jpg',
     badges: [
@@ -1681,8 +1703,8 @@ export const productDetailsData = {
     slug: 'pc-polycarbonate',
     name: 'PC (PolyCarbonate)',
     code: 'PC RESIN',
-    tagline: 'ULTRA-CLEAR HIGH IMPACT POLYMER',
-    sourceText: 'Optically clear Polycarbonate granules delivering extreme impact resistance and high light transmission for demanding optical applications.',
+    tagline: 'OPTICALLY CLEAR EXTREME IMPACT RESIN',
+    sourceText: 'Reclaimed from automotive headlamp lenses, optical disc manufacturing lines, shatterproof architectural glazing.',
     category: 'Technical Plastic',
     heroImage: '/images/plastics_final/pc_polycarbonate.jpg',
     badges: [
@@ -1714,8 +1736,8 @@ export const productDetailsData = {
     slug: 'pmma-acrylic',
     name: 'PMMA (Acrylic)',
     code: 'PMMA ACRYLIC',
-    tagline: 'SUPERIOR TRANSPARENCY ACRYLIC RESIN',
-    sourceText: 'Superior transparent PMMA acrylic resin offering glass-like clarity, excellent weatherability, and exceptional scratch resistance.',
+    tagline: 'GLASS-LIKE TRANSPARENT ACRYLIC POLYMER',
+    sourceText: 'Collected from illuminated signage fabricators, automotive taillight assemblies, display case manufacturing offcuts.',
     category: 'Technical Plastic',
     heroImage: '/images/plastics_final/pmma_polymethylmethacrylate.jpg',
     badges: [
@@ -1747,8 +1769,8 @@ export const productDetailsData = {
     slug: 'pc-abs-polycarbonate-pc-and-acrylonitrile-butadiene-styrene-abs',
     name: 'PC+ABS PolyCarbonate (PC) and Acrylonitrile Butadiene Styrene (ABS)',
     code: 'PC+ABS ALLOY',
-    tagline: 'PREMIUM PC & ABS POLYMER BLEND',
-    sourceText: 'Premium PC+ABS polymer alloy blending the extreme heat resistance of Polycarbonate with the impact toughness of ABS.',
+    tagline: 'HEAT-RESISTANT PC & ABS POLYMER ALLOY',
+    sourceText: 'Sourced from laptop computer enclosures, medical device casings, smartphone framework rejects.',
     category: 'Technical Plastic',
     heroImage: '/images/plastics_final/pc_abs_polycarbonate_pc_and_acrylonitrile_butadiene_styrene_abs.jpg',
     badges: [
@@ -1780,8 +1802,8 @@ export const productDetailsData = {
     slug: 'polyethylene-terephthalate-pet-scrap',
     name: 'Polyethylene terephthalate - PET Scrap',
     code: 'PET BOTTLE SCRAP & FLAKES',
-    tagline: 'HIGH INTRINSIC VISCOSITY BOTTLE & SHEET PACKAGING SCRAP',
-    sourceText: 'Commercial studio product photograph of post-consumer PET clear plastic flakes and scrap fragments, neutral light grey background, softbox lighting.',
+    tagline: 'HIGH-IV BEVERAGE BOTTLE & CLEAR SHEET SCRAP',
+    sourceText: 'Municipal beverage bottle deposit programs, clear clamshell packaging waste, strapping band production offcuts.',
     category: 'Plastics Scraps',
     heroImage: '/images/pet_scrap_hero.jpg',
     badges: [
@@ -1814,8 +1836,8 @@ export const productDetailsData = {
     slug: 'polypropylene-pp-regrind',
     name: 'Polypropylene -PP Regrind',
     code: 'PP REGRIND / FLAKES',
-    tagline: 'UNIFORM GRANULATED RECYCLED POLYPROPYLENE FLAKES',
-    sourceText: 'Commercial studio product photograph of uniform granulated Polypropylene (PP) regrind flakes, neutral light grey background, softbox lighting.',
+    tagline: 'HOMOGENEOUS INJECTION-GRADE POLYPROPYLENE REGRIND',
+    sourceText: 'Post-industrial automotive battery cases, commercial paint bucket rejects, durable garden furniture offcuts.',
     category: 'Regrind',
     heroImage: '/images/pp_regrind_hero.jpg',
     badges: [
@@ -1847,8 +1869,8 @@ export const productDetailsData = {
     slug: 'polyethylene-pe-regrind',
     name: 'Polyethylene-PE Regrind',
     code: 'HDPE / LDPE REGRIND',
-    tagline: 'HIGH-DENSITY & LOW-DENSITY REGROUND POLYETHYLENE GRANULES',
-    sourceText: 'Commercial studio product photograph of multi-color Polyethylene reground granules, neutral light grey background, softbox lighting.',
+    tagline: 'MULTI-PURPOSE REGROUND POLYETHYLENE GRANULES',
+    sourceText: 'Processed from industrial chemical jerrycans, agricultural irrigation pipes, high-density utility pallets.',
     category: 'Regrind',
     heroImage: '/images/pe_regrind_hero.jpg',
     badges: [
@@ -1881,8 +1903,8 @@ export const productDetailsData = {
     slug: 'polyvinyl-chloride-pvc-regrind',
     name: 'Polyvinyl Chloride - PVC Regrind',
     code: 'PVC REGRIND / VINYL FLAKES',
-    tagline: 'RIGID & FLEXIBLE REGROUND PVC GRANULES FOR EXTRUSION & COMPOUNDING',
-    sourceText: 'Commercial studio product photograph of crushed PVC regrind flakes in neutral gray and white, neutral light grey background, softbox lighting.',
+    tagline: 'CRUSHED VINYL GRANULES FOR PIPE & PROFILE EXTRUSION',
+    sourceText: 'Granulated from electrical conduit junction boxes, exterior vinyl siding scrap, flexible floor backing material.',
     category: 'Regrind',
     heroImage: '/images/pvc_regrind_hero.jpg',
     badges: [
@@ -1915,8 +1937,8 @@ export const productDetailsData = {
     slug: 'high-impact-polystyrene-ps-regrind',
     name: 'High Impact Polystyrene - PS Regrind',
     code: 'HIPS / GPPS REGRIND',
-    tagline: 'HIGH IMPACT GRANULATED RECYCLED STYRENIC GRANULES',
-    sourceText: 'Commercial studio product photograph of granulated crisp Polystyrene regrind pellets, neutral light grey background, softbox lighting.',
+    tagline: 'DIMENSIONALLY STABLE GRANULATED STYRENIC REGRIND',
+    sourceText: 'Sourced from cosmetic jar packaging lines, retail clothes hanger collections, media disc jewel cases.',
     category: 'Regrind',
     heroImage: '/images/ps_regrind_hero.jpg',
     badges: [
@@ -1948,8 +1970,8 @@ export const productDetailsData = {
     slug: 'polyethylene-terephthalate-pet-regrind',
     name: 'Polyethylene terephthalate - PET Regrind',
     code: 'PET REGRIND / CHIPS',
-    tagline: 'HIGH IV RECYCLED PET POLYMER REGRIND CHIPS',
-    sourceText: 'Commercial studio product photograph of clean unwashed sorted PET regrind chips, neutral light grey background, softbox lighting.',
+    tagline: 'CLEAN UNWASHED PET POLYMER REGRIND CHIPS',
+    sourceText: 'Obtained from industrial non-woven tote bag production, heavy-duty strapping belt rejects, automotive carpet fiber scraps.',
     category: 'Regrind',
     heroImage: '/images/pet_regrind_hero.jpg',
     badges: [
@@ -1982,8 +2004,8 @@ export const productDetailsData = {
     slug: 'polyethylene-terephthalate-pet-hot-washed-flakes',
     name: 'PET Hot Washed Flakes',
     code: 'PET FLAKES - HOT WASHED 85°C',
-    tagline: 'PREMIUM CAUSTIC HOT WASHED CLEAR & LIGHT BLUE BOTTLE FLAKES',
-    sourceText: 'Commercial studio product photograph of ultra-clear decontaminated hot-washed PET flakes, neutral light grey background, softbox lighting.',
+    tagline: 'DECONTAMINATED CAUSTIC HOT-WASHED PET FLAKES',
+    sourceText: 'Processed through intensive hot-washing of post-consumer clear and light-blue beverage bottles for food-grade applications.',
     category: 'Regrind',
     heroImage: '/images/pet_flakes_hero.jpg',
     badges: [
@@ -2011,46 +2033,13 @@ export const productDetailsData = {
     ]
   },
 
-  // 12. PP Lumps
-  'polypropylene-pp-lumps': {
-    slug: 'polypropylene-pp-lumps',
-    name: 'Polypropylene -PP Lumps',
-    code: 'PP LUMPS / PURGINGS',
-    tagline: 'DENSE INDUSTRIAL EXTRUDER PURGING & INJECTION DROP LUMPS',
-    sourceText: 'Commercial studio product photograph of large solid industrial Polypropylene purgings and purge lumps, neutral light grey background, softbox lighting.',
-    category: 'Plastic Lumps',
-    heroImage: '/images/pp_lumps_hero.jpg',
-    badges: [
-      { id: 1, title: 'CONSISTENT QUALITY', icon: 'ShieldCheck', desc: 'Single-stream clean extruder purgings.' },
-      { id: 2, title: '100% RECYCLABLE', icon: 'Recycle', desc: 'Heavy duty feedstock for shredding & compounding.' },
-      { id: 3, title: 'INDUSTRIAL GRADE', icon: 'Settings', desc: 'High density structural PP blocks.' },
-      { id: 4, title: 'COST EFFECTIVE', icon: 'Leaf', desc: 'Deep cost reduction for heavy profile extruders.' }
-    ],
-    sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
-    applications: [
-      { id: 1, title: 'HEAVY-DUTY UTILITY PALLETS', icon: 'Package', desc: 'Industrial high-density plastic utility pallets stacked neatly in a logistics warehouse.', image: '/images/pp_lumps_app1.jpg' },
-      { id: 2, title: 'EXTRUDED SHEET COMPOUNDING', icon: 'Settings', desc: 'Extruded plastic compounding plant running large polymer profiles.', image: '/images/pp_lumps_app2.jpg' },
-      { id: 3, title: 'INDUSTRIAL DRAINAGE SUMPS', icon: 'ShieldCheck', desc: 'Heavy plastic drainage sumps and underground catch basins.', image: '/images/pp_lumps_app3.jpg' },
-      { id: 4, title: 'STURDY TOOLBOXES', icon: 'Trash2', desc: 'Rugged injection-molded toolboxes and equipment storage cases.', image: '/images/pp_lumps_app4.jpg' }
-    ],
-    specifications: [
-      { label: 'Material Grade', value: 'Polypropylene Lumps (PP)' },
-      { label: 'Form', value: 'Solid Purging Drop Lumps' },
-      { label: 'Weight per Lump', value: '10kg - 150kg per piece' },
-      { label: 'Color Options', value: 'Natural White, Black, Mixed' },
-      { label: 'Purity Level', value: '≥ 99% Metal & Foreign Material Free' },
-      { label: 'Packaging', value: 'Loose Bulk in 40ft Container / Jumbo Bags' },
-      { label: 'MOQ', value: '1 x 40 FT FCL (Approx. 22-25 MT)' }
-    ]
-  },
-
   // 13. PE Lumps
   'polyethylene-pe-lumps': {
     slug: 'polyethylene-pe-lumps',
     name: 'Polyethylene - PE Lumps',
     code: 'PE LUMPS / PURGINGS',
     tagline: 'DENSE INDUSTRIAL EXTRUDER PURGING & INJECTION DROP LUMPS',
-    sourceText: 'Commercial studio product photograph of large solid industrial Polyethylene purgings and purge lumps, neutral light grey background, softbox lighting.',
+    sourceText: 'Pipe manufacturing plants, blown film extrusion factories, large-scale blow molding facilities.',
     category: 'Plastic Lumps',
     heroImage: '/images/pe_lumps_hero.jpg',
     badges: [
@@ -2061,10 +2050,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
     applications: [
-      { id: 1, title: 'HEAVY-DUTY UTILITY PALLETS', icon: 'Package', desc: 'Industrial high-density plastic utility pallets stacked neatly in a logistics warehouse.', image: '/images/pe_lumps_app1.jpg' },
-      { id: 2, title: 'EXTRUDED SHEET COMPOUNDING', icon: 'Settings', desc: 'Extruded plastic compounding plant running large polymer profiles.', image: '/images/pe_lumps_app2.jpg' },
-      { id: 3, title: 'INDUSTRIAL DRAINAGE SUMPS', icon: 'ShieldCheck', desc: 'Heavy plastic drainage sumps and underground catch basins.', image: '/images/pe_lumps_app3.jpg' },
-      { id: 4, title: 'STURDY TOOLBOXES', icon: 'Trash2', desc: 'Rugged injection-molded toolboxes and equipment storage cases.', image: '/images/pe_lumps_app4.jpg' }
+      { id: 1, title: 'LARGE PLASTIC DRUMS', icon: 'Package', desc: 'Heavy-duty chemical drums and industrial liquid storage barrels.', image: '/images/pe_lumps_app1.jpg' },
+      { id: 2, title: 'CHEMICAL RESISTANT PIPES', icon: 'Settings', desc: 'High-density pipes for agricultural and industrial drainage.', image: '/images/pe_lumps_app2.jpg' },
+      { id: 3, title: 'AGRICULTURAL FILM', icon: 'Leaf', desc: 'Recycled compounds for durable agricultural and construction films.', image: '/images/pe_lumps_app3.jpg' },
+      { id: 4, title: 'HEAVY DUTY GEOMEMBRANES', icon: 'ShieldCheck', desc: 'Impermeable liners used in large-scale environmental containment.', image: '/images/pe_lumps_app4.jpg' }
     ],
     specifications: [
       { label: 'Material Grade', value: 'Polyethylene Lumps (PE)' },
@@ -2080,10 +2069,10 @@ export const productDetailsData = {
   // Auto-Inserted
   'polyvinyl-chloride-pvc-lumps': {
     slug: 'polyvinyl-chloride-pvc-lumps',
-    name: 'Polyvinyl Chloride PVC Lumps',
-    code: 'POLYVINYL CHLORIDE PVC LUMPS - MASTER GRADE',
-    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
-    sourceText: 'Commercial studio product photography of Polyvinyl Chloride PVC Lumps, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    name: 'Polyvinyl Chloride - PVC Lumps',
+    code: 'PVC LUMPS / PURGINGS',
+    tagline: 'RIGID POST-INDUSTRIAL EXTRUDATE & MOLDING PURGINGS',
+    sourceText: 'Window profile extrusion plants, pipe and fitting manufacturing, flooring material factories.',
     category: 'Plastic Lumps',
     heroImage: '/images/pvc_lumps_hero.jpg',
     badges: [
@@ -2094,10 +2083,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
     applications: [
-      { id: 1, title: 'HEAVY-DUTY INDUSTRIAL PALLETS', icon: 'Package', desc: 'Molded returnable industrial transport pallets.', image: '/images/pvc_lumps_app1.jpg' },
-      { id: 2, title: 'PROFILE EXTRUSION SHEET', icon: 'Car', desc: 'Thick industrial sheet and profile extrusion compounding.', image: '/images/pvc_lumps_app2.jpg' },
-      { id: 3, title: 'UNDERGROUND UTILITY COVERING', icon: 'Settings', desc: 'Heavy subterranean cable covers and septic tanks.', image: '/images/pvc_lumps_app3.jpg' },
-      { id: 4, title: 'STURDY STORAGE CRATES', icon: 'Trash2', desc: 'Rugged molded toolboxes and logistics tote containers.', image: '/images/pvc_lumps_app4.jpg' }
+      { id: 1, title: 'CONSTRUCTION PIPES', icon: 'Settings', desc: 'Rigid extruded pipes for plumbing and industrial fluid transport.', image: '/images/pvc_lumps_app1.jpg' },
+      { id: 2, title: 'WINDOW & DOOR PROFILES', icon: 'Package', desc: 'Weather-resistant structural profiles for the construction industry.', image: '/images/pvc_lumps_app2.jpg' },
+      { id: 3, title: 'INDUSTRIAL FLOORING MATS', icon: 'ShieldCheck', desc: 'Durable, slip-resistant flooring solutions for commercial spaces.', image: '/images/pvc_lumps_app3.jpg' },
+      { id: 4, title: 'CABLE INSULATION CONDUITS', icon: 'Car', desc: 'Protective casing and conduits for electrical and telecommunication cables.', image: '/images/pvc_lumps_app4.jpg' }
     ],
     specifications: [
       { label: 'Material Name', value: 'Polyvinyl Chloride PVC Lumps' },
@@ -2114,10 +2103,10 @@ export const productDetailsData = {
   // Auto-Inserted
   'high-impact-polystyrene-lumps': {
     slug: 'high-impact-polystyrene-lumps',
-    name: 'High Impact Polystyrene Lumps',
-    code: 'HIGH IMPACT POLYSTYRENE LUMPS - MASTER GRADE',
-    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
-    sourceText: 'Commercial studio product photography of High Impact Polystyrene Lumps, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    name: 'High Impact Polystyrene - HIPS Lumps',
+    code: 'HIPS LUMPS / PURGINGS',
+    tagline: 'DURABLE INJECTION MOLDING & THERMOFORMING DROPS',
+    sourceText: 'Appliance housing manufacturers, electronic casing injection molding plants, automotive parts suppliers.',
     category: 'Plastic Lumps',
     heroImage: '/images/ps_lumps_hero.jpg',
     badges: [
@@ -2128,10 +2117,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
     applications: [
-      { id: 1, title: 'HEAVY-DUTY INDUSTRIAL PALLETS', icon: 'Package', desc: 'Molded returnable industrial transport pallets.', image: '/images/ps_lumps_app1.jpg' },
-      { id: 2, title: 'PROFILE EXTRUSION SHEET', icon: 'Car', desc: 'Thick industrial sheet and profile extrusion compounding.', image: '/images/ps_lumps_app2.jpg' },
-      { id: 3, title: 'UNDERGROUND UTILITY COVERING', icon: 'Settings', desc: 'Heavy subterranean cable covers and septic tanks.', image: '/images/ps_lumps_app3.jpg' },
-      { id: 4, title: 'STURDY STORAGE CRATES', icon: 'Trash2', desc: 'Rugged molded toolboxes and logistics tote containers.', image: '/images/ps_lumps_app4.jpg' }
+      { id: 1, title: 'APPLIANCE HOUSINGS', icon: 'Settings', desc: 'Impact-resistant exterior casings for refrigerators and consumer electronics.', image: '/images/ps_lumps_app1.jpg' },
+      { id: 2, title: 'AUTOMOTIVE DASH PANELS', icon: 'Car', desc: 'Sturdy structural components for vehicle interiors.', image: '/images/ps_lumps_app2.jpg' },
+      { id: 3, title: 'ELECTRONIC CASINGS', icon: 'ShieldCheck', desc: 'Durable protective enclosures for industrial computing equipment.', image: '/images/ps_lumps_app3.jpg' },
+      { id: 4, title: 'RIGID PROTECTIVE TRAYS', icon: 'Package', desc: 'Thermoformed packaging trays for sensitive mechanical parts.', image: '/images/ps_lumps_app4.jpg' }
     ],
     specifications: [
       { label: 'Material Name', value: 'High Impact Polystyrene Lumps' },
@@ -2149,9 +2138,9 @@ export const productDetailsData = {
   'polyethylene-terephthalate-pet-lumps': {
     slug: 'polyethylene-terephthalate-pet-lumps',
     name: 'Polyethylene Terephthalate - PET Lumps',
-    code: 'POLYETHYLENE TEREPHTHALATE - PET LUMPS - MASTER GRADE',
-    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
-    sourceText: 'Commercial studio product photography of Polyethylene Terephthalate - PET Lumps, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    code: 'PET LUMPS / PURGINGS',
+    tagline: 'HIGH-VISCOSITY POLYMER PURGINGS & EXTRUSION LUMPS',
+    sourceText: 'Beverage bottle preform manufacturers, synthetic fiber spinning plants, clear sheet extrusion facilities.',
     category: 'Plastic Lumps',
     heroImage: '/images/pet_lumps_hero.jpg',
     badges: [
@@ -2162,10 +2151,10 @@ export const productDetailsData = {
     ],
     sustainabilityBadgeText: 'SUSTAINABLE SOLUTION FOR A BETTER TOMORROW',
     applications: [
-      { id: 1, title: 'HEAVY-DUTY INDUSTRIAL PALLETS', icon: 'Package', desc: 'Molded returnable industrial transport pallets.', image: '/images/pet_lumps_app1.jpg' },
-      { id: 2, title: 'PROFILE EXTRUSION SHEET', icon: 'Car', desc: 'Thick industrial sheet and profile extrusion compounding.', image: '/images/pet_lumps_app2.jpg' },
-      { id: 3, title: 'UNDERGROUND UTILITY COVERING', icon: 'Settings', desc: 'Heavy subterranean cable covers and septic tanks.', image: '/images/pet_lumps_app3.jpg' },
-      { id: 4, title: 'STURDY STORAGE CRATES', icon: 'Trash2', desc: 'Rugged molded toolboxes and logistics tote containers.', image: '/images/pet_lumps_app4.jpg' }
+      { id: 1, title: 'POLYESTER STAPLE FIBER', icon: 'Settings', desc: 'Recycled fiber production for textiles and non-woven fabrics.', image: '/images/pet_lumps_app1.jpg' },
+      { id: 2, title: 'CLEAR PACKAGING SHEETS', icon: 'Package', desc: 'Thermoformed transparent packaging and blister packs.', image: '/images/pet_lumps_app2.jpg' },
+      { id: 3, title: 'INDUSTRIAL STRAPPING', icon: 'ShieldCheck', desc: 'High-tensile strength strapping bands for heavy cargo logistics.', image: '/images/pet_lumps_app3.jpg' },
+      { id: 4, title: 'AUTOMOTIVE CARPETING', icon: 'Car', desc: 'Durable synthetic fiber mats and carpets for vehicle interiors.', image: '/images/pet_lumps_app4.jpg' }
     ],
     specifications: [
       { label: 'Material Name', value: 'Polyethylene Terephthalate - PET Lumps' },
@@ -2184,8 +2173,8 @@ export const productDetailsData = {
     slug: 'polypropylene-pp-bales',
     name: 'Polypropylene -PP Bales',
     code: 'POLYPROPYLENE -PP BALES - MASTER GRADE',
-    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
-    sourceText: 'Commercial studio product photography of Polypropylene -PP Bales, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    tagline: 'COMPACTED HIGH-YIELD POLYPROPYLENE BALES',
+    sourceText: 'Baled post-consumer woven sacks, bulk agricultural twine, bulk storage crate collections.',
     category: 'Bales',
     heroImage: '/images/pp_bales_hero.jpg',
     badges: [
@@ -2218,8 +2207,8 @@ export const productDetailsData = {
     slug: 'high-impact-polystyrene-ps-bales',
     name: 'High Impact Polystyrene - PS Bales',
     code: 'HIGH IMPACT POLYSTYRENE - PS BALES - MASTER GRADE',
-    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
-    sourceText: 'Commercial studio product photography of High Impact Polystyrene - PS Bales, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    tagline: 'COMPRESSED HIGH-IMPACT STYRENIC RECYCLING BALES',
+    sourceText: 'Densified protective foam packaging inserts, bulk food service tray collections, disposable cutlery bulk streams.',
     category: 'Bales',
     heroImage: '/images/ps_bales_hero.jpg',
     badges: [
@@ -2252,8 +2241,8 @@ export const productDetailsData = {
     slug: 'polyethylene-terephthalate-pet-bales',
     name: 'Polyethylene Terephthalate - PET Bales',
     code: 'POLYETHYLENE TEREPHTHALATE - PET BALES - MASTER GRADE',
-    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
-    sourceText: 'Commercial studio product photography of Polyethylene Terephthalate - PET Bales, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    tagline: 'HIGH-DENSITY SORTED PET BOTTLE BALES',
+    sourceText: 'Consolidated municipal recycling facility outputs, bulk commercial beverage container deposits.',
     category: 'Bales',
     heroImage: '/images/pet_bales_hero.jpg',
     badges: [
@@ -2286,8 +2275,8 @@ export const productDetailsData = {
     slug: 'polypropylene-pp-regranulate',
     name: 'Polypropylene -PP Regranulate',
     code: 'POLYPROPYLENE -PP REGRANULATE - MASTER GRADE',
-    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
-    sourceText: 'Commercial studio product photography of Polypropylene -PP Regranulate, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    tagline: 'EXTRUSION-READY HOMOGENIZED PP REGRANULATE',
+    sourceText: 'Reprocessed from automotive interior trim discards, heavy-duty industrial trash bags, high-strength liner films.',
     category: 'Regranulate',
     heroImage: '/images/pp_regranulate_hero.jpg',
     badges: [
@@ -2320,8 +2309,8 @@ export const productDetailsData = {
     slug: 'polyethylene-pe-regranulate',
     name: 'Polyethylene -PE Regranulate',
     code: 'POLYETHYLENE -PE REGRANULATE - MASTER GRADE',
-    tagline: 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY',
-    sourceText: 'Commercial studio product photography of Polyethylene -PE Regranulate, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.',
+    tagline: 'REFINED POLYETHYLENE PELLETIZED COMPOUND',
+    sourceText: 'Formulated from recycled flexible wire jacketing, commercial stretch wrap, carbonated beverage bottle caps.',
     category: 'Regranulate',
     heroImage: '/images/pe_regranulate_hero.jpg',
     badges: [
@@ -2358,7 +2347,7 @@ export const getProductDetail = (slug, rawName) => {
   }
 
   const formattedName = rawName || slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-  
+
   let categoryName = 'Plastics Division';
   let taglineText = 'HIGH-PURITY RECYCLABLE INDUSTRIAL COMMODITY';
   let heroImage = 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=800&auto=format&fit=crop';
@@ -2371,7 +2360,7 @@ export const getProductDetail = (slug, rawName) => {
     isMetal = true;
   } else if (slug.includes('hms') || slug.includes('ms-') || slug.includes('shredded') || slug.includes('steel')) {
     categoryName = 'HMS & Mild Steel Scrap';
-    taglineText = 'PREMIUM HEAVY MELTING & MILD STEEL SCRAP';
+    taglineText = 'HEAVY MELTING & MILD STEEL SCRAP';
     heroImage = `/images/metal_final/${slug.replace(/-/g, '_')}.jpg`;
     isMetal = true;
   } else if (slug.includes('aluminum') || slug.includes('aluminium') || slug.includes('ubc') || slug.includes('radiator') || slug.includes('tense')) {
@@ -2458,7 +2447,7 @@ export const getProductDetail = (slug, rawName) => {
       { title: 'PRECISION WEAR GEARS', desc: 'Self-lubricating mechanical gears, sliding fasteners, and bearings.', image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop' },
       { title: 'SAFETY GLAZING & LIGHTING', desc: 'Optically clear polycarbonate shields and LED diffusers.', image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop' }
     ],
-    
+
     'Stainless Steel Scrap': [
       { title: 'INDUSTRIAL PIPING & VALVES', desc: 'Recycled into high-pressure pipes, valves, and industrial fluid systems.', image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=800&auto=format&fit=crop' },
       { title: 'MEDICAL & FOOD EQUIPMENT', desc: 'Repurposed for sanitary medical tools and commercial kitchen surfaces.', image: 'https://images.unsplash.com/photo-1574347719702-861fbc34d8fb?q=80&w=800&auto=format&fit=crop' },
@@ -2477,7 +2466,7 @@ export const getProductDetail = (slug, rawName) => {
       { title: 'ELECTRICAL TRANSMISSION LINES', desc: 'Processed into conductive wire and cable for power grids.', image: 'https://images.unsplash.com/photo-1592661559902-602c32cf9768?q=80&w=800&auto=format&fit=crop' },
       { title: 'WINDOW FRAMES & EXTRUSIONS', desc: 'Extruded into architectural frames and structural building materials.', image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop' }
     ],
-'Default': [
+    'Default': [
       { title: 'INJECTION MOLDED COMPONENTS', desc: 'Precision industrial injection molded parts.', image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop' },
       { title: 'EXTRUDED PROFILES & PIPING', desc: 'Durable extruded profiles and industrial piping.', image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=800&auto=format&fit=crop' },
       { title: 'PACKAGING FILMS & BAGS', desc: 'High-strength flexible packaging films.', image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop' },
@@ -2485,8 +2474,8 @@ export const getProductDetail = (slug, rawName) => {
     ]
   };
 
-  
-      const specificMetalApps = {
+
+  const specificMetalApps = {
     'ss-316-scrap': [
       { title: 'MARINE HARDWARE', desc: 'Recycled into corrosion-resistant marine grade fittings.', image: '/images/metal_final/marine_hardware.jpg' },
       { title: 'PHARMACEUTICAL TANKS', desc: 'Melted for high-purity chemical and pharmaceutical storage.', image: '/images/metal_final/pharmaceutical_tanks.jpg' },
@@ -2602,6 +2591,29 @@ export const getProductDetail = (slug, rawName) => {
     appSet = categoryAppsMap[categoryName] || categoryAppsMap['Default'];
   }
 
+  const specificMetalSources = {
+    'ss-316-scrap': 'Sourced from marine environments, chemical processing plants, food production facilities, and medical equipment manufacturing.',
+    'ss-304-scrap': 'Sourced from kitchen appliances, sinks, commercial food processing equipment, brewing facilities, and architectural panelling.',
+    'ss-310-scrap': 'Sourced from high-temperature industrial environments such as furnace parts, heat exchangers, kiln linings, and boiler baffles.',
+    'ss-208-scrap': 'Sourced from precision machining, specialized industrial components, and select automotive or electrical manufacturing scraps.',
+    'hms-and-mild-steel-scrap': 'Sourced from heavy industrial demolitions, end-of-life heavy machinery, railway equipment, and general construction structural steel.',
+    'hms-1-scrap': 'Sourced from obsolete heavy machinery, structural I-beams, railway tracks, shipbreaking yards, and heavy gauge industrial piping.',
+    'shredded-steel-scrap': 'Sourced from shredded end-of-life vehicles (ELVs), white goods (refrigerators, washing machines), and mixed light industrial scrap.',
+    'hms-2-scrap': 'Sourced from galvanized and painted steel structures, light gauge industrial scrap, bicycle frames, and lighter construction materials.',
+    'ms-sheet-fabrication-scrap': 'Sourced from automotive manufacturing offcuts, appliance housing fabrication, and HVAC ducting production lines.',
+    'ms-turning-scrap': 'Sourced from CNC machining centers, lathe turnings from manufacturing plants, and precision engineering workshops.',
+    'ms-forging-scrap': 'Sourced from automotive forging lines, drop-forged tool manufacturing, and heavy-duty drivetrain component production.',
+    'ms-angles-scrap': 'Sourced from demolished transmission towers, warehouse racking systems, agricultural machinery frames, and construction scaffolding.',
+    'ms-sheet-stamping-scrap': 'Sourced from motor lamination punch-outs, electrical enclosure manufacturing, and automotive body panel stamping operations.',
+    'aluminium-scrap': 'Sourced from aerospace components, automotive parts, window frames, packaging, and general industrial manufacturing scrap.',
+    'aluminum-radiators-talk-scrap': 'Sourced from end-of-life automotive cooling systems, industrial heat exchangers, and commercial HVAC units.',
+    'used-beverage-can-ubc-scrap': 'Sourced from municipal recycling facilities (MRFs), commercial recycling programs, and post-consumer beverage container collections.',
+    'aluminum-cables-scrap': 'Sourced from replaced power grid transmission lines, telecommunications infrastructure upgrades, and heavy industrial electrical rewiring.',
+    'cast-aluminum-tense-scrap': 'Sourced from scrapped automotive engine blocks, transmission housings, industrial pump casings, and cast machinery components.',
+    'aluminium-wire-scrap': 'Sourced from residential and commercial electrical rewiring, telecom cables, and aerospace or automotive wiring harnesses.',
+    'aluminium-6063-scrap': 'Sourced from architectural window and door frames, solar panel mounting rails, heat sinks, and marine handrails.'
+  };
+
   const icons = ['Package', 'Car', 'Settings', 'Trash2'];
 
   return {
@@ -2609,7 +2621,7 @@ export const getProductDetail = (slug, rawName) => {
     name: formattedName,
     code: `${formattedName.toUpperCase()} - MASTER GRADE`,
     tagline: taglineText,
-    sourceText: `Commercial studio product photography of ${formattedName}, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.`,
+    sourceText: specificMetalSources[key] || `Commercial studio product photography of ${formattedName}, highly realistic industrial grade texture, displayed cleanly on a neutral studio background.`,
     category: categoryName,
     heroImage: heroImage,
     badges: isMetal ? [
@@ -2650,6 +2662,6 @@ export const getProductDetail = (slug, rawName) => {
       { label: 'Packaging', value: '25kg Bags / 1000kg Jumbo Super Sacks' },
       { label: 'Min Order Qty', value: '1 x 20ft Container (approx. 18-22 MT)' }
     ]
-  
+
   };
 };
