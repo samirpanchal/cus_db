@@ -1,0 +1,38 @@
+  # Google Ads API SEO Integration Plan
+
+This plan outlines the architecture for integrating the **Google Ads Keyword Planner API** directly into our programmatic SEO build process. This will upgrade our strategy from "guessing" keywords to automatically utilizing data-backed, high-volume search terms.
+
+## User Action Required (API Setup)
+
+> [!IMPORTANT]
+> **Before I can write the code**, you need to generate the official Google API credentials. Google requires a human to sign up for this. Please follow these exact steps:
+
+1. **Create a Google Cloud Project**: Go to [Google Cloud Console](https://console.cloud.google.com/) and create a new project.
+2. **Enable the API**: Search for "Google Ads API" in the API Library and click "Enable".
+3. **Get OAuth Credentials**: Go to "Credentials" -> "Create Credentials" -> "OAuth client ID" (Choose "Desktop App"). Download the JSON file or copy the `Client ID` and `Client Secret`.
+4. **Get a Developer Token**: Go to your [Google Ads Dashboard](https://ads.google.com/), navigate to Tools & Settings > API Center, and request a basic access Developer Token.
+5. **Paste them here**: Once you have the `Client ID`, `Client Secret`, and `Developer Token`, paste them in the chat to me!
+
+## Proposed Architecture
+
+Once you provide the credentials, I will write the integration. Here is how the automated system will work:
+
+### 1. New Utility Script: `scratch/fetch_keywords.js`
+- I will create a Node.js script that connects to the Google Ads API using the `google-ads-api` npm library.
+- It will pass in our core list of products (e.g., "Polypropylene Scrap") and our target locations (e.g., "Dubai", "Visakhapatnam").
+- It will query the API for **Historical Search Volume** and **Keyword Ideas**.
+
+### 2. Output Cache: `src/data/keywordCache.json`
+- Google limits how many times you can hit their API per day.
+- The script will save the results into a JSON file (`keywordCache.json`).
+- This file will contain the exact monthly search volume for every `[Product] + [Location]` combination, and the highest-volume semantic keyword variation (e.g., "Wholesale PP Resin").
+
+### 3. SEO Engine Upgrade
+I will modify `scratch/generate_sitemap.js` and `scratch/inject_og_tags.js` to read from the new `keywordCache.json`:
+- **Crawl Budget Optimization**: If a location/product combination has `0` search volume, the script will skip generating it. This trims the "dead weight" off our 66,000 pages, focusing Google's crawler only on pages that actually make money.
+- **Dynamic Semantic Tags**: If the API suggests a better long-tail keyword (e.g. "BOPP film wholesale" instead of "Uncoated film"), we will dynamically inject that into the OpenGraph tags and `<title>` for that specific location page.
+
+## Verification Plan
+1. We will run `node scratch/fetch_keywords.js` locally to verify the Google Ads API connects and successfully pulls search volume data for a sample product.
+2. We will inspect the generated `keywordCache.json` to ensure the data is accurate.
+3. We will run `npm run build` and verify that low-volume pages are successfully excluded from the sitemap.

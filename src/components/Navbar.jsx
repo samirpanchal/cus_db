@@ -54,12 +54,9 @@ const Navbar = () => {
           className="object-contain transition-transform group-hover:scale-105"
           style={{ height: '40px', width: 'auto' }}
         />
-        <div className="flex flex-col">
-          <span className="text-xl font-bold tracking-tight text-slate-900 leading-tight">
+        <div className="flex flex-col justify-center">
+          <span className="text-xl font-bold tracking-tight leading-tight bg-gradient-to-br from-[#5cb878] to-[#387a9f] bg-clip-text text-transparent">
             Anchorstone Global LLP
-          </span>
-          <span className="text-[10px] font-semibold text-emerald-600 tracking-wider uppercase hidden sm:inline-block">
-            Strategic Trade
           </span>
         </div>
       </Link>

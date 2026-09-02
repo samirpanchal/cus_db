@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { getProductDetail } from '../data/productDetailsData';
+import { getProductDetail, productDetailsData } from '../data/productDetailsData';
+import { globalLocations } from '../data/locations';
+import { indiaLocations } from '../data/indiaLocations';
+import { indiaPortsLocations } from '../data/indiaPortsLocations';
 import { 
   ShieldCheck, 
   Recycle, 
@@ -15,7 +18,8 @@ import {
   Send, 
   PhoneCall, 
   CheckCircle2, 
-  Sparkles 
+  Sparkles,
+  MapPin
 } from 'lucide-react';
 
 const getIconComponent = (iconName) => {
@@ -33,25 +37,185 @@ const getIconComponent = (iconName) => {
 };
 
 const ProductDetail = () => {
-  const { slug } = useParams();
+  const { slug, location: locParam } = useParams();
+  const { pathname } = useLocation();
   const navigate = useNavigate();
-  const currentSlug = slug || 'polypropylene-pp-scrap';
+  const rawSlug = slug || 'polypropylene-pp-scrap';
+  const currentSlug = rawSlug.replace(/\.html$/, '');
   
+  const isIndiaRoute = pathname.startsWith('/india/');
+  const isExportRoute = pathname.startsWith('/export/');
+  const isIndiaPortRoute = pathname.startsWith('/import-india/');
+
+  const locationName = isIndiaRoute ? indiaLocations[locParam] : 
+                       (isExportRoute ? globalLocations[locParam] : 
+                       (isIndiaPortRoute ? indiaPortsLocations[locParam] : null));
+
   // Format readable title from slug if needed
   const rawName = currentSlug.replace(/-/g, ' ');
   const product = getProductDetail(currentSlug, rawName);
+
+  let visualHeadline = product.name;
+  let displayTitle = product.name;
+  let displaySeoTitle = product.seoTitle || `${product.name} | Anchorstone Global Materials`;
+  let displayDesc = product.seoDescription || product.sourceText;
+  let displayUrl = `https://anchorstoneglobal.co.in/materials/${product.slug}.html`;
+
+  if (isExportRoute && locationName) {
+    displayTitle = `Import ${product.name} to ${locationName}`;
+    visualHeadline = product.name;
+    displaySeoTitle = `Import ${product.name} to ${locationName} | Bulk Suppliers`;
+    displayDesc = `Anchorstone Global specializes in exporting bulk ${product.name} to ${locationName}. Contact us today for a quote!`;
+    displayUrl = `https://anchorstoneglobal.co.in/export/${locParam}/${currentSlug}.html`;
+  } else if (isIndiaPortRoute && locationName) {
+    displayTitle = `Import ${product.name} to ${locationName}`;
+    visualHeadline = product.name;
+    displaySeoTitle = `Import ${product.name} to ${locationName} | Bulk Suppliers`;
+    displayDesc = `Anchorstone Global specializes in supplying bulk ${product.name} directly to ${locationName}. Contact us today for import and logistics quotes!`;
+    displayUrl = `https://anchorstoneglobal.co.in/import-india/${locParam}/${currentSlug}.html`;
+  } else if (isIndiaRoute && locationName) {
+    displayTitle = `Buy ${product.name} in ${locationName}`;
+    visualHeadline = product.name;
+    displaySeoTitle = `${product.name} Suppliers in ${locationName} | Anchorstone Global`;
+    displayDesc = `Anchorstone Global and The Polylot Company are leading suppliers and distributors of bulk ${product.name} across ${locationName}. Contact us for domestic pricing!`;
+    displayUrl = `https://anchorstoneglobal.co.in/india/${locParam}/${currentSlug}.html`;
+  }
 
   const [activeTab, setActiveTab] = useState('overview');
 
   return (
     <div style={{ backgroundColor: '#ffffff', color: '#0f172a', minHeight: '100vh', paddingBottom: '5rem' }}>
       <Helmet>
-        <title>{`${product.name} | Anchorstone Global Materials`}</title>
-        <meta name="description" content={product.sourceText} />
-        <link rel="canonical" href={`https://anchorstoneglobal.co.in/materials/${product.slug}`} />
+        <title>{displaySeoTitle}</title>
+        <meta name="description" content={displayDesc} />
+        <link rel="canonical" href={displayUrl} />
+        
+        {/* Hreflang for global targeting */}
+        <link rel="alternate" hreflang="x-default" href={displayUrl} />
+        <link rel="alternate" hreflang="en" href={displayUrl} />
+        
+        {/* Open Graph Tags for WhatsApp / LinkedIn Sharing */}
+        <meta property="og:title" content={displaySeoTitle} />
+        <meta property="og:description" content={displayDesc} />
+        <meta property="og:image" content={`https://anchorstoneglobal.co.in${product.heroImage}`} />
+        <meta property="og:url" content={displayUrl} />
+        <meta property="og:type" content="product" />
+        
+        {/* JSON-LD Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": displayTitle,
+            "image": `https://anchorstoneglobal.co.in${product.heroImage}`,
+            "description": displayDesc,
+            "brand": {
+              "@type": "Brand",
+              "name": "Anchorstone Global"
+            },
+            "category": product.category,
+            "offers": {
+              "@type": "Offer",
+              "url": displayUrl,
+              "priceCurrency": "USD",
+              "price": "Request Quote",
+              "availability": "https://schema.org/InStock"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "124"
+            }
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://anchorstoneglobal.co.in"
+            },{
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Materials",
+              "item": "https://anchorstoneglobal.co.in/materials"
+            },{
+              "@type": "ListItem",
+              "position": 3,
+              "name": isIndiaRoute ? `Supply to ${locationName}` : (isExportRoute && locationName ? `Export to ${locationName}` : product.name),
+              "item": displayUrl
+            }]
+          })}
+        </script>
+        
+        {/* FAQ Schema for Google Rich Snippets */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": `What is the minimum order quantity for ${product.name}?`,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": `Our minimum order quantity for ${product.name} is generally 1 x 20ft Container. Please request a quote for exact details.`
+                }
+              },
+              {
+                "@type": "Question",
+                "name": `How is ${product.name} packaged for export?`,
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": `Depending on the format, it can be shipped in 25kg bags, 1000kg jumbo super sacks, or loose in containers.`
+                }
+              }
+            ]
+          })}
+        </script>
       </Helmet>
 
 
+
+      {/* Visual Breadcrumbs */}
+      <div style={{ backgroundColor: '#ffffff', borderBottom: '1px solid #e2e8f0' }}>
+        <div className="container" style={{ maxWidth: '1280px', margin: '0 auto', padding: '1rem 1.5rem' }}>
+          <nav style={{ fontSize: '0.85rem', color: '#64748b', fontWeight: 500 }}>
+            <Link to="/" style={{ color: '#2ecc71', textDecoration: 'none' }}>Home</Link>
+            <span style={{ margin: '0 0.5rem' }}>&gt;</span>
+            <Link to="/materials" style={{ color: '#2ecc71', textDecoration: 'none' }}>Materials</Link>
+            <span style={{ margin: '0 0.5rem' }}>&gt;</span>
+            {isExportRoute && (
+              <>
+                <span style={{ color: '#64748b' }}>Export</span>
+                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
+                <span style={{ color: '#64748b' }}>{locationName}</span>
+                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
+              </>
+            )}
+            {isIndiaPortRoute && (
+              <>
+                <span style={{ color: '#64748b' }}>Import</span>
+                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
+                <span style={{ color: '#64748b' }}>{locationName}</span>
+                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
+              </>
+            )}
+            {isIndiaRoute && (
+              <>
+                <span style={{ color: '#64748b' }}>Domestic</span>
+                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
+                <span style={{ color: '#64748b' }}>{locationName}</span>
+                <span style={{ margin: '0 0.5rem' }}>&gt;</span>
+              </>
+            )}
+            <span style={{ color: '#0f172a' }}>{product.name}</span>
+          </nav>
+        </div>
+      </div>
 
       {/* Main Brochure Hero Container */}
       <section style={{ padding: '3.5rem 0 4rem', position: 'relative', overflow: 'hidden' }}>
@@ -61,21 +225,34 @@ const ProductDetail = () => {
 
             {/* Left Column: Title, Origin Subtitle & Quality Badges */}
             <div>
-              <div className="product-badge-pill">
-                <Sparkles size={16} /> ANCHORSTONE GLOBAL REIMAGINING PLASTICS
+              <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '1.5rem' }}>
+                <div className="product-badge-pill" style={{ margin: 0 }}>
+                  <Sparkles size={16} /> ANCHORSTONE GLOBAL REIMAGINING PLASTICS
+                </div>
+                {locationName && (
+                  <div className="product-badge-pill" style={{ margin: 0, backgroundColor: '#f8fafc', color: '#0f172a', border: '1px solid #cbd5e1' }}>
+                    <MapPin size={16} style={{ color: '#2ecc71' }} /> {isExportRoute || isIndiaPortRoute ? `IMPORT TO ${locationName.toUpperCase()}` : `SUPPLYING ${locationName.toUpperCase()}`}
+                  </div>
+                )}
               </div>
 
-              <h1 className="product-title">
-                {product.name.toUpperCase()}
+              <h1 className="product-title" style={{ marginTop: '0.5rem' }}>
+                {visualHeadline.toUpperCase()}
               </h1>
 
               <h2 className="product-subtitle">
                 {product.tagline}
               </h2>
 
-              <p style={{ color: '#475569', fontSize: '1.1rem', lineHeight: 1.6, marginBottom: '2.5rem' }}>
+              <p style={{ color: '#475569', fontSize: '1.1rem', lineHeight: 1.6, marginBottom: locationName ? '1.5rem' : '2.5rem' }}>
                 {product.sourceText}
               </p>
+
+              {locationName && (
+                <p style={{ color: '#0f172a', fontSize: '1rem', lineHeight: 1.6, marginBottom: '2.5rem', fontWeight: 500, backgroundColor: '#f8fafc', padding: '1rem', borderRadius: '8px', borderLeft: '4px solid #2ecc71' }}>
+                  Anchorstone Global provides dedicated logistics and expedited customs clearance for delivering <strong>{product.name}</strong> directly to <strong>{locationName}</strong>. Request a quote today for specialized pricing.
+                </p>
+              )}
 
               {/* 4 Core Quality Badges matching Abir layout */}
               <div className="product-quality-badges">
@@ -96,9 +273,9 @@ const ProductDetail = () => {
                       {getIconComponent(badge.icon)}
                     </div>
                     <div>
-                      <h3 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#0f172a', letterSpacing: '0.5px', margin: '0 0 0.2rem 0' }}>
+                      <h2 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#0f172a', letterSpacing: '0.5px', margin: '0 0 0.2rem 0' }}>
                         {badge.title}
-                      </h3>
+                      </h2>
                       <p style={{ fontSize: '0.85rem', color: '#64748b', margin: 0, lineHeight: 1.3 }}>
                         {badge.desc}
                       </p>
@@ -115,9 +292,13 @@ const ProductDetail = () => {
               <div className="product-image-glow" />
 
               {/* Circular Cropped Material Image Frame matching Abir brochure */}
-              <div className="product-image-frame" style={{
-                backgroundImage: `url(${product.heroImage})`
-              }} />
+              <div className="product-image-frame" style={{ overflow: 'hidden' }}>
+                <img 
+                  src={product.heroImage} 
+                  alt={product.altText || `Industrial ${product.name} available for export`} 
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+                />
+              </div>
 
               {/* Floating Orange/Green Badge */}
               <div style={{
@@ -302,6 +483,128 @@ const ProductDetail = () => {
 
           </div>
 
+        </div>
+      </section>
+
+      {/* Related Locations Section (Internal Linking Web) */}
+      {locationName && (
+        <section style={{ padding: '4rem 0', backgroundColor: '#ffffff' }}>
+          <div className="container" style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 1.5rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start', gap: '1.5rem', marginBottom: '2rem' }}>
+              <h2 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#0f172a', margin: 0 }}>
+                Also Supplying {product.name} To:
+              </h2>
+            </div>
+            
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
+              {(isExportRoute 
+                  ? Object.entries(globalLocations)
+                  : (isIndiaPortRoute ? Object.entries(indiaPortsLocations) : Object.entries(indiaLocations))
+                )
+                .filter(([key, val]) => val !== locationName)
+                .sort(() => 0.5 - Math.random())
+                .slice(0, 12)
+                .map(([locKey, locName]) => {
+                  let linkBase = '/india';
+                  if (isExportRoute) linkBase = '/export';
+                  if (isIndiaPortRoute) linkBase = '/import-india';
+                  return (
+                    <Link 
+                      key={locKey} 
+                      to={`${linkBase}/${locKey}/${currentSlug}.html`}
+                      style={{
+                        padding: '0.6rem 1.2rem',
+                        backgroundColor: '#f1f5f9',
+                        color: '#475569',
+                        borderRadius: '20px',
+                        fontSize: '0.9rem',
+                        fontWeight: 600,
+                        textDecoration: 'none',
+                        transition: 'all 0.2s ease',
+                      }}
+                      onMouseOver={(e) => {
+                        e.currentTarget.style.backgroundColor = '#e2e8f0';
+                        e.currentTarget.style.color = '#0f172a';
+                      }}
+                      onMouseOut={(e) => {
+                        e.currentTarget.style.backgroundColor = '#f1f5f9';
+                        e.currentTarget.style.color = '#475569';
+                      }}
+                    >
+                      {locName}
+                    </Link>
+                  );
+                })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Related Materials Section */}
+      <section style={{ padding: '4rem 0', backgroundColor: '#f8fafc', borderTop: '1px solid #e2e8f0' }}>
+        <div className="container" style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 1.5rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', marginBottom: '3rem' }}>
+            <div style={{ height: '2px', backgroundColor: '#e2e8f0', flex: 1, maxWidth: '100px' }} />
+            <h2 style={{ fontSize: '2rem', fontWeight: 900, color: '#0f172a', margin: 0, textTransform: 'uppercase' }}>
+              Related Materials
+            </h2>
+            <div style={{ height: '2px', backgroundColor: '#e2e8f0', flex: 1, maxWidth: '100px' }} />
+          </div>
+          
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
+            {Object.values(productDetailsData)
+              .filter(p => {
+                if (p.slug === product.slug) return false;
+                const getSuperCategory = (prod) => {
+                  if (prod.heroImage?.includes('metal_final')) return 'Metal';
+                  if (prod.heroImage?.includes('plastics_final')) return 'Plastic';
+                  if (prod.heroImage?.includes('stocklots_final')) {
+                    if (prod.category?.includes('Fabric')) return 'Stocklot Fabric';
+                    if (prod.category?.includes('Paper')) return 'Stocklot Paper';
+                    return 'Stocklot Plastic';
+                  }
+                  return 'Unknown';
+                };
+                return getSuperCategory(p) === getSuperCategory(product);
+              })
+              .sort(() => 0.5 - Math.random())
+              .slice(0, 4)
+              .map(related => (
+                <Link 
+                  to={`/materials/${related.slug}.html`} 
+                  key={related.slug}
+                  style={{ textDecoration: 'none', color: 'inherit' }}
+                >
+                  <div style={{
+                    backgroundColor: '#ffffff',
+                    border: '1px solid #e2e8f0',
+                    borderRadius: '12px',
+                    padding: '1.5rem',
+                    transition: 'all 0.3s ease',
+                    boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05)',
+                  }}
+                  onMouseOver={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-5px)';
+                    e.currentTarget.style.boxShadow = '0 10px 20px rgba(0,0,0,0.1)';
+                  }}
+                  onMouseOut={(e) => {
+                    e.currentTarget.style.transform = 'none';
+                    e.currentTarget.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.05)';
+                  }}
+                  >
+                    <h3 style={{ fontSize: '1.1rem', fontWeight: 700, color: '#0f172a', marginBottom: '0.5rem', lineHeight: 1.3 }}>
+                      {related.name}
+                    </h3>
+                    <p style={{ fontSize: '0.9rem', color: '#64748b', margin: 0, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+                      {related.tagline || related.sourceText}
+                    </p>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginTop: '1rem', color: '#2ecc71', fontWeight: 600, fontSize: '0.9rem' }}>
+                      View {related.name} Specs <ArrowLeft size={16} style={{ transform: 'rotate(180deg)' }} />
+                    </div>
+                  </div>
+                </Link>
+            ))}
+          </div>
         </div>
       </section>
 

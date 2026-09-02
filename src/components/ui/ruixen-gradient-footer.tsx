@@ -14,13 +14,13 @@ type Stop = { offset: number; color: string };
 const VBW = 1271;
 const VBH = 599;
 
-// Green stops, floor (0) → top (1): Fluorescent green -> light green -> transparent light green
+// Green to Blue stops, floor (0) → top (1): Blue -> Teal -> Green -> Transparent Green
 const GREEN_STOPS: Stop[] = [
-  { offset: 0, color: "#2dfc52" },
-  { offset: 0.2, color: "#6bfc83" },
-  { offset: 0.5, color: "#98fca9" },
-  { offset: 0.8, color: "#d0fce0" },
-  { offset: 1, color: "#d0fce000" }, // Fade to transparent
+  { offset: 0, color: "#387a9f" },
+  { offset: 0.25, color: "#419398" },
+  { offset: 0.5, color: "#4aab90" },
+  { offset: 0.75, color: "#53c389" },
+  { offset: 1, color: "#5cb87800" }, // Fade to transparent
 ];
 
 function bellHeights(n: number, peak: number, valley: number): number[] {

@@ -25,3 +25,4 @@ dist-ssr
 odoo_17.0.20260813.tar.gz
 .agents/
 venv/
+client_secret_*.json

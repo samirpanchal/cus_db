@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { CustomEase } from "gsap/CustomEase";
+import { motion } from "framer-motion";
 
 // Register GSAP Plugins safely
 if (typeof window !== "undefined") {
@@ -161,8 +162,8 @@ export function KineticNavigation() {
                   {/* Restored Menu Button */}
                   <button role="button" className="nav-close-btn" onClick={toggleMenu} style={{ pointerEvents: 'auto' }}>
                     <div className="menu-button-text">
-                      <p className="p-large text-emerald-900">Menu</p>
-                      <p className="p-large text-emerald-900">Close</p>
+                      <p className="p-large font-bold bg-gradient-to-br from-[#5cb878] to-[#387a9f] bg-clip-text text-transparent">Menu</p>
+                      <p className="p-large font-bold bg-gradient-to-br from-[#5cb878] to-[#387a9f] bg-clip-text text-transparent">Close</p>
                     </div>
                     <div className="icon-wrap">
                       <svg
@@ -249,32 +250,27 @@ export function KineticNavigation() {
               <ul className="menu-list">
                 <li className="menu-list-item" data-shape="1">
                   <Link to="/" onClick={closeMenu} className="nav-link w-inline-block">
-                    <p className="nav-link-text">Home</p>
-                    <div className="nav-link-hover-bg"></div>
+                    <JumpWord word="Home" className="nav-link-text" />
                   </Link>
                 </li>
                 <li className="menu-list-item" data-shape="2">
                   <Link to="/materials" onClick={closeMenu} className="nav-link w-inline-block">
-                    <p className="nav-link-text">Materials</p>
-                    <div className="nav-link-hover-bg"></div>
+                    <JumpWord word="Materials" className="nav-link-text" />
                   </Link>
                 </li>
                 <li className="menu-list-item" data-shape="3">
                   <Link to="/about" onClick={closeMenu} className="nav-link w-inline-block">
-                    <p className="nav-link-text">About Us</p>
-                    <div className="nav-link-hover-bg"></div>
+                    <JumpWord word="About Us" className="nav-link-text" />
                   </Link>
                 </li>
                 <li className="menu-list-item" data-shape="4">
                   <Link to="/contact" onClick={closeMenu} className="nav-link w-inline-block">
-                    <p className="nav-link-text">Contact</p>
-                    <div className="nav-link-hover-bg"></div>
+                    <JumpWord word="Contact" className="nav-link-text" />
                   </Link>
                 </li>
                 <li className="menu-list-item" data-shape="5">
                   <Link to="/quote" onClick={closeMenu} className="nav-link w-inline-block">
-                    <p className="nav-link-text">Get Quote</p>
-                    <div className="nav-link-hover-bg"></div>
+                    <JumpWord word="Get Quote" className="nav-link-text" />
                   </Link>
                 </li>
               </ul>
@@ -285,3 +281,46 @@ export function KineticNavigation() {
     </div>
   );
 }
+
+export const JumpWord = ({ word, className }) => {
+  return (
+    <motion.div
+      initial="initial"
+      whileHover="hovered"
+      className={`relative overflow-hidden whitespace-nowrap block ${className}`}
+      style={{ lineHeight: 1 }}
+    >
+      <div>
+        {word.split('').map((letter, i) => (
+          <motion.span
+            key={i}
+            variants={{
+              initial: { y: 0 },
+              hovered: { y: '-100%' },
+            }}
+            transition={{ duration: 0.5, ease: [0.19, 1, 0.22, 1], delay: i * 0.03 }}
+            style={{ display: 'inline-block' }}
+          >
+            {letter === ' ' ? '\u00A0' : letter}
+          </motion.span>
+        ))}
+      </div>
+      <div className="absolute inset-0">
+        {word.split('').map((letter, i) => (
+          <motion.span
+            key={i}
+            variants={{
+              initial: { y: '100%' },
+              hovered: { y: 0 },
+            }}
+            transition={{ duration: 0.5, ease: [0.19, 1, 0.22, 1], delay: i * 0.03 }}
+            style={{ display: 'inline-block' }}
+            className="bg-gradient-to-br from-[#5cb878] to-[#387a9f] bg-clip-text text-transparent"
+          >
+            {letter === ' ' ? '\u00A0' : letter}
+          </motion.span>
+        ))}
+      </div>
+    </motion.div>
+  );
+};

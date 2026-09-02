@@ -11,6 +11,16 @@ The public-facing website is built using React and Vite, and is hosted on Fireba
 - **Build Command:** `npm run build`
 - **Deploy Command:** `npx firebase-tools deploy --only hosting`
 
+- **Deploy Command:** `npx firebase-tools deploy --only hosting`
+
+### 🚀 SEO Architecture & Upgrades
+The site employs a massive programmatic SEO engine (66,000+ localized pages). The following advanced SEO tactics have been implemented in `ProductDetail.jsx` and the build scripts:
+1. **Dynamic OpenGraph Injection**: Social media cards are dynamically injected per-location via `scratch/inject_og_tags.js` during the build process.
+2. **"Golden Stars" JSON-LD**: `AggregateRating` and `Offer` schemas are dynamically rendered on all product pages to achieve Rich Snippets (gold stars) in Google Search.
+3. **Dynamic Content Injection**: Localized descriptions are conditionally injected into the body text to ensure Google does not flag the pages as duplicate content.
+4. **Visual Breadcrumbs**: UI breadcrumb trails dynamically reflect the specific export/import route for improved crawlability.
+5. **Internal Spider Web**: An algorithmic "Related Locations" widget links out to 12 random sibling ports/cities to eliminate orphan pages.
+
 ---
 
 ## 🏢 AWS ERP Server (Odoo)

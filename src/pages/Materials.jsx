@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { materialsMenu } from '../data/materialsMenu';
 import { Layers, ArrowRight } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
+import { TiltCard } from '../components/ui/TiltCard';
+import { HoverLinkAnimation } from '../components/ui/hover-link-animation';
 
 const slugify = (text) => text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 
@@ -30,10 +32,21 @@ const getCategoryVideo = (catName) => {
 };
 
 const Materials = () => {
+  const location = useLocation();
+  
   const [activeCategoryIndex, setActiveCategoryIndex] = useState(() => {
+    if (location.state && location.state.categoryIndex !== undefined) {
+      return location.state.categoryIndex;
+    }
     const saved = sessionStorage.getItem('activeMaterialCategory');
     return saved !== null ? parseInt(saved, 10) : 0;
   });
+
+  useEffect(() => {
+    if (location.state && location.state.categoryIndex !== undefined) {
+      setActiveCategoryIndex(location.state.categoryIndex);
+    }
+  }, [location.state]);
 
   useEffect(() => {
     sessionStorage.setItem('activeMaterialCategory', activeCategoryIndex);
@@ -51,9 +64,9 @@ const Materials = () => {
       </Helmet>
       <section className="section" style={{ backgroundColor: '#ffffff', color: '#0f172a', padding: '60px 0', textAlign: 'center', borderBottom: '1px solid #e2e8f0' }}>
         <div className="container">
-          <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Materials & Products</h1>
-          <p style={{ fontSize: '1.2rem', color: '#475569' }}>
-            Explore our extensive catalog of high-quality scrap materials for recycling and industrial use.
+          <h1 className="bg-gradient-to-br from-[#5cb878] to-[#387a9f] bg-clip-text text-transparent" style={{ fontSize: '3rem', marginBottom: '1rem' }}>Materials & Products</h1>
+          <p style={{ fontSize: '1.2rem', color: '#475569', maxWidth: '800px', margin: '0 auto' }}>
+            Anchorstone Global supplies a comprehensive range of industrial-grade recyclable materials. From high-quality PP, PE, PVC, PS, and PET scraps to bales, lumps, and regranulates, we cater to the global demands of plastic, metal, and paper processing companies.
           </p>
         </div>
       </section>
@@ -67,16 +80,19 @@ const Materials = () => {
               <h3 style={{ marginBottom: '1.5rem', color: 'var(--bg-dark)', borderBottom: '2px solid var(--border)', paddingBottom: '0.5rem' }}>
                 Categories
               </h3>
-              <ul className="category-list">
+              <ul className="category-list flex flex-col gap-3">
                 {materialsMenu.map((cat, index) => (
                   <li key={index}>
-                    <button 
-                      className={activeCategoryIndex === index ? 'active' : ''}
-                      onClick={() => setActiveCategoryIndex(index)}
-                    >
-                      {cat.name}
-                      {activeCategoryIndex === index && <Layers size={18} />}
-                    </button>
+                    <TiltCard max={3} glare={false} className="w-full rounded-lg overflow-hidden">
+                      <button 
+                        className={`w-full text-left flex justify-between items-center transition-all duration-300 ${activeCategoryIndex === index ? 'active bg-[var(--primary-green)]/10 text-[var(--primary-green)] font-semibold' : 'hover:bg-slate-50'}`}
+                        style={{ padding: '0.8rem 1rem', border: 'none', background: activeCategoryIndex === index ? 'linear-gradient(to bottom right, #5cb878, #387a9f)' : 'transparent', color: activeCategoryIndex === index ? 'white' : 'inherit' }}
+                        onClick={() => setActiveCategoryIndex(index)}
+                      >
+                        {cat.name}
+                        {activeCategoryIndex === index && <Layers size={18} />}
+                      </button>
+                    </TiltCard>
                   </li>
                 ))}
               </ul>
@@ -122,39 +138,50 @@ const Materials = () => {
                 )}
               </div>
               
-              <h2 style={{ fontSize: '2.5rem', color: 'var(--primary-green)', marginBottom: '2rem' }}>
+              <h2 className="bg-gradient-to-br from-[#5cb878] to-[#387a9f] bg-clip-text text-transparent" style={{ fontSize: '2.5rem', marginBottom: '2rem', display: 'inline-block' }}>
                 {activeCategory?.name}
               </h2>
 
               {activeCategory?.subcategories ? (
-                <div className="subcategory-grid">
+                <div className="subcategory-grid relative z-10" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2rem' }}>
                   {activeCategory.subcategories.map((sub, subIdx) => (
-                    <div key={subIdx} className="subcategory-card">
-                      <h4 style={{ fontWeight: 'bold', fontSize: '1.2rem', marginBottom: '1rem', color: 'var(--bg-dark)' }}>{sub.name}</h4>
+                    <TiltCard 
+                      key={subIdx} 
+                      className="group p-8 rounded-2xl border-l-4 border-l-[var(--primary-green)] bg-white border border-white/60 transition-all duration-300 shadow-xl"
+                      glare={true}
+                      max={2}
+                    >
+                      <h4 
+                        style={{ fontWeight: 'bold', fontSize: '1.2rem', marginBottom: '1.2rem' }} 
+                        className="text-slate-900 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-br group-hover:from-[#5cb878] group-hover:to-[#387a9f] transition-all duration-300"
+                      >
+                        {sub.name}
+                      </h4>
                       
                       {/* Render Sub-Sub Categories if they exist */}
                       {sub.subcategories && sub.subcategories.length > 0 && (
-                        <ul className="sub-sub-list">
+                        <ul className="sub-sub-list relative z-20" style={{ listStyleType: 'disc', color: 'var(--primary-green)' }}>
                           {sub.subcategories.map((subSub, ssIdx) => (
-                            <li key={ssIdx} style={{ marginBottom: '0.5rem' }}>
+                            <li key={ssIdx} style={{ marginBottom: '0.8rem', marginLeft: '1rem' }}>
                               <Link 
-                                to={`/materials/${slugify(subSub.name)}`}
+                                to={`/materials/${slugify(subSub.name)}.html`}
+                                className="text-slate-500 font-medium transition-colors duration-200"
                                 style={{ 
-                                  color: 'var(--primary-green)', 
-                                  fontWeight: 600, 
                                   textDecoration: 'none',
                                   display: 'inline-flex',
                                   alignItems: 'center',
-                                  gap: '0.4rem'
+                                  fontSize: '0.875rem'
                                 }}
                               >
-                                {subSub.name} <ArrowRight size={14} />
+                                <HoverLinkAnimation highlightColor="#ffffff" barGradient="linear-gradient(to bottom right, #5cb878, #387a9f)" barThickness={0} className="flex items-center gap-1">
+                                  {subSub.name}
+                                </HoverLinkAnimation>
                               </Link>
                             </li>
                           ))}
                         </ul>
                       )}
-                    </div>
+                    </TiltCard>
                   ))}
                 </div>
               ) : (
@@ -163,11 +190,11 @@ const Materials = () => {
                     Detailed specifications for {activeCategory?.name} are available upon request.
                   </p>
                   <Link 
-                    to={`/materials/${slugify(activeCategory?.name || 'materials')}`}
+                    to={`/materials/${slugify(activeCategory?.name || 'materials')}.html`}
                     className="btn btn-primary"
                     style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
                   >
-                    View Product Details <ArrowRight size={16} />
+                    View {activeCategory?.name || 'Material'} Specifications <ArrowRight size={16} />
                   </Link>
                 </div>
               )}

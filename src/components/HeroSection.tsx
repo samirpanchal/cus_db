@@ -20,7 +20,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         {/* Subtle Pill Tag */}
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50/90 border border-emerald-200/80 text-emerald-800 text-xs font-semibold tracking-wide mb-6 backdrop-blur-sm shadow-xs">
           <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
-          <span>Next-Generation Sustainable Trade &amp; Freight Corridors</span>
+          <span>Next-Generation Sustainable Trade</span>
         </div>
 
         {/* Hero Title */}

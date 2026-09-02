@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { GLOBAL_HUBS } from '../data/anchorstoneData';
 import { RotateCw, Sparkles } from 'lucide-react';
+import { HeroLoader } from './ui/HeroLoader';
 
 interface Globe3DProps {
   onSelectHub?: (hubId: string) => void;
@@ -454,18 +455,7 @@ export const Globe3D: React.FC<Globe3DProps> = ({ onSelectHub, containerized = f
   return (
     <>
       {isLoading && !containerized && (
-        <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#fcf8fa]">
-          <img src="/logo.png" alt="Loading Logo" className="h-20 w-auto mb-8 animate-pulse" />
-          <div className="w-64 h-1.5 bg-slate-200 rounded-full overflow-hidden">
-            <div 
-              className="h-full bg-emerald-500 transition-all duration-300 ease-out" 
-              style={{ width: `${loadProgress}%` }}
-            />
-          </div>
-          <p className="text-slate-500 text-xs font-semibold mt-4 tracking-widest uppercase">
-            Initializing Global Network... {Math.round(loadProgress)}%
-          </p>
-        </div>
+        <HeroLoader progress={loadProgress} onComplete={() => setIsLoading(false)} />
       )}
 
       <div

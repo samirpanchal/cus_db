@@ -17,6 +17,17 @@ const Home = () => {
         <meta name="description" content="Anchorstone Global LLP specializes in the supply and export of bulk plastic scraps, metal scraps, and reprocessed granules globally from Ahmedabad." />
         <meta name="keywords" content="Plastic Scrap, Metal Scrap, PP Regrind, PVC Scrap, Anchorstone Global LLP, Scrap Materials Supplier, Circular Economy, Ahmedabad" />
         <link rel="canonical" href="https://anchorstoneglobal.co.in/" />
+        
+        {/* Hreflang for global targeting */}
+        <link rel="alternate" hreflang="x-default" href="https://anchorstoneglobal.co.in/" />
+        <link rel="alternate" hreflang="en" href="https://anchorstoneglobal.co.in/" />
+        
+        {/* Open Graph Tags */}
+        <meta property="og:title" content="Global Scrap Material Supplier & Plastic Recycling | Anchorstone Global" />
+        <meta property="og:description" content="Anchorstone Global LLP specializes in the supply and export of bulk plastic scraps, metal scraps, and reprocessed granules globally from Ahmedabad." />
+        <meta property="og:image" content="https://anchorstoneglobal.co.in/logo.png" />
+        <meta property="og:url" content="https://anchorstoneglobal.co.in/" />
+        <meta property="og:type" content="website" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -53,7 +64,7 @@ const Home = () => {
         <MaterialHorizontalSlider />
 
       {/* Section 4 & 5: Anchorstone Story Scroll & CTA */}
-      <AnchorstoneStory />
+      {/* <AnchorstoneStory /> */}
       </div>
     </div>
   );
