@@ -22,15 +22,6 @@ const materialCards = [
   },
   {
     id: 3,
-    title: 'Paper Scrap',
-    desc: 'Old Corrugated Containers (OCC), Old Newspapers (ONP) & Magazines (OMG).',
-    image: '/images/slider_paper_scrap.png',
-    video: '/videos/stocklot_ani_paper.mp4',
-    link: '/materials',
-    categoryIndex: 3
-  },
-  {
-    id: 4,
     title: 'Stocklot Plastic Films',
     desc: 'LDPE Films Rolls, PE/PA Rolls, Polyester Rolls & BOPP.',
     image: '/images/slider_stocklot_plastic_films.png',
@@ -39,13 +30,22 @@ const materialCards = [
     categoryIndex: 2
   },
   {
-    id: 5,
-    title: 'Stocklot Paper Rolls',
+    id: 4,
+    title: 'Stocklot Paper',
     desc: 'Kraft Paper, Silicon Coated Paper & ALU/PAPER Duplex.',
     image: '/images/slider_stocklot_paper_rolls.png',
     video: '/videos/stocklot_ani_paper.mp4',
     link: '/materials',
     categoryIndex: 3
+  },
+  {
+    id: 5,
+    title: 'Stocklot Fabric',
+    desc: 'Air Bag Fabric, Non-Woven Fleece, Fiber Glass, Tarpaulin.',
+    image: '/images/stocklot_fabrics_temp.png',
+    video: '/videos/stocklot_fabric.mp4',
+    link: '/materials',
+    categoryIndex: 4
   }
 ];
 

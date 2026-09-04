@@ -10,13 +10,13 @@ const slugify = (text) => text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace
 
 const getCategoryImage = (catName) => {
   switch(catName) {
-    case 'Plastics': return '/images/plastic_scrap_premium.png';
-    case 'Metals': return '/images/metals_scrap_premium.png';
-    case 'Stock Lots Plastic/Paper': return '/images/paper_scrap_premium.png';
-    case 'Stocklot Plastic Films': return '/images/plastic_scrap_premium.png';
-    case 'Stocklot Papers': return '/images/paper_scrap_premium.png';
+    case 'Plastics': return '/images/slider_plastic_scrap.png';
+    case 'Metals': return '/images/slider_metal_scrap.png';
+    case 'Stock Lots Plastic/Paper': return '/images/slider_stocklot_paper_rolls.png';
+    case 'Stocklot Plastic Films': return '/images/slider_stocklot_plastic_films.png';
+    case 'Stocklot Papers': return '/images/slider_stocklot_paper_rolls.png';
     case 'Stocklot Fabrics & Other': return '/images/stocklot_fabrics_temp.png';
-    default: return '/images/hero_logistics_premium.png';
+    default: return '/images/slider_plastic_scrap.png';
   }
 };
 
@@ -34,6 +34,15 @@ const getCategoryVideo = (catName) => {
 const Materials = () => {
   const location = useLocation();
   
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   const [activeCategoryIndex, setActiveCategoryIndex] = useState(() => {
     if (location.state && location.state.categoryIndex !== undefined) {
       return location.state.categoryIndex;
@@ -109,21 +118,14 @@ const Materials = () => {
                 boxShadow: '0 8px 24px rgba(0,0,0,0.1)',
                 position: 'relative'
               }}>
-                {getCategoryVideo(activeCategory?.name) ? (
-                  <video 
+                {getCategoryVideo(activeCategory?.name) && !isMobile ? (
+                  <div 
                     key={activeCategory?.name}
-                    autoPlay 
-                    loop 
-                    muted 
-                    playsInline 
-                    style={{
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'cover'
+                    style={{ width: '100%', height: '100%' }}
+                    dangerouslySetInnerHTML={{
+                      __html: `<video autoplay loop muted playsinline webkit-playsinline preload="auto" poster="${getCategoryImage(activeCategory?.name)}" style="width:100%;height:100%;object-fit:cover;"><source src="${getCategoryVideo(activeCategory?.name)}" type="video/mp4" /></video>`
                     }}
-                  >
-                    <source src={getCategoryVideo(activeCategory?.name)} type="video/mp4" />
-                  </video>
+                  />
                 ) : (
                   <img
                     key={activeCategory?.name}

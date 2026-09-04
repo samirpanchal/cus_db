@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion"
 import ReactLenis from "lenis/react"
-import { useRef } from "react"
+import { useRef, useState, useEffect } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { ArrowRight } from "lucide-react"
 
@@ -35,6 +35,15 @@ export const StickyCard_001 = ({
 }) => {
   const container = useRef<HTMLDivElement>(null)
   const navigate = useNavigate()
+  
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   const scale = useTransform(progress, range, [1, targetScale])
 
@@ -53,14 +62,12 @@ export const StickyCard_001 = ({
                    md:h-[500px] md:w-[600px] 
                    lg:h-[500px] lg:w-[800px] bg-white shadow-xl"
       >
-        {video ? (
-          <video
-            src={video}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="absolute inset-0 h-full w-full object-cover z-0"
+        {video && !isMobile ? (
+          <div 
+            className="absolute inset-0 h-full w-full z-0"
+            dangerouslySetInnerHTML={{
+              __html: `<video autoplay loop muted playsinline webkit-playsinline preload="auto" poster="${image || '/placeholder.svg'}" style="width:100%;height:100%;object-fit:cover;"><source src="${video}" type="video/mp4" /></video>`
+            }}
           />
         ) : (
           <img src={image || "/placeholder.svg"} alt={title} className="absolute inset-0 h-full w-full object-cover z-0" />
